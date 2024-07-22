@@ -1,10 +1,17 @@
-v2 | Quick release to fix job broken job bars so only non-gamebreaking issues remain.
+Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
+
+> [!NOTE]
+> Due to the original using a custom plugin for installation, and this being a penumbra texture pack with the primary goal of being functional in DT. 
+> It is no longer possible to customize colors on certain elements.  
+> Similar functionality might be implemented using penumbra in the future. Maybe even getting the plugin updated. Options are being explored.
+
+### v2 | Quick release to fix job broken job bars so only non-gamebreaking issues remain.
     Others    
         - New Dye UI Buttons Added
     Job Bars
         - NIN Default mode is no longer changed/broken
         - SMN Simple/Default modes should work properly now
-Known Issues/Plans
+### Known Issues/Plans
     Take a look at VPR Job Bar for any possible edits
     Also take a look at PCT Canvas for any potential edits
     VPR and PCT Marketboard icons are still WIPs
@@ -14,11 +21,7 @@ Known Issues/Plans
 
 -----------------------------------------------------------------
 
-v1 | Changes from 6.4 by Sevii & skotlex
-    General
-        Due to the original using a custom plugin for installation, and this being a penumbra texture pack with the primary goal of being functional in DT. 
-        It is no longer possible to customize colors on certain elements.  
-        Similar functionality might be implemented using penumbra in the future.
+### v1 | Changes from 6.4 by Sevii & skotlex
     Job Icons
         Party List
             - New job icons added
