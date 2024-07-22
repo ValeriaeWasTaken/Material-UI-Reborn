@@ -1,0 +1,31 @@
+﻿{
+  "Version": 0,
+  "Name": "Party and Alliance Background",
+  "Description": "",
+  "Image": "",
+  "Priority": 6,
+  "Type": "Single",
+  "DefaultSettings": 0,
+  "Options": [
+    {
+      "Name": "Default",
+      "Description": "",
+      "Files": {
+        "ui/uld/alliance_hr1.tex": "party and alliance background\\default\\ui\\uld\\alliance_hr1.tex",
+        "ui/uld/partylist_bg_hr1.tex": "party and alliance background\\default\\ui\\uld\\partylist_bg_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    },
+    {
+      "Name": "Transparent",
+      "Description": "",
+      "Files": {
+        "ui/uld/alliance_hr1.tex": "party and alliance background\\transparent\\ui\\uld\\alliance_hr1.tex",
+        "ui/uld/partylist_bg_hr1.tex": "party and alliance background\\transparent\\ui\\uld\\partylist_bg_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    }
+  ]
+}

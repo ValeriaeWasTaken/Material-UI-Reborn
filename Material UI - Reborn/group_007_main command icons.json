@@ -1,0 +1,29 @@
+﻿{
+  "Version": 0,
+  "Name": "Main Command Icons",
+  "Description": "",
+  "Image": "",
+  "Priority": 7,
+  "Type": "Single",
+  "DefaultSettings": 0,
+  "Options": [
+    {
+      "Name": "Solid Background",
+      "Description": "",
+      "Files": {
+        "ui/uld/maincommand_icon_hr1.tex": "main command icons\\solid background\\ui\\uld\\maincommand_icon_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    },
+    {
+      "Name": "Transparent Background",
+      "Description": "",
+      "Files": {
+        "ui/uld/maincommand_icon_hr1.tex": "main command icons\\transparent background\\ui\\uld\\maincommand_icon_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    }
+  ]
+}

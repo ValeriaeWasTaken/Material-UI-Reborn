@@ -1,0 +1,91 @@
+﻿{
+  "Version": 0,
+  "Name": "Minimap",
+  "Description": "",
+  "Image": "",
+  "Priority": 10,
+  "Type": "Single",
+  "DefaultSettings": 0,
+  "Options": [
+    {
+      "Name": "Circle - Colored Cardinal",
+      "Description": "",
+      "Files": {
+        "ui/uld/navimap_hr1.tex": "minimap\\circle - colored cardinal\\ui\\uld\\navimap_hr1.tex",
+        "ui/uld/navimap_mask_hr1.tex": "minimap\\circle - colored cardinal\\ui\\uld\\navimap_mask_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    },
+    {
+      "Name": "Circle - White Cardinal",
+      "Description": "",
+      "Files": {
+        "ui/uld/navimap_hr1.tex": "minimap\\circle - white cardinal\\ui\\uld\\navimap_hr1.tex",
+        "ui/uld/navimap_mask_hr1.tex": "minimap\\circle - white cardinal\\ui\\uld\\navimap_mask_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    },
+    {
+      "Name": "Circle - No Cardinal",
+      "Description": "",
+      "Files": {
+        "ui/uld/navimap_hr1.tex": "minimap\\circle - no cardinal\\ui\\uld\\navimap_hr1.tex",
+        "ui/uld/navimap_mask_hr1.tex": "minimap\\circle - no cardinal\\ui\\uld\\navimap_mask_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    },
+    {
+      "Name": "Circle - No Symbols",
+      "Description": "",
+      "Files": {
+        "ui/uld/navimap_hr1.tex": "minimap\\circle - no symbols\\ui\\uld\\navimap_hr1.tex",
+        "ui/uld/navimap_mask_hr1.tex": "minimap\\circle - no symbols\\ui\\uld\\navimap_mask_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    },
+    {
+      "Name": "Square - Colored Cardinal",
+      "Description": "",
+      "Files": {
+        "ui/uld/navimap_hr1.tex": "minimap\\square - colored cardinal\\ui\\uld\\navimap_hr1.tex",
+        "ui/uld/navimap_mask_hr1.tex": "minimap\\square - colored cardinal\\ui\\uld\\navimap_mask_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    },
+    {
+      "Name": "Square - White Cardinal",
+      "Description": "",
+      "Files": {
+        "ui/uld/navimap_hr1.tex": "minimap\\square - white cardinal\\ui\\uld\\navimap_hr1.tex",
+        "ui/uld/navimap_mask_hr1.tex": "minimap\\square - white cardinal\\ui\\uld\\navimap_mask_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    },
+    {
+      "Name": "Square - No Cardinal",
+      "Description": "",
+      "Files": {
+        "ui/uld/navimap_hr1.tex": "minimap\\square - no cardinal\\ui\\uld\\navimap_hr1.tex",
+        "ui/uld/navimap_mask_hr1.tex": "minimap\\square - no cardinal\\ui\\uld\\navimap_mask_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    },
+    {
+      "Name": "Square - No Symbols",
+      "Description": "",
+      "Files": {
+        "ui/uld/navimap_hr1.tex": "minimap\\square - no symbols\\ui\\uld\\navimap_hr1.tex",
+        "ui/uld/navimap_mask_hr1.tex": "minimap\\square - no symbols\\ui\\uld\\navimap_mask_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    }
+  ]
+}

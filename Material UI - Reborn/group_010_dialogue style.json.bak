@@ -1,0 +1,31 @@
+﻿{
+  "Version": 0,
+  "Name": "Dialogue Style",
+  "Description": "",
+  "Image": "",
+  "Priority": 5,
+  "Type": "Single",
+  "DefaultSettings": 0,
+  "Options": [
+    {
+      "Name": "Material",
+      "Description": "",
+      "Files": {
+        "ui/uld/battletalk_hr1.tex": "dialogue style\\material\\ui\\uld\\battletalk_hr1.tex",
+        "ui/uld/minitalk_hr1.tex": "dialogue style\\material\\ui\\uld\\minitalk_hr1.tex",
+        "ui/uld/minitalkminion_hr1.tex": "dialogue style\\material\\ui\\uld\\minitalkminion_hr1.tex",
+        "ui/uld/talk_basic_hr1.tex": "dialogue style\\material\\ui\\uld\\talk_basic_hr1.tex",
+        "ui/uld/talk_other_hr1.tex": "dialogue style\\material\\ui\\uld\\talk_other_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    },
+    {
+      "Name": "Vanilla",
+      "Description": "",
+      "Files": {},
+      "FileSwaps": {},
+      "Manipulations": []
+    }
+  ]
+}

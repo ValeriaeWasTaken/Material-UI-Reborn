@@ -1,0 +1,29 @@
+﻿{
+  "Version": 0,
+  "Name": "Chatlog Resize Symbol",
+  "Description": "",
+  "Image": "",
+  "Priority": 8,
+  "Type": "Single",
+  "DefaultSettings": 0,
+  "Options": [
+    {
+      "Name": "Remove",
+      "Description": "",
+      "Files": {
+        "ui/uld/chatlog_hr1.tex": "chatlog resize symbol\\remove\\ui\\uld\\chatlog_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    },
+    {
+      "Name": "Show",
+      "Description": "",
+      "Files": {
+        "ui/uld/chatlog_hr1.tex": "chatlog resize symbol\\show\\ui\\uld\\chatlog_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    }
+  ]
+}

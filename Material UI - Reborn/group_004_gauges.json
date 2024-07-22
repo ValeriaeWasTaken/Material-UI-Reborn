@@ -1,0 +1,45 @@
+﻿{
+  "Version": 0,
+  "Name": "Gauges",
+  "Description": "",
+  "Image": "",
+  "Priority": 3,
+  "Type": "Single",
+  "DefaultSettings": 0,
+  "Options": [
+    {
+      "Name": "Square",
+      "Description": "",
+      "Files": {
+        "ui/uld/contentgauge_hr1.tex": "gauges\\square\\ui\\uld\\contentgauge_hr1.tex",
+        "ui/uld/jobhudbrd0_hr1.tex": "gauges\\square\\ui\\uld\\jobhudbrd0_hr1.tex",
+        "ui/uld/jobhudmnk0_hr1.tex": "gauges\\square\\ui\\uld\\jobhudmnk0_hr1.tex",
+        "ui/uld/jobhudsam1_hr1.tex": "gauges\\square\\ui\\uld\\jobhudsam1_hr1.tex",
+        "ui/uld/jobhudsmn1_hr1.tex": "gauges\\square\\ui\\uld\\jobhudsmn1_hr1.tex",
+        "ui/uld/jobhudsimple_stacka_hr1.tex": "gauges\\square\\ui\\uld\\jobhudsimple_stacka_hr1.tex",
+        "ui/uld/jobhudsimple_stackb_hr1.tex": "gauges\\square\\ui\\uld\\jobhudsimple_stackb_hr1.tex",
+        "ui/uld/parameter_gauge_hr1.tex": "gauges\\square\\ui\\uld\\parameter_gauge_hr1.tex",
+        "ui/uld/parameter_gauge2_hr1.tex": "gauges\\square\\ui\\uld\\parameter_gauge2_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    },
+    {
+      "Name": "Silver",
+      "Description": "",
+      "Files": {
+        "ui/uld/contentgauge_hr1.tex": "gauges\\silver\\ui\\uld\\contentgauge_hr1.tex",
+        "ui/uld/jobhudbrd0_hr1.tex": "gauges\\silver\\ui\\uld\\jobhudbrd0_hr1.tex",
+        "ui/uld/jobhudmnk0_hr1.tex": "gauges\\silver\\ui\\uld\\jobhudmnk0_hr1.tex",
+        "ui/uld/jobhudsam1_hr1.tex": "gauges\\silver\\ui\\uld\\jobhudsam1_hr1.tex",
+        "ui/uld/jobhudsmn1_hr1.tex": "gauges\\silver\\ui\\uld\\jobhudsmn1_hr1.tex",
+        "ui/uld/jobhudsimple_stacka_hr1.tex": "gauges\\silver\\ui\\uld\\jobhudsimple_stacka_hr1.tex",
+        "ui/uld/jobhudsimple_stackb_hr1.tex": "gauges\\silver\\ui\\uld\\jobhudsimple_stackb_hr1.tex",
+        "ui/uld/parameter_gauge_hr1.tex": "gauges\\silver\\ui\\uld\\parameter_gauge_hr1.tex",
+        "ui/uld/parameter_gauge2_hr1.tex": "gauges\\silver\\ui\\uld\\parameter_gauge2_hr1.tex"
+      },
+      "FileSwaps": {},
+      "Manipulations": []
+    }
+  ]
+}
