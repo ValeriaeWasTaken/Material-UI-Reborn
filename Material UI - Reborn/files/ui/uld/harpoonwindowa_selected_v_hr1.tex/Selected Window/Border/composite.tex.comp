@@ -1,0 +1,28 @@
+{
+	"layers": [
+		{
+			"name": "underlay",
+			"path": {
+				"Mod": "ui/uld/harpoonwindowa_selected_v_hr1.tex/Selected Window/Border/underlay.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_accent",
+			"path": {
+				"Mod": "ui/uld/harpoonwindowa_selected_v_hr1.tex/Selected Window/Border/overlay_accent.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Accent"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		}
+	]
+}

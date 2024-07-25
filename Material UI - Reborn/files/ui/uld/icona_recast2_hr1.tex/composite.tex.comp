@@ -1,0 +1,44 @@
+{
+	"layers": [
+		{
+			"name": "underlay",
+			"path": {
+				"Mod": "ui/uld/icona_recast2_hr1.tex/underlay.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_recast1",
+			"path": {
+				"Mod": "ui/uld/icona_recast2_hr1.tex/overlay_recast1.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Stack-Based oGCD Recharge"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_recast2",
+			"path": {
+				"Mod": "ui/uld/icona_recast2_hr1.tex/overlay_recast2.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Extended GCD Recharge"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		}
+	]
+}

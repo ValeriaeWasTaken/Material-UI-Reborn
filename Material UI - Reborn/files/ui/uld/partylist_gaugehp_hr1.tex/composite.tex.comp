@@ -1,0 +1,44 @@
+{
+	"layers": [
+		{
+			"name": "underlay",
+			"path": {
+				"Mod": "ui/uld/partylist_gaugehp_hr1.tex/underlay.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_accent",
+			"path": {
+				"Mod": "ui/uld/partylist_gaugehp_hr1.tex/overlay_accent.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Accent"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_shield",
+			"path": {
+				"Mod": "ui/uld/partylist_gaugehp_hr1.tex/overlay_shield.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Party List Shield"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		}
+	]
+}

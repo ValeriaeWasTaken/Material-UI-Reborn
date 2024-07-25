@@ -1,0 +1,12 @@
+{
+	"layers": [
+		{
+			"name": "underlay",
+			"path": {
+				"Mod": "ui/icon/061000/061767_hr1.tex/underlay.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		}
+	]
+}

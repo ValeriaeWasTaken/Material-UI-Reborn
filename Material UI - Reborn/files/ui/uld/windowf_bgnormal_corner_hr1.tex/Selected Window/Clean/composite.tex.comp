@@ -1,0 +1,28 @@
+{
+	"layers": [
+		{
+			"name": "underlay",
+			"path": {
+				"Mod": "ui/uld/windowf_bgnormal_corner_hr1.tex/Selected Window/Clean/underlay.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_accent",
+			"path": {
+				"Mod": "ui/uld/windowf_bgnormal_corner_hr1.tex/Selected Window/Clean/overlay_accent.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Accent"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		}
+	]
+}
