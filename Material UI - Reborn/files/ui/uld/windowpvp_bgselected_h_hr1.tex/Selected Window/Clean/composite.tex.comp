@@ -1,0 +1,12 @@
+{
+	"layers": [
+		{
+			"name": "underlay",
+			"path": {
+				"Mod": "ui/uld/windowpvp_bgselected_h_hr1.tex/Selected Window/Clean/underlay.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		}
+	]
+}

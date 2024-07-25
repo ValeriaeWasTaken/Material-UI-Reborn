@@ -1,10 +1,1791 @@
-﻿{
-  "FileVersion": 3,
-  "Name": "Material UI - Reborn",
-  "Author": "TacoVFX",
-  "Description": "A continuation of Material UI by Sevii & skotlex",
-  "Image": "",
-  "Version": "7.0.1-v2",
-  "Website": "https://github.com/Sevii77/ffxiv_materialui_accent",
-  "ModTags": []
+{
+	"name": "Material UI - Reborn",
+	"description": "",
+	"author": "",
+	"version": "6.5.0",
+	"website": "",
+	"tags": [
+		"Ui"
+	],
+	"dependencies": [],
+	"options": [
+		{
+			"name": "Accent",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						0.38823529411764707,
+						0.23529411764705882,
+						0.7098039215686275
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Party and Alliance List Target",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						1.0,
+						0.6784313725490196,
+						0.2196078431372549
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Enemy List Target",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						1.0,
+						0.6784313725490196,
+						0.2196078431372549
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Ability Proc",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						1.0,
+						0.6784313725490196,
+						0.2196078431372549
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Party List Shield",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						1.0,
+						0.8274509803921568,
+						0.0
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Target Castbar",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						0.8196078431372549,
+						0.5254901960784314,
+						0.043137254901960784
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Target Castbar Interrupt",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						0.5450980392156862,
+						0.058823529411764705,
+						0.058823529411764705
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Recast",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						1.0,
+						1.0,
+						1.0
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Stack-Based oGCD Recharge",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						1.0,
+						1.0,
+						1.0
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Extended GCD Recharge",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						0.8392156862745098,
+						0.42745098039215684,
+						0.0
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Limit Break Filling",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						0.09803921568627451,
+						0.8627450980392157,
+						0.8705882352941177
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Limit Break Full",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						0.7450980392156863,
+						0.38823529411764707,
+						0.8666666666666667
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Selected Window",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Bar",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/windowa_bgselected_corner_hr1.tex.comp": "ui/uld/windowa_bgselected_corner_hr1.tex/Selected Window/Bar/composite.tex.comp",
+								"ui/uld/windowa_bgselected_h_hr1.tex.comp": "ui/uld/windowa_bgselected_h_hr1.tex/Selected Window/Bar/composite.tex.comp",
+								"ui/uld/windowa_bgselected_hv_hr1.tex": "ui/uld/windowa_bgselected_hv_hr1.tex/Selected Window/Bar/windowa_bgselected_hv_hr1.tex",
+								"ui/uld/windowa_bgselected_v_hr1.tex": "ui/uld/windowa_bgselected_v_hr1.tex/Selected Window/Bar/windowa_bgselected_v_hr1.tex",
+								"ui/uld/windowpvp_bgselected_corner_hr1.tex": "ui/uld/windowpvp_bgselected_corner_hr1.tex/Selected Window/Bar/windowpvp_bgselected_corner_hr1.tex",
+								"ui/uld/windowpvp_bgselected_h_hr1.tex": "ui/uld/windowpvp_bgselected_h_hr1.tex/Selected Window/Bar/windowpvp_bgselected_h_hr1.tex",
+								"ui/uld/windowpvp_bgselected_hv_hr1.tex": "ui/uld/windowpvp_bgselected_hv_hr1.tex/Selected Window/Bar/windowpvp_bgselected_hv_hr1.tex",
+								"ui/uld/windowpvp_bgselected_v_hr1.tex": "ui/uld/windowpvp_bgselected_v_hr1.tex/Selected Window/Bar/windowpvp_bgselected_v_hr1.tex",
+								"ui/uld/harpoonwindowa_selected_corner_hr1.tex.comp": "ui/uld/harpoonwindowa_selected_corner_hr1.tex/Selected Window/Bar/composite.tex.comp",
+								"ui/uld/harpoonwindowa_selected_h_hr1.tex.comp": "ui/uld/harpoonwindowa_selected_h_hr1.tex/Selected Window/Bar/composite.tex.comp",
+								"ui/uld/harpoonwindowa_selected_v_hr1.tex": "ui/uld/harpoonwindowa_selected_v_hr1.tex/Selected Window/Bar/harpoonwindowa_selected_v_hr1.tex",
+								"ui/uld/windowf_bgnormal_corner_hr1.tex.comp": "ui/uld/windowf_bgnormal_corner_hr1.tex/Selected Window/Bar/composite.tex.comp",
+								"ui/uld/windowf_bgnormal_h_hr1.tex.comp": "ui/uld/windowf_bgnormal_h_hr1.tex/Selected Window/Bar/composite.tex.comp",
+								"ui/uld/windowf_bgnormal_hv_hr1.tex": "ui/uld/windowf_bgnormal_hv_hr1.tex/Selected Window/Bar/windowf_bgnormal_hv_hr1.tex",
+								"ui/uld/windowf_bgnormal_v_hr1.tex": "ui/uld/windowf_bgnormal_v_hr1.tex/Selected Window/Bar/windowf_bgnormal_v_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Border",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/windowa_bgselected_corner_hr1.tex.comp": "ui/uld/windowa_bgselected_corner_hr1.tex/Selected Window/Border/composite.tex.comp",
+								"ui/uld/windowa_bgselected_h_hr1.tex.comp": "ui/uld/windowa_bgselected_h_hr1.tex/Selected Window/Border/composite.tex.comp",
+								"ui/uld/windowa_bgselected_hv_hr1.tex": "ui/uld/windowa_bgselected_hv_hr1.tex/Selected Window/Border/windowa_bgselected_hv_hr1.tex",
+								"ui/uld/windowa_bgselected_v_hr1.tex.comp": "ui/uld/windowa_bgselected_v_hr1.tex/Selected Window/Border/composite.tex.comp",
+								"ui/uld/windowpvp_bgselected_corner_hr1.tex.comp": "ui/uld/windowpvp_bgselected_corner_hr1.tex/Selected Window/Border/composite.tex.comp",
+								"ui/uld/windowpvp_bgselected_h_hr1.tex.comp": "ui/uld/windowpvp_bgselected_h_hr1.tex/Selected Window/Border/composite.tex.comp",
+								"ui/uld/windowpvp_bgselected_hv_hr1.tex": "ui/uld/windowpvp_bgselected_hv_hr1.tex/Selected Window/Border/windowpvp_bgselected_hv_hr1.tex",
+								"ui/uld/windowpvp_bgselected_v_hr1.tex.comp": "ui/uld/windowpvp_bgselected_v_hr1.tex/Selected Window/Border/composite.tex.comp",
+								"ui/uld/harpoonwindowa_selected_corner_hr1.tex.comp": "ui/uld/harpoonwindowa_selected_corner_hr1.tex/Selected Window/Border/composite.tex.comp",
+								"ui/uld/harpoonwindowa_selected_h_hr1.tex.comp": "ui/uld/harpoonwindowa_selected_h_hr1.tex/Selected Window/Border/composite.tex.comp",
+								"ui/uld/harpoonwindowa_selected_v_hr1.tex.comp": "ui/uld/harpoonwindowa_selected_v_hr1.tex/Selected Window/Border/composite.tex.comp",
+								"ui/uld/windowf_bgnormal_corner_hr1.tex.comp": "ui/uld/windowf_bgnormal_corner_hr1.tex/Selected Window/Border/composite.tex.comp",
+								"ui/uld/windowf_bgnormal_h_hr1.tex.comp": "ui/uld/windowf_bgnormal_h_hr1.tex/Selected Window/Border/composite.tex.comp",
+								"ui/uld/windowf_bgnormal_hv_hr1.tex": "ui/uld/windowf_bgnormal_hv_hr1.tex/Selected Window/Border/windowf_bgnormal_hv_hr1.tex",
+								"ui/uld/windowf_bgnormal_v_hr1.tex": "ui/uld/windowf_bgnormal_v_hr1.tex/Selected Window/Border/windowf_bgnormal_v_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Clean",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/windowa_bgselected_corner_hr1.tex.comp": "ui/uld/windowa_bgselected_corner_hr1.tex/Selected Window/Clean/composite.tex.comp",
+								"ui/uld/windowa_bgselected_h_hr1.tex.comp": "ui/uld/windowa_bgselected_h_hr1.tex/Selected Window/Clean/composite.tex.comp",
+								"ui/uld/windowa_bgselected_hv_hr1.tex": "ui/uld/windowa_bgselected_hv_hr1.tex/Selected Window/Clean/windowa_bgselected_hv_hr1.tex",
+								"ui/uld/windowa_bgselected_v_hr1.tex": "ui/uld/windowa_bgselected_v_hr1.tex/Selected Window/Clean/windowa_bgselected_v_hr1.tex",
+								"ui/uld/windowpvp_bgselected_corner_hr1.tex.comp": "ui/uld/windowpvp_bgselected_corner_hr1.tex/Selected Window/Clean/composite.tex.comp",
+								"ui/uld/windowpvp_bgselected_h_hr1.tex.comp": "ui/uld/windowpvp_bgselected_h_hr1.tex/Selected Window/Clean/composite.tex.comp",
+								"ui/uld/windowpvp_bgselected_hv_hr1.tex": "ui/uld/windowpvp_bgselected_hv_hr1.tex/Selected Window/Clean/windowpvp_bgselected_hv_hr1.tex",
+								"ui/uld/windowpvp_bgselected_v_hr1.tex": "ui/uld/windowpvp_bgselected_v_hr1.tex/Selected Window/Clean/windowpvp_bgselected_v_hr1.tex",
+								"ui/uld/harpoonwindowa_selected_corner_hr1.tex.comp": "ui/uld/harpoonwindowa_selected_corner_hr1.tex/Selected Window/Clean/composite.tex.comp",
+								"ui/uld/harpoonwindowa_selected_h_hr1.tex.comp": "ui/uld/harpoonwindowa_selected_h_hr1.tex/Selected Window/Clean/composite.tex.comp",
+								"ui/uld/harpoonwindowa_selected_v_hr1.tex": "ui/uld/harpoonwindowa_selected_v_hr1.tex/Selected Window/Clean/harpoonwindowa_selected_v_hr1.tex",
+								"ui/uld/windowf_bgnormal_corner_hr1.tex.comp": "ui/uld/windowf_bgnormal_corner_hr1.tex/Selected Window/Clean/composite.tex.comp",
+								"ui/uld/windowf_bgnormal_h_hr1.tex.comp": "ui/uld/windowf_bgnormal_h_hr1.tex/Selected Window/Clean/composite.tex.comp",
+								"ui/uld/windowf_bgnormal_hv_hr1.tex": "ui/uld/windowf_bgnormal_hv_hr1.tex/Selected Window/Clean/windowf_bgnormal_hv_hr1.tex",
+								"ui/uld/windowf_bgnormal_v_hr1.tex": "ui/uld/windowf_bgnormal_v_hr1.tex/Selected Window/Clean/windowf_bgnormal_v_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Non-Selected Window",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Solid",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/windowa_bgnormal_corner_hr1.tex": "ui/uld/windowa_bgnormal_corner_hr1.tex/Non-Selected Window/Solid/windowa_bgnormal_corner_hr1.tex",
+								"ui/uld/windowa_bgnormal_h_hr1.tex": "ui/uld/windowa_bgnormal_h_hr1.tex/Non-Selected Window/Solid/windowa_bgnormal_h_hr1.tex",
+								"ui/uld/windowa_bgnormal_hv_hr1.tex": "ui/uld/windowa_bgnormal_hv_hr1.tex/Non-Selected Window/Solid/windowa_bgnormal_hv_hr1.tex",
+								"ui/uld/windowa_bgnormal_v_hr1.tex": "ui/uld/windowa_bgnormal_v_hr1.tex/Non-Selected Window/Solid/windowa_bgnormal_v_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Transparent",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/windowa_bgnormal_corner_hr1.tex": "ui/uld/windowa_bgnormal_corner_hr1.tex/Non-Selected Window/Transparent/windowa_bgnormal_corner_hr1.tex",
+								"ui/uld/windowa_bgnormal_h_hr1.tex": "ui/uld/windowa_bgnormal_h_hr1.tex/Non-Selected Window/Transparent/windowa_bgnormal_h_hr1.tex",
+								"ui/uld/windowa_bgnormal_hv_hr1.tex": "ui/uld/windowa_bgnormal_hv_hr1.tex/Non-Selected Window/Transparent/windowa_bgnormal_hv_hr1.tex",
+								"ui/uld/windowa_bgnormal_v_hr1.tex": "ui/uld/windowa_bgnormal_v_hr1.tex/Non-Selected Window/Transparent/windowa_bgnormal_v_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Party and Alliance Background",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Default",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/alliance_hr1.tex.comp": "ui/uld/alliance_hr1.tex/Party and Alliance Background/Default/composite.tex.comp",
+								"ui/uld/partylist_bg_hr1.tex": "ui/uld/partylist_bg_hr1.tex/Party and Alliance Background/Default/partylist_bg_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Transparent",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/alliance_hr1.tex.comp": "ui/uld/alliance_hr1.tex/Party and Alliance Background/Transparent/composite.tex.comp",
+								"ui/uld/partylist_bg_hr1.tex.comp": "ui/uld/partylist_bg_hr1.tex/Party and Alliance Background/Transparent/composite.tex.comp"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Gauges",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Square",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/jobhudbrd0_hr1.tex": "ui/uld/jobhudbrd0_hr1.tex/Gauges/Square/jobhudbrd0_hr1.tex",
+								"ui/uld/jobhudmnk0_hr1.tex": "ui/uld/jobhudmnk0_hr1.tex/Gauges/Square/jobhudmnk0_hr1.tex",
+								"ui/uld/jobhudsam1_hr1.tex": "ui/uld/jobhudsam1_hr1.tex/Gauges/Square/jobhudsam1_hr1.tex",
+								"ui/uld/jobhudsmn1_hr1.tex": "ui/uld/jobhudsmn1_hr1.tex/Gauges/Square/jobhudsmn1_hr1.tex",
+								"ui/uld/jobhudnin1_hr1.tex": "ui/uld/jobhudnin1_hr1.tex/Gauges/Square/jobhudnin1_hr1.tex",
+								"ui/uld/jobhudsimple_stacka_hr1.tex": "ui/uld/jobhudsimple_stacka_hr1.tex/Gauges/Square/jobhudsimple_stacka_hr1.tex",
+								"ui/uld/jobhudsimple_stackb_hr1.tex": "ui/uld/jobhudsimple_stackb_hr1.tex/Gauges/Square/jobhudsimple_stackb_hr1.tex",
+								"ui/uld/parameter_gauge_hr1.tex": "ui/uld/parameter_gauge_hr1.tex/Gauges/Square/parameter_gauge_hr1.tex",
+								"ui/uld/parameter_gauge2_hr1.tex": "ui/uld/parameter_gauge2_hr1.tex/Gauges/Square/parameter_gauge2_hr1.tex",
+								"ui/uld/contentgauge_hr1.tex": "ui/uld/contentgauge_hr1.tex/Gauges/Square/contentgauge_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Silver",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/jobhudbrd0_hr1.tex": "ui/uld/jobhudbrd0_hr1.tex/Gauges/Silver/jobhudbrd0_hr1.tex",
+								"ui/uld/jobhudmnk0_hr1.tex": "ui/uld/jobhudmnk0_hr1.tex/Gauges/Silver/jobhudmnk0_hr1.tex",
+								"ui/uld/jobhudsam1_hr1.tex": "ui/uld/jobhudsam1_hr1.tex/Gauges/Silver/jobhudsam1_hr1.tex",
+								"ui/uld/jobhudsmn1_hr1.tex": "ui/uld/jobhudsmn1_hr1.tex/Gauges/Silver/jobhudsmn1_hr1.tex",
+								"ui/uld/jobhudnin1_hr1.tex": "ui/uld/jobhudnin1_hr1.tex/Gauges/Silver/jobhudnin1_hr1.tex",
+								"ui/uld/jobhudsimple_stacka_hr1.tex": "ui/uld/jobhudsimple_stacka_hr1.tex/Gauges/Silver/jobhudsimple_stacka_hr1.tex",
+								"ui/uld/jobhudsimple_stackb_hr1.tex": "ui/uld/jobhudsimple_stackb_hr1.tex/Gauges/Silver/jobhudsimple_stackb_hr1.tex",
+								"ui/uld/parameter_gauge_hr1.tex": "ui/uld/parameter_gauge_hr1.tex/Gauges/Silver/parameter_gauge_hr1.tex",
+								"ui/uld/parameter_gauge2_hr1.tex": "ui/uld/parameter_gauge2_hr1.tex/Gauges/Silver/parameter_gauge2_hr1.tex",
+								"ui/uld/contentgauge_hr1.tex": "ui/uld/contentgauge_hr1.tex/Gauges/Silver/contentgauge_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Minimap",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Circle - Colored Cardinal",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/navimap_hr1.tex": "ui/uld/navimap_hr1.tex/Minimap/Circle - Colored Cardinal/navimap_hr1.tex",
+								"ui/uld/navimap_mask_hr1.tex": "ui/uld/navimap_mask_hr1.tex/Minimap/Circle - Colored Cardinal/navimap_mask_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Circle - White Cardinal",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/navimap_hr1.tex": "ui/uld/navimap_hr1.tex/Minimap/Circle - White Cardinal/navimap_hr1.tex",
+								"ui/uld/navimap_mask_hr1.tex": "ui/uld/navimap_mask_hr1.tex/Minimap/Circle - White Cardinal/navimap_mask_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Circle - No Cardinal",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/navimap_hr1.tex": "ui/uld/navimap_hr1.tex/Minimap/Circle - No Cardinal/navimap_hr1.tex",
+								"ui/uld/navimap_mask_hr1.tex": "ui/uld/navimap_mask_hr1.tex/Minimap/Circle - No Cardinal/navimap_mask_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Circle - No Symbols",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/navimap_hr1.tex": "ui/uld/navimap_hr1.tex/Minimap/Circle - No Symbols/navimap_hr1.tex",
+								"ui/uld/navimap_mask_hr1.tex": "ui/uld/navimap_mask_hr1.tex/Minimap/Circle - No Symbols/navimap_mask_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Square - Colored Cardinal",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/navimap_hr1.tex": "ui/uld/navimap_hr1.tex/Minimap/Square - Colored Cardinal/navimap_hr1.tex",
+								"ui/uld/navimap_mask_hr1.tex": "ui/uld/navimap_mask_hr1.tex/Minimap/Square - Colored Cardinal/navimap_mask_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Square - White Cardinal",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/navimap_hr1.tex": "ui/uld/navimap_hr1.tex/Minimap/Square - White Cardinal/navimap_hr1.tex",
+								"ui/uld/navimap_mask_hr1.tex": "ui/uld/navimap_mask_hr1.tex/Minimap/Square - White Cardinal/navimap_mask_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Square - No Cardinal",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/navimap_hr1.tex": "ui/uld/navimap_hr1.tex/Minimap/Square - No Cardinal/navimap_hr1.tex",
+								"ui/uld/navimap_mask_hr1.tex": "ui/uld/navimap_mask_hr1.tex/Minimap/Square - No Cardinal/navimap_mask_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Square - No Symbols",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/navimap_hr1.tex": "ui/uld/navimap_hr1.tex/Minimap/Square - No Symbols/navimap_hr1.tex",
+								"ui/uld/navimap_mask_hr1.tex": "ui/uld/navimap_mask_hr1.tex/Minimap/Square - No Symbols/navimap_mask_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Macro Gear Icon",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Show",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/icona_frame_hr1.tex.comp": "ui/uld/icona_frame_hr1.tex/Macro Gear Icon/Show/composite.tex.comp"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Remove",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/icona_frame_hr1.tex.comp": "ui/uld/icona_frame_hr1.tex/Macro Gear Icon/Remove/composite.tex.comp"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Chatlog Resize Symbol",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Remove",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/chatlog_hr1.tex": "ui/uld/chatlog_hr1.tex/Chatlog Resize Symbol/Remove/chatlog_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Show",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/chatlog_hr1.tex": "ui/uld/chatlog_hr1.tex/Chatlog Resize Symbol/Show/chatlog_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Main Command Icons",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Solid Background",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/maincommand_icon_hr1.tex": "ui/uld/maincommand_icon_hr1.tex/Main Command Icons/Solid Background/maincommand_icon_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Transparent Background",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/maincommand_icon_hr1.tex": "ui/uld/maincommand_icon_hr1.tex/Main Command Icons/Transparent Background/maincommand_icon_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Dialogue Style",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Material",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/talk_basic_hr1.tex": "ui/uld/talk_basic_hr1.tex/Dialogue Style/Material/talk_basic_hr1.tex",
+								"ui/uld/talk_other_hr1.tex": "ui/uld/talk_other_hr1.tex/Dialogue Style/Material/talk_other_hr1.tex",
+								"ui/uld/battletalk_hr1.tex": "ui/uld/battletalk_hr1.tex/Dialogue Style/Material/battletalk_hr1.tex",
+								"ui/uld/minitalk_hr1.tex": "ui/uld/minitalk_hr1.tex/Dialogue Style/Material/minitalk_hr1.tex",
+								"ui/uld/minitalkminion_hr1.tex": "ui/uld/minitalkminion_hr1.tex/Dialogue Style/Material/minitalkminion_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Vanilla",
+							"description": "",
+							"inherit": null,
+							"files": {},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Job Icons - Party List",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Glow",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062042_hr1.tex": "ui/icon/062000/062042_hr1.tex/Job Icons - Party List/Glow/062042_hr1.tex",
+								"ui/icon/062000/062101_hr1.tex": "ui/icon/062000/062101_hr1.tex/Job Icons - Party List/Glow/062101_hr1.tex",
+								"ui/icon/062000/062102_hr1.tex": "ui/icon/062000/062102_hr1.tex/Job Icons - Party List/Glow/062102_hr1.tex",
+								"ui/icon/062000/062103_hr1.tex": "ui/icon/062000/062103_hr1.tex/Job Icons - Party List/Glow/062103_hr1.tex",
+								"ui/icon/062000/062104_hr1.tex": "ui/icon/062000/062104_hr1.tex/Job Icons - Party List/Glow/062104_hr1.tex",
+								"ui/icon/062000/062105_hr1.tex": "ui/icon/062000/062105_hr1.tex/Job Icons - Party List/Glow/062105_hr1.tex",
+								"ui/icon/062000/062106_hr1.tex": "ui/icon/062000/062106_hr1.tex/Job Icons - Party List/Glow/062106_hr1.tex",
+								"ui/icon/062000/062107_hr1.tex": "ui/icon/062000/062107_hr1.tex/Job Icons - Party List/Glow/062107_hr1.tex",
+								"ui/icon/062000/062108_hr1.tex": "ui/icon/062000/062108_hr1.tex/Job Icons - Party List/Glow/062108_hr1.tex",
+								"ui/icon/062000/062109_hr1.tex": "ui/icon/062000/062109_hr1.tex/Job Icons - Party List/Glow/062109_hr1.tex",
+								"ui/icon/062000/062110_hr1.tex": "ui/icon/062000/062110_hr1.tex/Job Icons - Party List/Glow/062110_hr1.tex",
+								"ui/icon/062000/062111_hr1.tex": "ui/icon/062000/062111_hr1.tex/Job Icons - Party List/Glow/062111_hr1.tex",
+								"ui/icon/062000/062112_hr1.tex": "ui/icon/062000/062112_hr1.tex/Job Icons - Party List/Glow/062112_hr1.tex",
+								"ui/icon/062000/062113_hr1.tex": "ui/icon/062000/062113_hr1.tex/Job Icons - Party List/Glow/062113_hr1.tex",
+								"ui/icon/062000/062114_hr1.tex": "ui/icon/062000/062114_hr1.tex/Job Icons - Party List/Glow/062114_hr1.tex",
+								"ui/icon/062000/062115_hr1.tex": "ui/icon/062000/062115_hr1.tex/Job Icons - Party List/Glow/062115_hr1.tex",
+								"ui/icon/062000/062116_hr1.tex": "ui/icon/062000/062116_hr1.tex/Job Icons - Party List/Glow/062116_hr1.tex",
+								"ui/icon/062000/062117_hr1.tex": "ui/icon/062000/062117_hr1.tex/Job Icons - Party List/Glow/062117_hr1.tex",
+								"ui/icon/062000/062118_hr1.tex": "ui/icon/062000/062118_hr1.tex/Job Icons - Party List/Glow/062118_hr1.tex",
+								"ui/icon/062000/062119_hr1.tex": "ui/icon/062000/062119_hr1.tex/Job Icons - Party List/Glow/062119_hr1.tex",
+								"ui/icon/062000/062120_hr1.tex": "ui/icon/062000/062120_hr1.tex/Job Icons - Party List/Glow/062120_hr1.tex",
+								"ui/icon/062000/062121_hr1.tex": "ui/icon/062000/062121_hr1.tex/Job Icons - Party List/Glow/062121_hr1.tex",
+								"ui/icon/062000/062122_hr1.tex": "ui/icon/062000/062122_hr1.tex/Job Icons - Party List/Glow/062122_hr1.tex",
+								"ui/icon/062000/062123_hr1.tex": "ui/icon/062000/062123_hr1.tex/Job Icons - Party List/Glow/062123_hr1.tex",
+								"ui/icon/062000/062124_hr1.tex": "ui/icon/062000/062124_hr1.tex/Job Icons - Party List/Glow/062124_hr1.tex",
+								"ui/icon/062000/062125_hr1.tex": "ui/icon/062000/062125_hr1.tex/Job Icons - Party List/Glow/062125_hr1.tex",
+								"ui/icon/062000/062126_hr1.tex": "ui/icon/062000/062126_hr1.tex/Job Icons - Party List/Glow/062126_hr1.tex",
+								"ui/icon/062000/062127_hr1.tex": "ui/icon/062000/062127_hr1.tex/Job Icons - Party List/Glow/062127_hr1.tex",
+								"ui/icon/062000/062128_hr1.tex": "ui/icon/062000/062128_hr1.tex/Job Icons - Party List/Glow/062128_hr1.tex",
+								"ui/icon/062000/062129_hr1.tex": "ui/icon/062000/062129_hr1.tex/Job Icons - Party List/Glow/062129_hr1.tex",
+								"ui/icon/062000/062130_hr1.tex": "ui/icon/062000/062130_hr1.tex/Job Icons - Party List/Glow/062130_hr1.tex",
+								"ui/icon/062000/062131_hr1.tex": "ui/icon/062000/062131_hr1.tex/Job Icons - Party List/Glow/062131_hr1.tex",
+								"ui/icon/062000/062132_hr1.tex": "ui/icon/062000/062132_hr1.tex/Job Icons - Party List/Glow/062132_hr1.tex",
+								"ui/icon/062000/062133_hr1.tex": "ui/icon/062000/062133_hr1.tex/Job Icons - Party List/Glow/062133_hr1.tex",
+								"ui/icon/062000/062134_hr1.tex": "ui/icon/062000/062134_hr1.tex/Job Icons - Party List/Glow/062134_hr1.tex",
+								"ui/icon/062000/062135_hr1.tex": "ui/icon/062000/062135_hr1.tex/Job Icons - Party List/Glow/062135_hr1.tex",
+								"ui/icon/062000/062136_hr1.tex": "ui/icon/062000/062136_hr1.tex/Job Icons - Party List/Glow/062136_hr1.tex",
+								"ui/icon/062000/062137_hr1.tex": "ui/icon/062000/062137_hr1.tex/Job Icons - Party List/Glow/062137_hr1.tex",
+								"ui/icon/062000/062138_hr1.tex": "ui/icon/062000/062138_hr1.tex/Job Icons - Party List/Glow/062138_hr1.tex",
+								"ui/icon/062000/062139_hr1.tex": "ui/icon/062000/062139_hr1.tex/Job Icons - Party List/Glow/062139_hr1.tex",
+								"ui/icon/062000/062140_hr1.tex": "ui/icon/062000/062140_hr1.tex/Job Icons - Party List/Glow/062140_hr1.tex",
+								"ui/icon/062000/062141_hr1.tex": "ui/icon/062000/062141_hr1.tex/Job Icons - Party List/Glow/062141_hr1.tex",
+								"ui/icon/062000/062143_hr1.tex": "ui/icon/062000/062143_hr1.tex/Job Icons - Party List/Glow/062143_hr1.tex",
+								"ui/icon/062000/062144_hr1.tex": "ui/icon/062000/062144_hr1.tex/Job Icons - Party List/Glow/062144_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Glow Different DPS Color",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062105_hr1.tex": "ui/icon/062000/062105_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062105_hr1.tex",
+								"ui/icon/062000/062107_hr1.tex": "ui/icon/062000/062107_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062107_hr1.tex",
+								"ui/icon/062000/062123_hr1.tex": "ui/icon/062000/062123_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062123_hr1.tex",
+								"ui/icon/062000/062125_hr1.tex": "ui/icon/062000/062125_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062125_hr1.tex",
+								"ui/icon/062000/062126_hr1.tex": "ui/icon/062000/062126_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062126_hr1.tex",
+								"ui/icon/062000/062127_hr1.tex": "ui/icon/062000/062127_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062127_hr1.tex",
+								"ui/icon/062000/062131_hr1.tex": "ui/icon/062000/062131_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062131_hr1.tex",
+								"ui/icon/062000/062135_hr1.tex": "ui/icon/062000/062135_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062135_hr1.tex",
+								"ui/icon/062000/062136_hr1.tex": "ui/icon/062000/062136_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062136_hr1.tex",
+								"ui/icon/062000/062138_hr1.tex": "ui/icon/062000/062138_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062138_hr1.tex",
+								"ui/icon/062000/062042_hr1.tex": "ui/icon/062000/062042_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062042_hr1.tex",
+								"ui/icon/062000/062101_hr1.tex": "ui/icon/062000/062101_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062101_hr1.tex",
+								"ui/icon/062000/062102_hr1.tex": "ui/icon/062000/062102_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062102_hr1.tex",
+								"ui/icon/062000/062103_hr1.tex": "ui/icon/062000/062103_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062103_hr1.tex",
+								"ui/icon/062000/062104_hr1.tex": "ui/icon/062000/062104_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062104_hr1.tex",
+								"ui/icon/062000/062106_hr1.tex": "ui/icon/062000/062106_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062106_hr1.tex",
+								"ui/icon/062000/062108_hr1.tex": "ui/icon/062000/062108_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062108_hr1.tex",
+								"ui/icon/062000/062109_hr1.tex": "ui/icon/062000/062109_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062109_hr1.tex",
+								"ui/icon/062000/062110_hr1.tex": "ui/icon/062000/062110_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062110_hr1.tex",
+								"ui/icon/062000/062111_hr1.tex": "ui/icon/062000/062111_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062111_hr1.tex",
+								"ui/icon/062000/062112_hr1.tex": "ui/icon/062000/062112_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062112_hr1.tex",
+								"ui/icon/062000/062113_hr1.tex": "ui/icon/062000/062113_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062113_hr1.tex",
+								"ui/icon/062000/062114_hr1.tex": "ui/icon/062000/062114_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062114_hr1.tex",
+								"ui/icon/062000/062115_hr1.tex": "ui/icon/062000/062115_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062115_hr1.tex",
+								"ui/icon/062000/062116_hr1.tex": "ui/icon/062000/062116_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062116_hr1.tex",
+								"ui/icon/062000/062117_hr1.tex": "ui/icon/062000/062117_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062117_hr1.tex",
+								"ui/icon/062000/062118_hr1.tex": "ui/icon/062000/062118_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062118_hr1.tex",
+								"ui/icon/062000/062119_hr1.tex": "ui/icon/062000/062119_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062119_hr1.tex",
+								"ui/icon/062000/062120_hr1.tex": "ui/icon/062000/062120_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062120_hr1.tex",
+								"ui/icon/062000/062121_hr1.tex": "ui/icon/062000/062121_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062121_hr1.tex",
+								"ui/icon/062000/062122_hr1.tex": "ui/icon/062000/062122_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062122_hr1.tex",
+								"ui/icon/062000/062124_hr1.tex": "ui/icon/062000/062124_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062124_hr1.tex",
+								"ui/icon/062000/062128_hr1.tex": "ui/icon/062000/062128_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062128_hr1.tex",
+								"ui/icon/062000/062129_hr1.tex": "ui/icon/062000/062129_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062129_hr1.tex",
+								"ui/icon/062000/062130_hr1.tex": "ui/icon/062000/062130_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062130_hr1.tex",
+								"ui/icon/062000/062132_hr1.tex": "ui/icon/062000/062132_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062132_hr1.tex",
+								"ui/icon/062000/062133_hr1.tex": "ui/icon/062000/062133_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062133_hr1.tex",
+								"ui/icon/062000/062134_hr1.tex": "ui/icon/062000/062134_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062134_hr1.tex",
+								"ui/icon/062000/062137_hr1.tex": "ui/icon/062000/062137_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062137_hr1.tex",
+								"ui/icon/062000/062139_hr1.tex": "ui/icon/062000/062139_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062139_hr1.tex",
+								"ui/icon/062000/062140_hr1.tex": "ui/icon/062000/062140_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062140_hr1.tex",
+								"ui/icon/062000/062141_hr1.tex": "ui/icon/062000/062141_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062141_hr1.tex",
+								"ui/icon/062000/062143_hr1.tex": "ui/icon/062000/062143_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062143_hr1.tex",
+								"ui/icon/062000/062144_hr1.tex": "ui/icon/062000/062144_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062144_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Square",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062042_hr1.tex": "ui/icon/062000/062042_hr1.tex/Job Icons - Party List/Square/062042_hr1.tex",
+								"ui/icon/062000/062101_hr1.tex": "ui/icon/062000/062101_hr1.tex/Job Icons - Party List/Square/062101_hr1.tex",
+								"ui/icon/062000/062102_hr1.tex": "ui/icon/062000/062102_hr1.tex/Job Icons - Party List/Square/062102_hr1.tex",
+								"ui/icon/062000/062103_hr1.tex": "ui/icon/062000/062103_hr1.tex/Job Icons - Party List/Square/062103_hr1.tex",
+								"ui/icon/062000/062104_hr1.tex": "ui/icon/062000/062104_hr1.tex/Job Icons - Party List/Square/062104_hr1.tex",
+								"ui/icon/062000/062105_hr1.tex": "ui/icon/062000/062105_hr1.tex/Job Icons - Party List/Square/062105_hr1.tex",
+								"ui/icon/062000/062106_hr1.tex": "ui/icon/062000/062106_hr1.tex/Job Icons - Party List/Square/062106_hr1.tex",
+								"ui/icon/062000/062107_hr1.tex": "ui/icon/062000/062107_hr1.tex/Job Icons - Party List/Square/062107_hr1.tex",
+								"ui/icon/062000/062108_hr1.tex": "ui/icon/062000/062108_hr1.tex/Job Icons - Party List/Square/062108_hr1.tex",
+								"ui/icon/062000/062109_hr1.tex": "ui/icon/062000/062109_hr1.tex/Job Icons - Party List/Square/062109_hr1.tex",
+								"ui/icon/062000/062110_hr1.tex": "ui/icon/062000/062110_hr1.tex/Job Icons - Party List/Square/062110_hr1.tex",
+								"ui/icon/062000/062111_hr1.tex": "ui/icon/062000/062111_hr1.tex/Job Icons - Party List/Square/062111_hr1.tex",
+								"ui/icon/062000/062112_hr1.tex": "ui/icon/062000/062112_hr1.tex/Job Icons - Party List/Square/062112_hr1.tex",
+								"ui/icon/062000/062113_hr1.tex": "ui/icon/062000/062113_hr1.tex/Job Icons - Party List/Square/062113_hr1.tex",
+								"ui/icon/062000/062114_hr1.tex": "ui/icon/062000/062114_hr1.tex/Job Icons - Party List/Square/062114_hr1.tex",
+								"ui/icon/062000/062115_hr1.tex": "ui/icon/062000/062115_hr1.tex/Job Icons - Party List/Square/062115_hr1.tex",
+								"ui/icon/062000/062116_hr1.tex": "ui/icon/062000/062116_hr1.tex/Job Icons - Party List/Square/062116_hr1.tex",
+								"ui/icon/062000/062117_hr1.tex": "ui/icon/062000/062117_hr1.tex/Job Icons - Party List/Square/062117_hr1.tex",
+								"ui/icon/062000/062118_hr1.tex": "ui/icon/062000/062118_hr1.tex/Job Icons - Party List/Square/062118_hr1.tex",
+								"ui/icon/062000/062119_hr1.tex": "ui/icon/062000/062119_hr1.tex/Job Icons - Party List/Square/062119_hr1.tex",
+								"ui/icon/062000/062120_hr1.tex": "ui/icon/062000/062120_hr1.tex/Job Icons - Party List/Square/062120_hr1.tex",
+								"ui/icon/062000/062121_hr1.tex": "ui/icon/062000/062121_hr1.tex/Job Icons - Party List/Square/062121_hr1.tex",
+								"ui/icon/062000/062122_hr1.tex": "ui/icon/062000/062122_hr1.tex/Job Icons - Party List/Square/062122_hr1.tex",
+								"ui/icon/062000/062123_hr1.tex": "ui/icon/062000/062123_hr1.tex/Job Icons - Party List/Square/062123_hr1.tex",
+								"ui/icon/062000/062124_hr1.tex": "ui/icon/062000/062124_hr1.tex/Job Icons - Party List/Square/062124_hr1.tex",
+								"ui/icon/062000/062125_hr1.tex": "ui/icon/062000/062125_hr1.tex/Job Icons - Party List/Square/062125_hr1.tex",
+								"ui/icon/062000/062126_hr1.tex": "ui/icon/062000/062126_hr1.tex/Job Icons - Party List/Square/062126_hr1.tex",
+								"ui/icon/062000/062127_hr1.tex": "ui/icon/062000/062127_hr1.tex/Job Icons - Party List/Square/062127_hr1.tex",
+								"ui/icon/062000/062128_hr1.tex": "ui/icon/062000/062128_hr1.tex/Job Icons - Party List/Square/062128_hr1.tex",
+								"ui/icon/062000/062129_hr1.tex": "ui/icon/062000/062129_hr1.tex/Job Icons - Party List/Square/062129_hr1.tex",
+								"ui/icon/062000/062130_hr1.tex": "ui/icon/062000/062130_hr1.tex/Job Icons - Party List/Square/062130_hr1.tex",
+								"ui/icon/062000/062131_hr1.tex": "ui/icon/062000/062131_hr1.tex/Job Icons - Party List/Square/062131_hr1.tex",
+								"ui/icon/062000/062132_hr1.tex": "ui/icon/062000/062132_hr1.tex/Job Icons - Party List/Square/062132_hr1.tex",
+								"ui/icon/062000/062133_hr1.tex": "ui/icon/062000/062133_hr1.tex/Job Icons - Party List/Square/062133_hr1.tex",
+								"ui/icon/062000/062134_hr1.tex": "ui/icon/062000/062134_hr1.tex/Job Icons - Party List/Square/062134_hr1.tex",
+								"ui/icon/062000/062135_hr1.tex": "ui/icon/062000/062135_hr1.tex/Job Icons - Party List/Square/062135_hr1.tex",
+								"ui/icon/062000/062136_hr1.tex": "ui/icon/062000/062136_hr1.tex/Job Icons - Party List/Square/062136_hr1.tex",
+								"ui/icon/062000/062137_hr1.tex": "ui/icon/062000/062137_hr1.tex/Job Icons - Party List/Square/062137_hr1.tex",
+								"ui/icon/062000/062138_hr1.tex": "ui/icon/062000/062138_hr1.tex/Job Icons - Party List/Square/062138_hr1.tex",
+								"ui/icon/062000/062139_hr1.tex": "ui/icon/062000/062139_hr1.tex/Job Icons - Party List/Square/062139_hr1.tex",
+								"ui/icon/062000/062140_hr1.tex": "ui/icon/062000/062140_hr1.tex/Job Icons - Party List/Square/062140_hr1.tex",
+								"ui/icon/062000/062141_hr1.tex": "ui/icon/062000/062141_hr1.tex/Job Icons - Party List/Square/062141_hr1.tex",
+								"ui/icon/062000/062143_hr1.tex": "ui/icon/062000/062143_hr1.tex/Job Icons - Party List/Square/062143_hr1.tex",
+								"ui/icon/062000/062144_hr1.tex": "ui/icon/062000/062144_hr1.tex/Job Icons - Party List/Square/062144_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Square Different DPS Color",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062105_hr1.tex": "ui/icon/062000/062105_hr1.tex/Job Icons - Party List/Square Different DPS Color/062105_hr1.tex",
+								"ui/icon/062000/062107_hr1.tex": "ui/icon/062000/062107_hr1.tex/Job Icons - Party List/Square Different DPS Color/062107_hr1.tex",
+								"ui/icon/062000/062123_hr1.tex": "ui/icon/062000/062123_hr1.tex/Job Icons - Party List/Square Different DPS Color/062123_hr1.tex",
+								"ui/icon/062000/062125_hr1.tex": "ui/icon/062000/062125_hr1.tex/Job Icons - Party List/Square Different DPS Color/062125_hr1.tex",
+								"ui/icon/062000/062126_hr1.tex": "ui/icon/062000/062126_hr1.tex/Job Icons - Party List/Square Different DPS Color/062126_hr1.tex",
+								"ui/icon/062000/062127_hr1.tex": "ui/icon/062000/062127_hr1.tex/Job Icons - Party List/Square Different DPS Color/062127_hr1.tex",
+								"ui/icon/062000/062131_hr1.tex": "ui/icon/062000/062131_hr1.tex/Job Icons - Party List/Square Different DPS Color/062131_hr1.tex",
+								"ui/icon/062000/062135_hr1.tex": "ui/icon/062000/062135_hr1.tex/Job Icons - Party List/Square Different DPS Color/062135_hr1.tex",
+								"ui/icon/062000/062136_hr1.tex": "ui/icon/062000/062136_hr1.tex/Job Icons - Party List/Square Different DPS Color/062136_hr1.tex",
+								"ui/icon/062000/062138_hr1.tex": "ui/icon/062000/062138_hr1.tex/Job Icons - Party List/Square Different DPS Color/062138_hr1.tex",
+								"ui/icon/062000/062042_hr1.tex": "ui/icon/062000/062042_hr1.tex/Job Icons - Party List/Square Different DPS Color/062042_hr1.tex",
+								"ui/icon/062000/062101_hr1.tex": "ui/icon/062000/062101_hr1.tex/Job Icons - Party List/Square Different DPS Color/062101_hr1.tex",
+								"ui/icon/062000/062102_hr1.tex": "ui/icon/062000/062102_hr1.tex/Job Icons - Party List/Square Different DPS Color/062102_hr1.tex",
+								"ui/icon/062000/062103_hr1.tex": "ui/icon/062000/062103_hr1.tex/Job Icons - Party List/Square Different DPS Color/062103_hr1.tex",
+								"ui/icon/062000/062104_hr1.tex": "ui/icon/062000/062104_hr1.tex/Job Icons - Party List/Square Different DPS Color/062104_hr1.tex",
+								"ui/icon/062000/062106_hr1.tex": "ui/icon/062000/062106_hr1.tex/Job Icons - Party List/Square Different DPS Color/062106_hr1.tex",
+								"ui/icon/062000/062108_hr1.tex": "ui/icon/062000/062108_hr1.tex/Job Icons - Party List/Square Different DPS Color/062108_hr1.tex",
+								"ui/icon/062000/062109_hr1.tex": "ui/icon/062000/062109_hr1.tex/Job Icons - Party List/Square Different DPS Color/062109_hr1.tex",
+								"ui/icon/062000/062110_hr1.tex": "ui/icon/062000/062110_hr1.tex/Job Icons - Party List/Square Different DPS Color/062110_hr1.tex",
+								"ui/icon/062000/062111_hr1.tex": "ui/icon/062000/062111_hr1.tex/Job Icons - Party List/Square Different DPS Color/062111_hr1.tex",
+								"ui/icon/062000/062112_hr1.tex": "ui/icon/062000/062112_hr1.tex/Job Icons - Party List/Square Different DPS Color/062112_hr1.tex",
+								"ui/icon/062000/062113_hr1.tex": "ui/icon/062000/062113_hr1.tex/Job Icons - Party List/Square Different DPS Color/062113_hr1.tex",
+								"ui/icon/062000/062114_hr1.tex": "ui/icon/062000/062114_hr1.tex/Job Icons - Party List/Square Different DPS Color/062114_hr1.tex",
+								"ui/icon/062000/062115_hr1.tex": "ui/icon/062000/062115_hr1.tex/Job Icons - Party List/Square Different DPS Color/062115_hr1.tex",
+								"ui/icon/062000/062116_hr1.tex": "ui/icon/062000/062116_hr1.tex/Job Icons - Party List/Square Different DPS Color/062116_hr1.tex",
+								"ui/icon/062000/062117_hr1.tex": "ui/icon/062000/062117_hr1.tex/Job Icons - Party List/Square Different DPS Color/062117_hr1.tex",
+								"ui/icon/062000/062118_hr1.tex": "ui/icon/062000/062118_hr1.tex/Job Icons - Party List/Square Different DPS Color/062118_hr1.tex",
+								"ui/icon/062000/062119_hr1.tex": "ui/icon/062000/062119_hr1.tex/Job Icons - Party List/Square Different DPS Color/062119_hr1.tex",
+								"ui/icon/062000/062120_hr1.tex": "ui/icon/062000/062120_hr1.tex/Job Icons - Party List/Square Different DPS Color/062120_hr1.tex",
+								"ui/icon/062000/062121_hr1.tex": "ui/icon/062000/062121_hr1.tex/Job Icons - Party List/Square Different DPS Color/062121_hr1.tex",
+								"ui/icon/062000/062122_hr1.tex": "ui/icon/062000/062122_hr1.tex/Job Icons - Party List/Square Different DPS Color/062122_hr1.tex",
+								"ui/icon/062000/062124_hr1.tex": "ui/icon/062000/062124_hr1.tex/Job Icons - Party List/Square Different DPS Color/062124_hr1.tex",
+								"ui/icon/062000/062128_hr1.tex": "ui/icon/062000/062128_hr1.tex/Job Icons - Party List/Square Different DPS Color/062128_hr1.tex",
+								"ui/icon/062000/062129_hr1.tex": "ui/icon/062000/062129_hr1.tex/Job Icons - Party List/Square Different DPS Color/062129_hr1.tex",
+								"ui/icon/062000/062130_hr1.tex": "ui/icon/062000/062130_hr1.tex/Job Icons - Party List/Square Different DPS Color/062130_hr1.tex",
+								"ui/icon/062000/062132_hr1.tex": "ui/icon/062000/062132_hr1.tex/Job Icons - Party List/Square Different DPS Color/062132_hr1.tex",
+								"ui/icon/062000/062133_hr1.tex": "ui/icon/062000/062133_hr1.tex/Job Icons - Party List/Square Different DPS Color/062133_hr1.tex",
+								"ui/icon/062000/062134_hr1.tex": "ui/icon/062000/062134_hr1.tex/Job Icons - Party List/Square Different DPS Color/062134_hr1.tex",
+								"ui/icon/062000/062137_hr1.tex": "ui/icon/062000/062137_hr1.tex/Job Icons - Party List/Square Different DPS Color/062137_hr1.tex",
+								"ui/icon/062000/062139_hr1.tex": "ui/icon/062000/062139_hr1.tex/Job Icons - Party List/Square Different DPS Color/062139_hr1.tex",
+								"ui/icon/062000/062140_hr1.tex": "ui/icon/062000/062140_hr1.tex/Job Icons - Party List/Square Different DPS Color/062140_hr1.tex",
+								"ui/icon/062000/062141_hr1.tex": "ui/icon/062000/062141_hr1.tex/Job Icons - Party List/Square Different DPS Color/062141_hr1.tex",
+								"ui/icon/062000/062143_hr1.tex": "ui/icon/062000/062143_hr1.tex/Job Icons - Party List/Square Different DPS Color/062143_hr1.tex",
+								"ui/icon/062000/062144_hr1.tex": "ui/icon/062000/062144_hr1.tex/Job Icons - Party List/Square Different DPS Color/062144_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Metallic",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062042_hr1.tex": "ui/icon/062000/062042_hr1.tex/Job Icons - Party List/Metallic/062042_hr1.tex",
+								"ui/icon/062000/062101_hr1.tex": "ui/icon/062000/062101_hr1.tex/Job Icons - Party List/Metallic/062101_hr1.tex",
+								"ui/icon/062000/062102_hr1.tex": "ui/icon/062000/062102_hr1.tex/Job Icons - Party List/Metallic/062102_hr1.tex",
+								"ui/icon/062000/062103_hr1.tex": "ui/icon/062000/062103_hr1.tex/Job Icons - Party List/Metallic/062103_hr1.tex",
+								"ui/icon/062000/062104_hr1.tex": "ui/icon/062000/062104_hr1.tex/Job Icons - Party List/Metallic/062104_hr1.tex",
+								"ui/icon/062000/062105_hr1.tex": "ui/icon/062000/062105_hr1.tex/Job Icons - Party List/Metallic/062105_hr1.tex",
+								"ui/icon/062000/062106_hr1.tex": "ui/icon/062000/062106_hr1.tex/Job Icons - Party List/Metallic/062106_hr1.tex",
+								"ui/icon/062000/062107_hr1.tex": "ui/icon/062000/062107_hr1.tex/Job Icons - Party List/Metallic/062107_hr1.tex",
+								"ui/icon/062000/062108_hr1.tex": "ui/icon/062000/062108_hr1.tex/Job Icons - Party List/Metallic/062108_hr1.tex",
+								"ui/icon/062000/062109_hr1.tex": "ui/icon/062000/062109_hr1.tex/Job Icons - Party List/Metallic/062109_hr1.tex",
+								"ui/icon/062000/062110_hr1.tex": "ui/icon/062000/062110_hr1.tex/Job Icons - Party List/Metallic/062110_hr1.tex",
+								"ui/icon/062000/062111_hr1.tex": "ui/icon/062000/062111_hr1.tex/Job Icons - Party List/Metallic/062111_hr1.tex",
+								"ui/icon/062000/062112_hr1.tex": "ui/icon/062000/062112_hr1.tex/Job Icons - Party List/Metallic/062112_hr1.tex",
+								"ui/icon/062000/062113_hr1.tex": "ui/icon/062000/062113_hr1.tex/Job Icons - Party List/Metallic/062113_hr1.tex",
+								"ui/icon/062000/062114_hr1.tex": "ui/icon/062000/062114_hr1.tex/Job Icons - Party List/Metallic/062114_hr1.tex",
+								"ui/icon/062000/062115_hr1.tex": "ui/icon/062000/062115_hr1.tex/Job Icons - Party List/Metallic/062115_hr1.tex",
+								"ui/icon/062000/062116_hr1.tex": "ui/icon/062000/062116_hr1.tex/Job Icons - Party List/Metallic/062116_hr1.tex",
+								"ui/icon/062000/062117_hr1.tex": "ui/icon/062000/062117_hr1.tex/Job Icons - Party List/Metallic/062117_hr1.tex",
+								"ui/icon/062000/062118_hr1.tex": "ui/icon/062000/062118_hr1.tex/Job Icons - Party List/Metallic/062118_hr1.tex",
+								"ui/icon/062000/062119_hr1.tex": "ui/icon/062000/062119_hr1.tex/Job Icons - Party List/Metallic/062119_hr1.tex",
+								"ui/icon/062000/062120_hr1.tex": "ui/icon/062000/062120_hr1.tex/Job Icons - Party List/Metallic/062120_hr1.tex",
+								"ui/icon/062000/062121_hr1.tex": "ui/icon/062000/062121_hr1.tex/Job Icons - Party List/Metallic/062121_hr1.tex",
+								"ui/icon/062000/062122_hr1.tex": "ui/icon/062000/062122_hr1.tex/Job Icons - Party List/Metallic/062122_hr1.tex",
+								"ui/icon/062000/062123_hr1.tex": "ui/icon/062000/062123_hr1.tex/Job Icons - Party List/Metallic/062123_hr1.tex",
+								"ui/icon/062000/062124_hr1.tex": "ui/icon/062000/062124_hr1.tex/Job Icons - Party List/Metallic/062124_hr1.tex",
+								"ui/icon/062000/062125_hr1.tex": "ui/icon/062000/062125_hr1.tex/Job Icons - Party List/Metallic/062125_hr1.tex",
+								"ui/icon/062000/062126_hr1.tex": "ui/icon/062000/062126_hr1.tex/Job Icons - Party List/Metallic/062126_hr1.tex",
+								"ui/icon/062000/062127_hr1.tex": "ui/icon/062000/062127_hr1.tex/Job Icons - Party List/Metallic/062127_hr1.tex",
+								"ui/icon/062000/062128_hr1.tex": "ui/icon/062000/062128_hr1.tex/Job Icons - Party List/Metallic/062128_hr1.tex",
+								"ui/icon/062000/062129_hr1.tex": "ui/icon/062000/062129_hr1.tex/Job Icons - Party List/Metallic/062129_hr1.tex",
+								"ui/icon/062000/062130_hr1.tex": "ui/icon/062000/062130_hr1.tex/Job Icons - Party List/Metallic/062130_hr1.tex",
+								"ui/icon/062000/062131_hr1.tex": "ui/icon/062000/062131_hr1.tex/Job Icons - Party List/Metallic/062131_hr1.tex",
+								"ui/icon/062000/062132_hr1.tex": "ui/icon/062000/062132_hr1.tex/Job Icons - Party List/Metallic/062132_hr1.tex",
+								"ui/icon/062000/062133_hr1.tex": "ui/icon/062000/062133_hr1.tex/Job Icons - Party List/Metallic/062133_hr1.tex",
+								"ui/icon/062000/062134_hr1.tex": "ui/icon/062000/062134_hr1.tex/Job Icons - Party List/Metallic/062134_hr1.tex",
+								"ui/icon/062000/062135_hr1.tex": "ui/icon/062000/062135_hr1.tex/Job Icons - Party List/Metallic/062135_hr1.tex",
+								"ui/icon/062000/062136_hr1.tex": "ui/icon/062000/062136_hr1.tex/Job Icons - Party List/Metallic/062136_hr1.tex",
+								"ui/icon/062000/062137_hr1.tex": "ui/icon/062000/062137_hr1.tex/Job Icons - Party List/Metallic/062137_hr1.tex",
+								"ui/icon/062000/062138_hr1.tex": "ui/icon/062000/062138_hr1.tex/Job Icons - Party List/Metallic/062138_hr1.tex",
+								"ui/icon/062000/062139_hr1.tex": "ui/icon/062000/062139_hr1.tex/Job Icons - Party List/Metallic/062139_hr1.tex",
+								"ui/icon/062000/062140_hr1.tex": "ui/icon/062000/062140_hr1.tex/Job Icons - Party List/Metallic/062140_hr1.tex",
+								"ui/icon/062000/062141_hr1.tex": "ui/icon/062000/062141_hr1.tex/Job Icons - Party List/Metallic/062141_hr1.tex",
+								"ui/icon/062000/062143_hr1.tex": "ui/icon/062000/062143_hr1.tex/Job Icons - Party List/Metallic/062143_hr1.tex",
+								"ui/icon/062000/062144_hr1.tex": "ui/icon/062000/062144_hr1.tex/Job Icons - Party List/Metallic/062144_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Job Icons - Contents",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Default",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062001_hr1.tex": "ui/icon/062000/062001_hr1.tex/Job Icons - Contents/Default/062001_hr1.tex",
+								"ui/icon/062000/062002_hr1.tex": "ui/icon/062000/062002_hr1.tex/Job Icons - Contents/Default/062002_hr1.tex",
+								"ui/icon/062000/062003_hr1.tex": "ui/icon/062000/062003_hr1.tex/Job Icons - Contents/Default/062003_hr1.tex",
+								"ui/icon/062000/062004_hr1.tex": "ui/icon/062000/062004_hr1.tex/Job Icons - Contents/Default/062004_hr1.tex",
+								"ui/icon/062000/062005_hr1.tex": "ui/icon/062000/062005_hr1.tex/Job Icons - Contents/Default/062005_hr1.tex",
+								"ui/icon/062000/062006_hr1.tex": "ui/icon/062000/062006_hr1.tex/Job Icons - Contents/Default/062006_hr1.tex",
+								"ui/icon/062000/062007_hr1.tex": "ui/icon/062000/062007_hr1.tex/Job Icons - Contents/Default/062007_hr1.tex",
+								"ui/icon/062000/062008_hr1.tex": "ui/icon/062000/062008_hr1.tex/Job Icons - Contents/Default/062008_hr1.tex",
+								"ui/icon/062000/062009_hr1.tex": "ui/icon/062000/062009_hr1.tex/Job Icons - Contents/Default/062009_hr1.tex",
+								"ui/icon/062000/062010_hr1.tex": "ui/icon/062000/062010_hr1.tex/Job Icons - Contents/Default/062010_hr1.tex",
+								"ui/icon/062000/062011_hr1.tex": "ui/icon/062000/062011_hr1.tex/Job Icons - Contents/Default/062011_hr1.tex",
+								"ui/icon/062000/062012_hr1.tex": "ui/icon/062000/062012_hr1.tex/Job Icons - Contents/Default/062012_hr1.tex",
+								"ui/icon/062000/062013_hr1.tex": "ui/icon/062000/062013_hr1.tex/Job Icons - Contents/Default/062013_hr1.tex",
+								"ui/icon/062000/062014_hr1.tex": "ui/icon/062000/062014_hr1.tex/Job Icons - Contents/Default/062014_hr1.tex",
+								"ui/icon/062000/062015_hr1.tex": "ui/icon/062000/062015_hr1.tex/Job Icons - Contents/Default/062015_hr1.tex",
+								"ui/icon/062000/062016_hr1.tex": "ui/icon/062000/062016_hr1.tex/Job Icons - Contents/Default/062016_hr1.tex",
+								"ui/icon/062000/062017_hr1.tex": "ui/icon/062000/062017_hr1.tex/Job Icons - Contents/Default/062017_hr1.tex",
+								"ui/icon/062000/062018_hr1.tex": "ui/icon/062000/062018_hr1.tex/Job Icons - Contents/Default/062018_hr1.tex",
+								"ui/icon/062000/062019_hr1.tex": "ui/icon/062000/062019_hr1.tex/Job Icons - Contents/Default/062019_hr1.tex",
+								"ui/icon/062000/062020_hr1.tex": "ui/icon/062000/062020_hr1.tex/Job Icons - Contents/Default/062020_hr1.tex",
+								"ui/icon/062000/062021_hr1.tex": "ui/icon/062000/062021_hr1.tex/Job Icons - Contents/Default/062021_hr1.tex",
+								"ui/icon/062000/062022_hr1.tex": "ui/icon/062000/062022_hr1.tex/Job Icons - Contents/Default/062022_hr1.tex",
+								"ui/icon/062000/062023_hr1.tex": "ui/icon/062000/062023_hr1.tex/Job Icons - Contents/Default/062023_hr1.tex",
+								"ui/icon/062000/062024_hr1.tex": "ui/icon/062000/062024_hr1.tex/Job Icons - Contents/Default/062024_hr1.tex",
+								"ui/icon/062000/062025_hr1.tex": "ui/icon/062000/062025_hr1.tex/Job Icons - Contents/Default/062025_hr1.tex",
+								"ui/icon/062000/062026_hr1.tex": "ui/icon/062000/062026_hr1.tex/Job Icons - Contents/Default/062026_hr1.tex",
+								"ui/icon/062000/062027_hr1.tex": "ui/icon/062000/062027_hr1.tex/Job Icons - Contents/Default/062027_hr1.tex",
+								"ui/icon/062000/062028_hr1.tex": "ui/icon/062000/062028_hr1.tex/Job Icons - Contents/Default/062028_hr1.tex",
+								"ui/icon/062000/062029_hr1.tex": "ui/icon/062000/062029_hr1.tex/Job Icons - Contents/Default/062029_hr1.tex",
+								"ui/icon/062000/062030_hr1.tex": "ui/icon/062000/062030_hr1.tex/Job Icons - Contents/Default/062030_hr1.tex",
+								"ui/icon/062000/062031_hr1.tex": "ui/icon/062000/062031_hr1.tex/Job Icons - Contents/Default/062031_hr1.tex",
+								"ui/icon/062000/062032_hr1.tex": "ui/icon/062000/062032_hr1.tex/Job Icons - Contents/Default/062032_hr1.tex",
+								"ui/icon/062000/062033_hr1.tex": "ui/icon/062000/062033_hr1.tex/Job Icons - Contents/Default/062033_hr1.tex",
+								"ui/icon/062000/062034_hr1.tex": "ui/icon/062000/062034_hr1.tex/Job Icons - Contents/Default/062034_hr1.tex",
+								"ui/icon/062000/062035_hr1.tex": "ui/icon/062000/062035_hr1.tex/Job Icons - Contents/Default/062035_hr1.tex",
+								"ui/icon/062000/062036_hr1.tex": "ui/icon/062000/062036_hr1.tex/Job Icons - Contents/Default/062036_hr1.tex",
+								"ui/icon/062000/062037_hr1.tex": "ui/icon/062000/062037_hr1.tex/Job Icons - Contents/Default/062037_hr1.tex",
+								"ui/icon/062000/062038_hr1.tex": "ui/icon/062000/062038_hr1.tex/Job Icons - Contents/Default/062038_hr1.tex",
+								"ui/icon/062000/062039_hr1.tex": "ui/icon/062000/062039_hr1.tex/Job Icons - Contents/Default/062039_hr1.tex",
+								"ui/icon/062000/062040_hr1.tex": "ui/icon/062000/062040_hr1.tex/Job Icons - Contents/Default/062040_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Glow",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062001_hr1.tex": "ui/icon/062000/062001_hr1.tex/Job Icons - Contents/Glow/062001_hr1.tex",
+								"ui/icon/062000/062002_hr1.tex": "ui/icon/062000/062002_hr1.tex/Job Icons - Contents/Glow/062002_hr1.tex",
+								"ui/icon/062000/062003_hr1.tex": "ui/icon/062000/062003_hr1.tex/Job Icons - Contents/Glow/062003_hr1.tex",
+								"ui/icon/062000/062004_hr1.tex": "ui/icon/062000/062004_hr1.tex/Job Icons - Contents/Glow/062004_hr1.tex",
+								"ui/icon/062000/062005_hr1.tex": "ui/icon/062000/062005_hr1.tex/Job Icons - Contents/Glow/062005_hr1.tex",
+								"ui/icon/062000/062006_hr1.tex": "ui/icon/062000/062006_hr1.tex/Job Icons - Contents/Glow/062006_hr1.tex",
+								"ui/icon/062000/062007_hr1.tex": "ui/icon/062000/062007_hr1.tex/Job Icons - Contents/Glow/062007_hr1.tex",
+								"ui/icon/062000/062008_hr1.tex": "ui/icon/062000/062008_hr1.tex/Job Icons - Contents/Glow/062008_hr1.tex",
+								"ui/icon/062000/062009_hr1.tex": "ui/icon/062000/062009_hr1.tex/Job Icons - Contents/Glow/062009_hr1.tex",
+								"ui/icon/062000/062010_hr1.tex": "ui/icon/062000/062010_hr1.tex/Job Icons - Contents/Glow/062010_hr1.tex",
+								"ui/icon/062000/062011_hr1.tex": "ui/icon/062000/062011_hr1.tex/Job Icons - Contents/Glow/062011_hr1.tex",
+								"ui/icon/062000/062012_hr1.tex": "ui/icon/062000/062012_hr1.tex/Job Icons - Contents/Glow/062012_hr1.tex",
+								"ui/icon/062000/062013_hr1.tex": "ui/icon/062000/062013_hr1.tex/Job Icons - Contents/Glow/062013_hr1.tex",
+								"ui/icon/062000/062014_hr1.tex": "ui/icon/062000/062014_hr1.tex/Job Icons - Contents/Glow/062014_hr1.tex",
+								"ui/icon/062000/062015_hr1.tex": "ui/icon/062000/062015_hr1.tex/Job Icons - Contents/Glow/062015_hr1.tex",
+								"ui/icon/062000/062016_hr1.tex": "ui/icon/062000/062016_hr1.tex/Job Icons - Contents/Glow/062016_hr1.tex",
+								"ui/icon/062000/062017_hr1.tex": "ui/icon/062000/062017_hr1.tex/Job Icons - Contents/Glow/062017_hr1.tex",
+								"ui/icon/062000/062018_hr1.tex": "ui/icon/062000/062018_hr1.tex/Job Icons - Contents/Glow/062018_hr1.tex",
+								"ui/icon/062000/062019_hr1.tex": "ui/icon/062000/062019_hr1.tex/Job Icons - Contents/Glow/062019_hr1.tex",
+								"ui/icon/062000/062020_hr1.tex": "ui/icon/062000/062020_hr1.tex/Job Icons - Contents/Glow/062020_hr1.tex",
+								"ui/icon/062000/062021_hr1.tex": "ui/icon/062000/062021_hr1.tex/Job Icons - Contents/Glow/062021_hr1.tex",
+								"ui/icon/062000/062022_hr1.tex": "ui/icon/062000/062022_hr1.tex/Job Icons - Contents/Glow/062022_hr1.tex",
+								"ui/icon/062000/062023_hr1.tex": "ui/icon/062000/062023_hr1.tex/Job Icons - Contents/Glow/062023_hr1.tex",
+								"ui/icon/062000/062024_hr1.tex": "ui/icon/062000/062024_hr1.tex/Job Icons - Contents/Glow/062024_hr1.tex",
+								"ui/icon/062000/062025_hr1.tex": "ui/icon/062000/062025_hr1.tex/Job Icons - Contents/Glow/062025_hr1.tex",
+								"ui/icon/062000/062026_hr1.tex": "ui/icon/062000/062026_hr1.tex/Job Icons - Contents/Glow/062026_hr1.tex",
+								"ui/icon/062000/062027_hr1.tex": "ui/icon/062000/062027_hr1.tex/Job Icons - Contents/Glow/062027_hr1.tex",
+								"ui/icon/062000/062028_hr1.tex": "ui/icon/062000/062028_hr1.tex/Job Icons - Contents/Glow/062028_hr1.tex",
+								"ui/icon/062000/062029_hr1.tex": "ui/icon/062000/062029_hr1.tex/Job Icons - Contents/Glow/062029_hr1.tex",
+								"ui/icon/062000/062030_hr1.tex": "ui/icon/062000/062030_hr1.tex/Job Icons - Contents/Glow/062030_hr1.tex",
+								"ui/icon/062000/062031_hr1.tex": "ui/icon/062000/062031_hr1.tex/Job Icons - Contents/Glow/062031_hr1.tex",
+								"ui/icon/062000/062032_hr1.tex": "ui/icon/062000/062032_hr1.tex/Job Icons - Contents/Glow/062032_hr1.tex",
+								"ui/icon/062000/062033_hr1.tex": "ui/icon/062000/062033_hr1.tex/Job Icons - Contents/Glow/062033_hr1.tex",
+								"ui/icon/062000/062034_hr1.tex": "ui/icon/062000/062034_hr1.tex/Job Icons - Contents/Glow/062034_hr1.tex",
+								"ui/icon/062000/062035_hr1.tex": "ui/icon/062000/062035_hr1.tex/Job Icons - Contents/Glow/062035_hr1.tex",
+								"ui/icon/062000/062036_hr1.tex": "ui/icon/062000/062036_hr1.tex/Job Icons - Contents/Glow/062036_hr1.tex",
+								"ui/icon/062000/062037_hr1.tex": "ui/icon/062000/062037_hr1.tex/Job Icons - Contents/Glow/062037_hr1.tex",
+								"ui/icon/062000/062038_hr1.tex": "ui/icon/062000/062038_hr1.tex/Job Icons - Contents/Glow/062038_hr1.tex",
+								"ui/icon/062000/062039_hr1.tex": "ui/icon/062000/062039_hr1.tex/Job Icons - Contents/Glow/062039_hr1.tex",
+								"ui/icon/062000/062040_hr1.tex": "ui/icon/062000/062040_hr1.tex/Job Icons - Contents/Glow/062040_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Glow Different DPS Color",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062005_hr1.tex": "ui/icon/062000/062005_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062005_hr1.tex",
+								"ui/icon/062000/062007_hr1.tex": "ui/icon/062000/062007_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062007_hr1.tex",
+								"ui/icon/062000/062023_hr1.tex": "ui/icon/062000/062023_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062023_hr1.tex",
+								"ui/icon/062000/062025_hr1.tex": "ui/icon/062000/062025_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062025_hr1.tex",
+								"ui/icon/062000/062026_hr1.tex": "ui/icon/062000/062026_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062026_hr1.tex",
+								"ui/icon/062000/062027_hr1.tex": "ui/icon/062000/062027_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062027_hr1.tex",
+								"ui/icon/062000/062031_hr1.tex": "ui/icon/062000/062031_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062031_hr1.tex",
+								"ui/icon/062000/062035_hr1.tex": "ui/icon/062000/062035_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062035_hr1.tex",
+								"ui/icon/062000/062036_hr1.tex": "ui/icon/062000/062036_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062036_hr1.tex",
+								"ui/icon/062000/062038_hr1.tex": "ui/icon/062000/062038_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062038_hr1.tex",
+								"ui/icon/062000/062001_hr1.tex": "ui/icon/062000/062001_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062001_hr1.tex",
+								"ui/icon/062000/062002_hr1.tex": "ui/icon/062000/062002_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062002_hr1.tex",
+								"ui/icon/062000/062003_hr1.tex": "ui/icon/062000/062003_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062003_hr1.tex",
+								"ui/icon/062000/062004_hr1.tex": "ui/icon/062000/062004_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062004_hr1.tex",
+								"ui/icon/062000/062006_hr1.tex": "ui/icon/062000/062006_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062006_hr1.tex",
+								"ui/icon/062000/062008_hr1.tex": "ui/icon/062000/062008_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062008_hr1.tex",
+								"ui/icon/062000/062009_hr1.tex": "ui/icon/062000/062009_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062009_hr1.tex",
+								"ui/icon/062000/062010_hr1.tex": "ui/icon/062000/062010_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062010_hr1.tex",
+								"ui/icon/062000/062011_hr1.tex": "ui/icon/062000/062011_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062011_hr1.tex",
+								"ui/icon/062000/062012_hr1.tex": "ui/icon/062000/062012_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062012_hr1.tex",
+								"ui/icon/062000/062013_hr1.tex": "ui/icon/062000/062013_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062013_hr1.tex",
+								"ui/icon/062000/062014_hr1.tex": "ui/icon/062000/062014_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062014_hr1.tex",
+								"ui/icon/062000/062015_hr1.tex": "ui/icon/062000/062015_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062015_hr1.tex",
+								"ui/icon/062000/062016_hr1.tex": "ui/icon/062000/062016_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062016_hr1.tex",
+								"ui/icon/062000/062017_hr1.tex": "ui/icon/062000/062017_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062017_hr1.tex",
+								"ui/icon/062000/062018_hr1.tex": "ui/icon/062000/062018_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062018_hr1.tex",
+								"ui/icon/062000/062019_hr1.tex": "ui/icon/062000/062019_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062019_hr1.tex",
+								"ui/icon/062000/062020_hr1.tex": "ui/icon/062000/062020_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062020_hr1.tex",
+								"ui/icon/062000/062021_hr1.tex": "ui/icon/062000/062021_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062021_hr1.tex",
+								"ui/icon/062000/062022_hr1.tex": "ui/icon/062000/062022_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062022_hr1.tex",
+								"ui/icon/062000/062024_hr1.tex": "ui/icon/062000/062024_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062024_hr1.tex",
+								"ui/icon/062000/062028_hr1.tex": "ui/icon/062000/062028_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062028_hr1.tex",
+								"ui/icon/062000/062029_hr1.tex": "ui/icon/062000/062029_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062029_hr1.tex",
+								"ui/icon/062000/062030_hr1.tex": "ui/icon/062000/062030_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062030_hr1.tex",
+								"ui/icon/062000/062032_hr1.tex": "ui/icon/062000/062032_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062032_hr1.tex",
+								"ui/icon/062000/062033_hr1.tex": "ui/icon/062000/062033_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062033_hr1.tex",
+								"ui/icon/062000/062034_hr1.tex": "ui/icon/062000/062034_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062034_hr1.tex",
+								"ui/icon/062000/062037_hr1.tex": "ui/icon/062000/062037_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062037_hr1.tex",
+								"ui/icon/062000/062039_hr1.tex": "ui/icon/062000/062039_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062039_hr1.tex",
+								"ui/icon/062000/062040_hr1.tex": "ui/icon/062000/062040_hr1.tex/Job Icons - Contents/Glow Different DPS Color/062040_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Job Icons - Macro",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Default",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062801_hr1.tex": "ui/icon/062000/062801_hr1.tex/Job Icons - Macro/Default/062801_hr1.tex",
+								"ui/icon/062000/062802_hr1.tex": "ui/icon/062000/062802_hr1.tex/Job Icons - Macro/Default/062802_hr1.tex",
+								"ui/icon/062000/062803_hr1.tex": "ui/icon/062000/062803_hr1.tex/Job Icons - Macro/Default/062803_hr1.tex",
+								"ui/icon/062000/062804_hr1.tex": "ui/icon/062000/062804_hr1.tex/Job Icons - Macro/Default/062804_hr1.tex",
+								"ui/icon/062000/062805_hr1.tex": "ui/icon/062000/062805_hr1.tex/Job Icons - Macro/Default/062805_hr1.tex",
+								"ui/icon/062000/062806_hr1.tex": "ui/icon/062000/062806_hr1.tex/Job Icons - Macro/Default/062806_hr1.tex",
+								"ui/icon/062000/062807_hr1.tex": "ui/icon/062000/062807_hr1.tex/Job Icons - Macro/Default/062807_hr1.tex",
+								"ui/icon/062000/062808_hr1.tex": "ui/icon/062000/062808_hr1.tex/Job Icons - Macro/Default/062808_hr1.tex",
+								"ui/icon/062000/062809_hr1.tex": "ui/icon/062000/062809_hr1.tex/Job Icons - Macro/Default/062809_hr1.tex",
+								"ui/icon/062000/062810_hr1.tex": "ui/icon/062000/062810_hr1.tex/Job Icons - Macro/Default/062810_hr1.tex",
+								"ui/icon/062000/062811_hr1.tex": "ui/icon/062000/062811_hr1.tex/Job Icons - Macro/Default/062811_hr1.tex",
+								"ui/icon/062000/062812_hr1.tex": "ui/icon/062000/062812_hr1.tex/Job Icons - Macro/Default/062812_hr1.tex",
+								"ui/icon/062000/062813_hr1.tex": "ui/icon/062000/062813_hr1.tex/Job Icons - Macro/Default/062813_hr1.tex",
+								"ui/icon/062000/062814_hr1.tex": "ui/icon/062000/062814_hr1.tex/Job Icons - Macro/Default/062814_hr1.tex",
+								"ui/icon/062000/062815_hr1.tex": "ui/icon/062000/062815_hr1.tex/Job Icons - Macro/Default/062815_hr1.tex",
+								"ui/icon/062000/062816_hr1.tex": "ui/icon/062000/062816_hr1.tex/Job Icons - Macro/Default/062816_hr1.tex",
+								"ui/icon/062000/062817_hr1.tex": "ui/icon/062000/062817_hr1.tex/Job Icons - Macro/Default/062817_hr1.tex",
+								"ui/icon/062000/062818_hr1.tex": "ui/icon/062000/062818_hr1.tex/Job Icons - Macro/Default/062818_hr1.tex",
+								"ui/icon/062000/062819_hr1.tex": "ui/icon/062000/062819_hr1.tex/Job Icons - Macro/Default/062819_hr1.tex",
+								"ui/icon/062000/062820_hr1.tex": "ui/icon/062000/062820_hr1.tex/Job Icons - Macro/Default/062820_hr1.tex",
+								"ui/icon/062000/062821_hr1.tex": "ui/icon/062000/062821_hr1.tex/Job Icons - Macro/Default/062821_hr1.tex",
+								"ui/icon/062000/062822_hr1.tex": "ui/icon/062000/062822_hr1.tex/Job Icons - Macro/Default/062822_hr1.tex",
+								"ui/icon/062000/062823_hr1.tex": "ui/icon/062000/062823_hr1.tex/Job Icons - Macro/Default/062823_hr1.tex",
+								"ui/icon/062000/062824_hr1.tex": "ui/icon/062000/062824_hr1.tex/Job Icons - Macro/Default/062824_hr1.tex",
+								"ui/icon/062000/062825_hr1.tex": "ui/icon/062000/062825_hr1.tex/Job Icons - Macro/Default/062825_hr1.tex",
+								"ui/icon/062000/062826_hr1.tex": "ui/icon/062000/062826_hr1.tex/Job Icons - Macro/Default/062826_hr1.tex",
+								"ui/icon/062000/062827_hr1.tex": "ui/icon/062000/062827_hr1.tex/Job Icons - Macro/Default/062827_hr1.tex",
+								"ui/icon/062000/062828_hr1.tex": "ui/icon/062000/062828_hr1.tex/Job Icons - Macro/Default/062828_hr1.tex",
+								"ui/icon/062000/062829_hr1.tex": "ui/icon/062000/062829_hr1.tex/Job Icons - Macro/Default/062829_hr1.tex",
+								"ui/icon/062000/062830_hr1.tex": "ui/icon/062000/062830_hr1.tex/Job Icons - Macro/Default/062830_hr1.tex",
+								"ui/icon/062000/062831_hr1.tex": "ui/icon/062000/062831_hr1.tex/Job Icons - Macro/Default/062831_hr1.tex",
+								"ui/icon/062000/062832_hr1.tex": "ui/icon/062000/062832_hr1.tex/Job Icons - Macro/Default/062832_hr1.tex",
+								"ui/icon/062000/062833_hr1.tex": "ui/icon/062000/062833_hr1.tex/Job Icons - Macro/Default/062833_hr1.tex",
+								"ui/icon/062000/062834_hr1.tex": "ui/icon/062000/062834_hr1.tex/Job Icons - Macro/Default/062834_hr1.tex",
+								"ui/icon/062000/062835_hr1.tex": "ui/icon/062000/062835_hr1.tex/Job Icons - Macro/Default/062835_hr1.tex",
+								"ui/icon/062000/062836_hr1.tex": "ui/icon/062000/062836_hr1.tex/Job Icons - Macro/Default/062836_hr1.tex",
+								"ui/icon/062000/062837_hr1.tex": "ui/icon/062000/062837_hr1.tex/Job Icons - Macro/Default/062837_hr1.tex",
+								"ui/icon/062000/062838_hr1.tex": "ui/icon/062000/062838_hr1.tex/Job Icons - Macro/Default/062838_hr1.tex",
+								"ui/icon/062000/062839_hr1.tex": "ui/icon/062000/062839_hr1.tex/Job Icons - Macro/Default/062839_hr1.tex",
+								"ui/icon/062000/062840_hr1.tex": "ui/icon/062000/062840_hr1.tex/Job Icons - Macro/Default/062840_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Glow",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062801_hr1.tex": "ui/icon/062000/062801_hr1.tex/Job Icons - Macro/Glow/062801_hr1.tex",
+								"ui/icon/062000/062802_hr1.tex": "ui/icon/062000/062802_hr1.tex/Job Icons - Macro/Glow/062802_hr1.tex",
+								"ui/icon/062000/062803_hr1.tex": "ui/icon/062000/062803_hr1.tex/Job Icons - Macro/Glow/062803_hr1.tex",
+								"ui/icon/062000/062804_hr1.tex": "ui/icon/062000/062804_hr1.tex/Job Icons - Macro/Glow/062804_hr1.tex",
+								"ui/icon/062000/062805_hr1.tex": "ui/icon/062000/062805_hr1.tex/Job Icons - Macro/Glow/062805_hr1.tex",
+								"ui/icon/062000/062806_hr1.tex": "ui/icon/062000/062806_hr1.tex/Job Icons - Macro/Glow/062806_hr1.tex",
+								"ui/icon/062000/062807_hr1.tex": "ui/icon/062000/062807_hr1.tex/Job Icons - Macro/Glow/062807_hr1.tex",
+								"ui/icon/062000/062808_hr1.tex": "ui/icon/062000/062808_hr1.tex/Job Icons - Macro/Glow/062808_hr1.tex",
+								"ui/icon/062000/062809_hr1.tex": "ui/icon/062000/062809_hr1.tex/Job Icons - Macro/Glow/062809_hr1.tex",
+								"ui/icon/062000/062810_hr1.tex": "ui/icon/062000/062810_hr1.tex/Job Icons - Macro/Glow/062810_hr1.tex",
+								"ui/icon/062000/062811_hr1.tex": "ui/icon/062000/062811_hr1.tex/Job Icons - Macro/Glow/062811_hr1.tex",
+								"ui/icon/062000/062812_hr1.tex": "ui/icon/062000/062812_hr1.tex/Job Icons - Macro/Glow/062812_hr1.tex",
+								"ui/icon/062000/062813_hr1.tex": "ui/icon/062000/062813_hr1.tex/Job Icons - Macro/Glow/062813_hr1.tex",
+								"ui/icon/062000/062814_hr1.tex": "ui/icon/062000/062814_hr1.tex/Job Icons - Macro/Glow/062814_hr1.tex",
+								"ui/icon/062000/062815_hr1.tex": "ui/icon/062000/062815_hr1.tex/Job Icons - Macro/Glow/062815_hr1.tex",
+								"ui/icon/062000/062816_hr1.tex": "ui/icon/062000/062816_hr1.tex/Job Icons - Macro/Glow/062816_hr1.tex",
+								"ui/icon/062000/062817_hr1.tex": "ui/icon/062000/062817_hr1.tex/Job Icons - Macro/Glow/062817_hr1.tex",
+								"ui/icon/062000/062818_hr1.tex": "ui/icon/062000/062818_hr1.tex/Job Icons - Macro/Glow/062818_hr1.tex",
+								"ui/icon/062000/062819_hr1.tex": "ui/icon/062000/062819_hr1.tex/Job Icons - Macro/Glow/062819_hr1.tex",
+								"ui/icon/062000/062820_hr1.tex": "ui/icon/062000/062820_hr1.tex/Job Icons - Macro/Glow/062820_hr1.tex",
+								"ui/icon/062000/062821_hr1.tex": "ui/icon/062000/062821_hr1.tex/Job Icons - Macro/Glow/062821_hr1.tex",
+								"ui/icon/062000/062822_hr1.tex": "ui/icon/062000/062822_hr1.tex/Job Icons - Macro/Glow/062822_hr1.tex",
+								"ui/icon/062000/062823_hr1.tex": "ui/icon/062000/062823_hr1.tex/Job Icons - Macro/Glow/062823_hr1.tex",
+								"ui/icon/062000/062824_hr1.tex": "ui/icon/062000/062824_hr1.tex/Job Icons - Macro/Glow/062824_hr1.tex",
+								"ui/icon/062000/062825_hr1.tex": "ui/icon/062000/062825_hr1.tex/Job Icons - Macro/Glow/062825_hr1.tex",
+								"ui/icon/062000/062826_hr1.tex": "ui/icon/062000/062826_hr1.tex/Job Icons - Macro/Glow/062826_hr1.tex",
+								"ui/icon/062000/062827_hr1.tex": "ui/icon/062000/062827_hr1.tex/Job Icons - Macro/Glow/062827_hr1.tex",
+								"ui/icon/062000/062828_hr1.tex": "ui/icon/062000/062828_hr1.tex/Job Icons - Macro/Glow/062828_hr1.tex",
+								"ui/icon/062000/062829_hr1.tex": "ui/icon/062000/062829_hr1.tex/Job Icons - Macro/Glow/062829_hr1.tex",
+								"ui/icon/062000/062830_hr1.tex": "ui/icon/062000/062830_hr1.tex/Job Icons - Macro/Glow/062830_hr1.tex",
+								"ui/icon/062000/062831_hr1.tex": "ui/icon/062000/062831_hr1.tex/Job Icons - Macro/Glow/062831_hr1.tex",
+								"ui/icon/062000/062832_hr1.tex": "ui/icon/062000/062832_hr1.tex/Job Icons - Macro/Glow/062832_hr1.tex",
+								"ui/icon/062000/062833_hr1.tex": "ui/icon/062000/062833_hr1.tex/Job Icons - Macro/Glow/062833_hr1.tex",
+								"ui/icon/062000/062834_hr1.tex": "ui/icon/062000/062834_hr1.tex/Job Icons - Macro/Glow/062834_hr1.tex",
+								"ui/icon/062000/062835_hr1.tex": "ui/icon/062000/062835_hr1.tex/Job Icons - Macro/Glow/062835_hr1.tex",
+								"ui/icon/062000/062836_hr1.tex": "ui/icon/062000/062836_hr1.tex/Job Icons - Macro/Glow/062836_hr1.tex",
+								"ui/icon/062000/062837_hr1.tex": "ui/icon/062000/062837_hr1.tex/Job Icons - Macro/Glow/062837_hr1.tex",
+								"ui/icon/062000/062838_hr1.tex": "ui/icon/062000/062838_hr1.tex/Job Icons - Macro/Glow/062838_hr1.tex",
+								"ui/icon/062000/062839_hr1.tex": "ui/icon/062000/062839_hr1.tex/Job Icons - Macro/Glow/062839_hr1.tex",
+								"ui/icon/062000/062840_hr1.tex": "ui/icon/062000/062840_hr1.tex/Job Icons - Macro/Glow/062840_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Glow Different DPS Color",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062805_hr1.tex": "ui/icon/062000/062805_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062805_hr1.tex",
+								"ui/icon/062000/062807_hr1.tex": "ui/icon/062000/062807_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062807_hr1.tex",
+								"ui/icon/062000/062823_hr1.tex": "ui/icon/062000/062823_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062823_hr1.tex",
+								"ui/icon/062000/062825_hr1.tex": "ui/icon/062000/062825_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062825_hr1.tex",
+								"ui/icon/062000/062826_hr1.tex": "ui/icon/062000/062826_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062826_hr1.tex",
+								"ui/icon/062000/062827_hr1.tex": "ui/icon/062000/062827_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062827_hr1.tex",
+								"ui/icon/062000/062831_hr1.tex": "ui/icon/062000/062831_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062831_hr1.tex",
+								"ui/icon/062000/062835_hr1.tex": "ui/icon/062000/062835_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062835_hr1.tex",
+								"ui/icon/062000/062836_hr1.tex": "ui/icon/062000/062836_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062836_hr1.tex",
+								"ui/icon/062000/062838_hr1.tex": "ui/icon/062000/062838_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062838_hr1.tex",
+								"ui/icon/062000/062801_hr1.tex": "ui/icon/062000/062801_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062801_hr1.tex",
+								"ui/icon/062000/062802_hr1.tex": "ui/icon/062000/062802_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062802_hr1.tex",
+								"ui/icon/062000/062803_hr1.tex": "ui/icon/062000/062803_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062803_hr1.tex",
+								"ui/icon/062000/062804_hr1.tex": "ui/icon/062000/062804_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062804_hr1.tex",
+								"ui/icon/062000/062806_hr1.tex": "ui/icon/062000/062806_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062806_hr1.tex",
+								"ui/icon/062000/062808_hr1.tex": "ui/icon/062000/062808_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062808_hr1.tex",
+								"ui/icon/062000/062809_hr1.tex": "ui/icon/062000/062809_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062809_hr1.tex",
+								"ui/icon/062000/062810_hr1.tex": "ui/icon/062000/062810_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062810_hr1.tex",
+								"ui/icon/062000/062811_hr1.tex": "ui/icon/062000/062811_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062811_hr1.tex",
+								"ui/icon/062000/062812_hr1.tex": "ui/icon/062000/062812_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062812_hr1.tex",
+								"ui/icon/062000/062813_hr1.tex": "ui/icon/062000/062813_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062813_hr1.tex",
+								"ui/icon/062000/062814_hr1.tex": "ui/icon/062000/062814_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062814_hr1.tex",
+								"ui/icon/062000/062815_hr1.tex": "ui/icon/062000/062815_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062815_hr1.tex",
+								"ui/icon/062000/062816_hr1.tex": "ui/icon/062000/062816_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062816_hr1.tex",
+								"ui/icon/062000/062817_hr1.tex": "ui/icon/062000/062817_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062817_hr1.tex",
+								"ui/icon/062000/062818_hr1.tex": "ui/icon/062000/062818_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062818_hr1.tex",
+								"ui/icon/062000/062819_hr1.tex": "ui/icon/062000/062819_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062819_hr1.tex",
+								"ui/icon/062000/062820_hr1.tex": "ui/icon/062000/062820_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062820_hr1.tex",
+								"ui/icon/062000/062821_hr1.tex": "ui/icon/062000/062821_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062821_hr1.tex",
+								"ui/icon/062000/062822_hr1.tex": "ui/icon/062000/062822_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062822_hr1.tex",
+								"ui/icon/062000/062824_hr1.tex": "ui/icon/062000/062824_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062824_hr1.tex",
+								"ui/icon/062000/062828_hr1.tex": "ui/icon/062000/062828_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062828_hr1.tex",
+								"ui/icon/062000/062829_hr1.tex": "ui/icon/062000/062829_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062829_hr1.tex",
+								"ui/icon/062000/062830_hr1.tex": "ui/icon/062000/062830_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062830_hr1.tex",
+								"ui/icon/062000/062832_hr1.tex": "ui/icon/062000/062832_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062832_hr1.tex",
+								"ui/icon/062000/062833_hr1.tex": "ui/icon/062000/062833_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062833_hr1.tex",
+								"ui/icon/062000/062834_hr1.tex": "ui/icon/062000/062834_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062834_hr1.tex",
+								"ui/icon/062000/062837_hr1.tex": "ui/icon/062000/062837_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062837_hr1.tex",
+								"ui/icon/062000/062839_hr1.tex": "ui/icon/062000/062839_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062839_hr1.tex",
+								"ui/icon/062000/062840_hr1.tex": "ui/icon/062000/062840_hr1.tex/Job Icons - Macro/Glow Different DPS Color/062840_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Teleport Icons",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Default",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/teleport_hr1.tex.comp": "ui/uld/teleport_hr1.tex/Teleport Icons/Default/composite.tex.comp"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Icons",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/teleport_hr1.tex.comp": "ui/uld/teleport_hr1.tex/Teleport Icons/Icons/composite.tex.comp"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Text",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/teleport_hr1.tex.comp": "ui/uld/teleport_hr1.tex/Teleport Icons/Text/composite.tex.comp"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		}
+	],
+	"presets": [],
+	"files": {
+		"ui/uld/tabbuttona_hr1.tex.comp": "ui/uld/tabbuttona_hr1.tex/composite.tex.comp",
+		"ui/uld/buddy_hr1.tex.comp": "ui/uld/buddy_hr1.tex/composite.tex.comp",
+		"ui/uld/buttona_custom_hr1.tex.comp": "ui/uld/buttona_custom_hr1.tex/composite.tex.comp",
+		"ui/uld/togglebuttonswitch_hr1.tex.comp": "ui/uld/togglebuttonswitch_hr1.tex/composite.tex.comp",
+		"ui/uld/slidergaugehorizontala_hr1.tex.comp": "ui/uld/slidergaugehorizontala_hr1.tex/composite.tex.comp",
+		"ui/uld/limitbreak_hr1.tex.comp": "ui/uld/limitbreak_hr1.tex/composite.tex.comp",
+		"ui/uld/housing_hr1.tex.comp": "ui/uld/housing_hr1.tex/composite.tex.comp",
+		"ui/uld/guildleve_hr1.tex.comp": "ui/uld/guildleve_hr1.tex/composite.tex.comp",
+		"ui/uld/inventory_hr1.tex.comp": "ui/uld/inventory_hr1.tex/composite.tex.comp",
+		"ui/uld/monsternotebook_hr1.tex.comp": "ui/uld/monsternotebook_hr1.tex/composite.tex.comp",
+		"ui/uld/configkeybind_hr1.tex.comp": "ui/uld/configkeybind_hr1.tex/composite.tex.comp",
+		"ui/uld/dawndropdown_hr1.tex.comp": "ui/uld/dawndropdown_hr1.tex/composite.tex.comp",
+		"ui/uld/journal_hr1.tex.comp": "ui/uld/journal_hr1.tex/composite.tex.comp",
+		"ui/uld/pvp_hr1.tex.comp": "ui/uld/pvp_hr1.tex/composite.tex.comp",
+		"ui/uld/needgreed_hr1.tex.comp": "ui/uld/needgreed_hr1.tex/composite.tex.comp",
+		"ui/uld/social_hr1.tex.comp": "ui/uld/social_hr1.tex/composite.tex.comp",
+		"ui/uld/circlebuttons_hr1.tex.comp": "ui/uld/circlebuttons_hr1.tex/composite.tex.comp",
+		"ui/uld/achievement_hr1.tex.comp": "ui/uld/achievement_hr1.tex/composite.tex.comp",
+		"ui/uld/camerasettings_hr1.tex.comp": "ui/uld/camerasettings_hr1.tex/composite.tex.comp",
+		"ui/uld/charactergearset_hr1.tex.comp": "ui/uld/charactergearset_hr1.tex/composite.tex.comp",
+		"ui/uld/checkmark_hr1.tex.comp": "ui/uld/checkmark_hr1.tex/composite.tex.comp",
+		"ui/uld/circleboardedit_hr1.tex.comp": "ui/uld/circleboardedit_hr1.tex/composite.tex.comp",
+		"ui/uld/supplymasterpiece_hr1.tex.comp": "ui/uld/supplymasterpiece_hr1.tex/composite.tex.comp",
+		"ui/uld/mirageprismplate2_hr1.tex.comp": "ui/uld/mirageprismplate2_hr1.tex/composite.tex.comp",
+		"ui/uld/goldsaucercarddeckedit_hr1.tex.comp": "ui/uld/goldsaucercarddeckedit_hr1.tex/composite.tex.comp",
+		"ui/uld/partyfinder_hr1.tex.comp": "ui/uld/partyfinder_hr1.tex/composite.tex.comp",
+		"ui/uld/contentsfinder_hr1.tex.comp": "ui/uld/contentsfinder_hr1.tex/composite.tex.comp",
+		"ui/uld/partylist_buff_hr1.tex.comp": "ui/uld/partylist_buff_hr1.tex/composite.tex.comp",
+		"ui/uld/itemdetail_hr1.tex.comp": "ui/uld/itemdetail_hr1.tex/composite.tex.comp",
+		"ui/uld/partylist_gaugehp_hr1.tex.comp": "ui/uld/partylist_gaugehp_hr1.tex/composite.tex.comp",
+		"ui/uld/icona_recast2_hr1.tex.comp": "ui/uld/icona_recast2_hr1.tex/composite.tex.comp",
+		"ui/uld/satisfactionsupplyrank_hr1.tex.comp": "ui/uld/satisfactionsupplyrank_hr1.tex/composite.tex.comp",
+		"ui/uld/buttonb_hr1.tex.comp": "ui/uld/buttonb_hr1.tex/composite.tex.comp",
+		"ui/uld/enemylist_hr1.tex.comp": "ui/uld/enemylist_hr1.tex/composite.tex.comp",
+		"ui/uld/configcharacterhotbarlayout_hr1.tex.comp": "ui/uld/configcharacterhotbarlayout_hr1.tex/composite.tex.comp",
+		"ui/uld/icona_recast_hr1.tex.comp": "ui/uld/icona_recast_hr1.tex/composite.tex.comp",
+		"ui/uld/satisfactionsupply_hr1.tex.comp": "ui/uld/satisfactionsupply_hr1.tex/composite.tex.comp",
+		"ui/uld/contentsnotebook_hr1.tex.comp": "ui/uld/contentsnotebook_hr1.tex/composite.tex.comp",
+		"ui/uld/bgparts_hr1.tex.comp": "ui/uld/bgparts_hr1.tex/composite.tex.comp",
+		"ui/uld/getheringnotebook_hr1.tex.comp": "ui/uld/getheringnotebook_hr1.tex/composite.tex.comp",
+		"ui/uld/togglebutton_hr1.tex.comp": "ui/uld/togglebutton_hr1.tex/composite.tex.comp",
+		"ui/uld/characterbestequipment_hr1.tex.comp": "ui/uld/characterbestequipment_hr1.tex/composite.tex.comp",
+		"ui/uld/partylist_gaugecast_hr1.tex.comp": "ui/uld/partylist_gaugecast_hr1.tex/composite.tex.comp",
+		"ui/uld/recipenotebook_hr1.tex.comp": "ui/uld/recipenotebook_hr1.tex/composite.tex.comp",
+		"ui/uld/radiobuttond_hr1.tex.comp": "ui/uld/radiobuttond_hr1.tex/composite.tex.comp",
+		"ui/uld/actionmenu_hr1.tex.comp": "ui/uld/actionmenu_hr1.tex/composite.tex.comp",
+		"ui/uld/hudlayout_hr1.tex.comp": "ui/uld/hudlayout_hr1.tex/composite.tex.comp",
+		"ui/uld/orchestrion_hr1.tex.comp": "ui/uld/orchestrion_hr1.tex/composite.tex.comp",
+		"ui/uld/areamap_hr1.tex.comp": "ui/uld/areamap_hr1.tex/composite.tex.comp",
+		"ui/uld/todolist_hr1.tex.comp": "ui/uld/todolist_hr1.tex/composite.tex.comp",
+		"ui/uld/togglebuttonswitchicon_hr1.tex.comp": "ui/uld/togglebuttonswitchicon_hr1.tex/composite.tex.comp",
+		"ui/uld/readycheck_hr1.tex.comp": "ui/uld/readycheck_hr1.tex/composite.tex.comp",
+		"ui/uld/bagstatus_hr1.tex.comp": "ui/uld/bagstatus_hr1.tex/composite.tex.comp",
+		"ui/uld/itemsearch_hr1.tex.comp": "ui/uld/itemsearch_hr1.tex/composite.tex.comp",
+		"ui/uld/longpressbuttona_hr1.tex.comp": "ui/uld/longpressbuttona_hr1.tex/composite.tex.comp",
+		"ui/uld/synthesis3_hr1.tex.comp": "ui/uld/synthesis3_hr1.tex/composite.tex.comp",
+		"ui/uld/macro_hr1.tex.comp": "ui/uld/macro_hr1.tex/composite.tex.comp",
+		"ui/uld/armouryboard_hr1.tex.comp": "ui/uld/armouryboard_hr1.tex/composite.tex.comp",
+		"ui/uld/scrollbarb_hr1.tex.comp": "ui/uld/scrollbarb_hr1.tex/composite.tex.comp",
+		"ui/uld/partylisttargetbase_hr1.tex.comp": "ui/uld/partylisttargetbase_hr1.tex/composite.tex.comp",
+		"ui/uld/character_hr1.tex.comp": "ui/uld/character_hr1.tex/composite.tex.comp",
+		"ui/uld/mirageprismbox_hr1.tex.comp": "ui/uld/mirageprismbox_hr1.tex/composite.tex.comp",
+		"ui/uld/circlefinder_hr1.tex.comp": "ui/uld/circlefinder_hr1.tex/composite.tex.comp",
+		"ui/uld/journal_detail_hr1.tex.comp": "ui/uld/journal_detail_hr1.tex/composite.tex.comp",
+		"ui/uld/charactercard_hr1.tex.comp": "ui/uld/charactercard_hr1.tex/composite.tex.comp",
+		"ui/icon/061000/061846_hr1.tex.comp": "ui/icon/061000/061846_hr1.tex/composite.tex.comp",
+		"ui/icon/061000/061768_hr1.tex.comp": "ui/icon/061000/061768_hr1.tex/composite.tex.comp",
+		"ui/icon/061000/061767_hr1.tex.comp": "ui/icon/061000/061767_hr1.tex/composite.tex.comp",
+		"ui/icon/060000/060840_hr1.tex.comp": "ui/icon/060000/060840_hr1.tex/composite.tex.comp",
+		"ui/uld/goldsaucercarddeck_hr1.tex": "ui/uld/goldsaucercarddeck_hr1.tex/goldsaucercarddeck_hr1.tex",
+		"ui/uld/lfgselectrole_hr1.tex": "ui/uld/lfgselectrole_hr1.tex/lfgselectrole_hr1.tex",
+		"ui/uld/textinputa_hr1.tex": "ui/uld/textinputa_hr1.tex/textinputa_hr1.tex",
+		"ui/uld/harpoonwindowa_corner_hr1.tex": "ui/uld/harpoonwindowa_corner_hr1.tex/harpoonwindowa_corner_hr1.tex",
+		"ui/uld/subcommandsetting_hr1.tex": "ui/uld/subcommandsetting_hr1.tex/subcommandsetting_hr1.tex",
+		"ui/uld/dawnwindowcolor_hr1.tex": "ui/uld/dawnwindowcolor_hr1.tex/dawnwindowcolor_hr1.tex",
+		"ui/uld/windowa_button_hr1.tex": "ui/uld/windowa_button_hr1.tex/windowa_button_hr1.tex",
+		"ui/uld/orchestrionsubwindow_hr1.tex": "ui/uld/orchestrionsubwindow_hr1.tex/orchestrionsubwindow_hr1.tex",
+		"ui/uld/windowpvp_button_hr1.tex": "ui/uld/windowpvp_button_hr1.tex/windowpvp_button_hr1.tex",
+		"ui/uld/facecover_hr1.tex": "ui/uld/facecover_hr1.tex/facecover_hr1.tex",
+		"ui/uld/freecompany_hr1.tex": "ui/uld/freecompany_hr1.tex/freecompany_hr1.tex",
+		"ui/uld/charactertitle_hr1.tex": "ui/uld/charactertitle_hr1.tex/charactertitle_hr1.tex",
+		"ui/uld/mirageprismboxicon_hr1.tex": "ui/uld/mirageprismboxicon_hr1.tex/mirageprismboxicon_hr1.tex",
+		"ui/uld/dawnwindow_hr1.tex": "ui/uld/dawnwindow_hr1.tex/dawnwindow_hr1.tex",
+		"ui/uld/purify_hr1.tex": "ui/uld/purify_hr1.tex/purify_hr1.tex",
+		"ui/uld/logo_sqex_hr1.tex": "ui/uld/logo_sqex_hr1.tex/logo_sqex_hr1.tex",
+		"ui/uld/salvageresult_hr1.tex": "ui/uld/salvageresult_hr1.tex/salvageresult_hr1.tex",
+		"ui/uld/gatheringcollectable_hr1.tex": "ui/uld/gatheringcollectable_hr1.tex/gatheringcollectable_hr1.tex",
+		"ui/uld/repair_hr1.tex": "ui/uld/repair_hr1.tex/repair_hr1.tex",
+		"ui/uld/configsystem_hr1.tex": "ui/uld/configsystem_hr1.tex/configsystem_hr1.tex",
+		"ui/uld/armouryboard_panel_v_hr1.tex": "ui/uld/armouryboard_panel_v_hr1.tex/armouryboard_panel_v_hr1.tex",
+		"ui/uld/armouryboard_panel_corner_hr1.tex": "ui/uld/armouryboard_panel_corner_hr1.tex/armouryboard_panel_corner_hr1.tex",
+		"ui/uld/explorationdetail2_hr1.tex": "ui/uld/explorationdetail2_hr1.tex/explorationdetail2_hr1.tex",
+		"ui/uld/alarm_hr1.tex": "ui/uld/alarm_hr1.tex/alarm_hr1.tex",
+		"ui/uld/shopexchangeitem_hr1.tex": "ui/uld/shopexchangeitem_hr1.tex/shopexchangeitem_hr1.tex",
+		"ui/uld/harpoongauge_hr1.tex": "ui/uld/harpoongauge_hr1.tex/harpoongauge_hr1.tex",
+		"ui/uld/dawnfacebggrad2_hr1.tex": "ui/uld/dawnfacebggrad2_hr1.tex/dawnfacebggrad2_hr1.tex",
+		"ui/uld/harpoonwindowa_v_hr1.tex": "ui/uld/harpoonwindowa_v_hr1.tex/harpoonwindowa_v_hr1.tex",
+		"ui/uld/radiobuttona_hr1.tex": "ui/uld/radiobuttona_hr1.tex/radiobuttona_hr1.tex",
+		"ui/uld/lista_hr1.tex": "ui/uld/lista_hr1.tex/lista_hr1.tex",
+		"ui/uld/dawnfacebg_hr1.tex": "ui/uld/dawnfacebg_hr1.tex/dawnfacebg_hr1.tex",
+		"ui/uld/dawnfacebggrad_hr1.tex": "ui/uld/dawnfacebggrad_hr1.tex/dawnfacebggrad_hr1.tex",
+		"ui/uld/boxitemdatail_bg_hr1.tex": "ui/uld/boxitemdatail_bg_hr1.tex/boxitemdatail_bg_hr1.tex",
+		"ui/uld/windowh_bg_hv_hr1.tex": "ui/uld/windowh_bg_hv_hr1.tex/windowh_bg_hv_hr1.tex",
+		"ui/uld/bank_hr1.tex": "ui/uld/bank_hr1.tex/bank_hr1.tex",
+		"ui/uld/gathering_hr1.tex": "ui/uld/gathering_hr1.tex/gathering_hr1.tex",
+		"ui/uld/dawnwindowselect_hr1.tex": "ui/uld/dawnwindowselect_hr1.tex/dawnwindowselect_hr1.tex",
+		"ui/uld/actioncontents_hr1.tex": "ui/uld/actioncontents_hr1.tex/actioncontents_hr1.tex",
+		"ui/uld/minionnotebookykw_hr1.tex": "ui/uld/minionnotebookykw_hr1.tex/minionnotebookykw_hr1.tex",
+		"ui/uld/listitema_hr1.tex": "ui/uld/listitema_hr1.tex/listitema_hr1.tex",
+		"ui/uld/focustargetinfo_hr1.tex": "ui/uld/focustargetinfo_hr1.tex/focustargetinfo_hr1.tex",
+		"ui/uld/eurekaelementalhud_hr1.tex": "ui/uld/eurekaelementalhud_hr1.tex/eurekaelementalhud_hr1.tex",
+		"ui/uld/synthesis_hr1.tex": "ui/uld/synthesis_hr1.tex/synthesis_hr1.tex",
+		"ui/uld/eurekalogosaetherlist_hr1.tex": "ui/uld/eurekalogosaetherlist_hr1.tex/eurekalogosaetherlist_hr1.tex",
+		"ui/uld/aoznotebook_hr1.tex": "ui/uld/aoznotebook_hr1.tex/aoznotebook_hr1.tex",
+		"ui/uld/windowpvp_bgnormal_h_hr1.tex": "ui/uld/windowpvp_bgnormal_h_hr1.tex/windowpvp_bgnormal_h_hr1.tex",
+		"ui/uld/charaselect_separator_hr1.tex": "ui/uld/charaselect_separator_hr1.tex/charaselect_separator_hr1.tex",
+		"ui/uld/dawntitlebase_hr1.tex": "ui/uld/dawntitlebase_hr1.tex/dawntitlebase_hr1.tex",
+		"ui/uld/armouryboard_panel_hv_hr1.tex": "ui/uld/armouryboard_panel_hv_hr1.tex/armouryboard_panel_hv_hr1.tex",
+		"ui/uld/windowb_hr1.tex": "ui/uld/windowb_hr1.tex/windowb_hr1.tex",
+		"ui/uld/exp_gauge_hr1.tex": "ui/uld/exp_gauge_hr1.tex/exp_gauge_hr1.tex",
+		"ui/uld/checkboxa_hr1.tex": "ui/uld/checkboxa_hr1.tex/checkboxa_hr1.tex",
+		"ui/uld/dawnrole_hr1.tex": "ui/uld/dawnrole_hr1.tex/dawnrole_hr1.tex",
+		"ui/uld/dropdowna_hr1.tex": "ui/uld/dropdowna_hr1.tex/dropdowna_hr1.tex",
+		"ui/uld/windowa_button_multiskin_hr1.tex": "ui/uld/windowa_button_multiskin_hr1.tex/windowa_button_multiskin_hr1.tex",
+		"ui/uld/listitemb_hr1.tex": "ui/uld/listitemb_hr1.tex/listitemb_hr1.tex",
+		"ui/uld/mirageprismbox2_hr1.tex": "ui/uld/mirageprismbox2_hr1.tex/mirageprismbox2_hr1.tex",
+		"ui/uld/mycinfo_hr1.tex": "ui/uld/mycinfo_hr1.tex/mycinfo_hr1.tex",
+		"ui/uld/eurekalogosactionnote_hr1.tex": "ui/uld/eurekalogosactionnote_hr1.tex/eurekalogosactionnote_hr1.tex",
+		"ui/uld/journal_separator_hr1.tex": "ui/uld/journal_separator_hr1.tex/journal_separator_hr1.tex",
+		"ui/uld/contentsfinderdisplay_hr1.tex": "ui/uld/contentsfinderdisplay_hr1.tex/contentsfinderdisplay_hr1.tex",
+		"ui/uld/tripletriadapplication_hr1.tex": "ui/uld/tripletriadapplication_hr1.tex/tripletriadapplication_hr1.tex",
+		"ui/uld/buttona_hr1.tex": "ui/uld/buttona_hr1.tex/buttona_hr1.tex",
+		"ui/uld/contentsfindermenu_hr1.tex": "ui/uld/contentsfindermenu_hr1.tex/contentsfindermenu_hr1.tex",
+		"ui/uld/configsystemuiskin_hr1.tex": "ui/uld/configsystemuiskin_hr1.tex/configsystemuiskin_hr1.tex",
+		"ui/uld/scrollbara_hr1.tex": "ui/uld/scrollbara_hr1.tex/scrollbara_hr1.tex",
+		"ui/uld/windowa_line_hr1.tex": "ui/uld/windowa_line_hr1.tex/windowa_line_hr1.tex",
+		"ui/uld/money_number_hr1.tex": "ui/uld/money_number_hr1.tex/money_number_hr1.tex",
+		"ui/uld/previewa_hr1.tex": "ui/uld/previewa_hr1.tex/previewa_hr1.tex",
+		"ui/uld/radiobuttonc_hr1.tex": "ui/uld/radiobuttonc_hr1.tex/radiobuttonc_hr1.tex",
+		"ui/uld/recipetree_hr1.tex": "ui/uld/recipetree_hr1.tex/recipetree_hr1.tex",
+		"ui/uld/armouryboard_panel_h_hr1.tex": "ui/uld/armouryboard_panel_h_hr1.tex/armouryboard_panel_h_hr1.tex",
+		"ui/uld/lovmpaletteedit_hr1.tex": "ui/uld/lovmpaletteedit_hr1.tex/lovmpaletteedit_hr1.tex",
+		"ui/uld/fishingnotebook_hr1.tex": "ui/uld/fishingnotebook_hr1.tex/fishingnotebook_hr1.tex",
+		"ui/uld/boxitemdatail_bgv_hr1.tex": "ui/uld/boxitemdatail_bgv_hr1.tex/boxitemdatail_bgv_hr1.tex",
+		"ui/uld/synthesis3_tile_hr1.tex": "ui/uld/synthesis3_tile_hr1.tex/synthesis3_tile_hr1.tex",
+		"ui/uld/windowh_bg_v_hr1.tex": "ui/uld/windowh_bg_v_hr1.tex/windowh_bg_v_hr1.tex",
+		"ui/uld/synthesis2_hr1.tex": "ui/uld/synthesis2_hr1.tex/synthesis2_hr1.tex",
+		"ui/uld/windowpvp_bgnormal_v_hr1.tex": "ui/uld/windowpvp_bgnormal_v_hr1.tex/windowpvp_bgnormal_v_hr1.tex",
+		"ui/uld/configcharacter_hr1.tex": "ui/uld/configcharacter_hr1.tex/configcharacter_hr1.tex",
+		"ui/uld/lfg2_hr1.tex": "ui/uld/lfg2_hr1.tex/lfg2_hr1.tex",
+		"ui/uld/windowpvp_line_hr1.tex": "ui/uld/windowpvp_line_hr1.tex/windowpvp_line_hr1.tex",
+		"ui/uld/boxitemdatail_bgh_hr1.tex": "ui/uld/boxitemdatail_bgh_hr1.tex/boxitemdatail_bgh_hr1.tex",
+		"ui/uld/minionnotebook_hr1.tex": "ui/uld/minionnotebook_hr1.tex/minionnotebook_hr1.tex",
+		"ui/uld/housinggoods_hr1.tex": "ui/uld/housinggoods_hr1.tex/housinggoods_hr1.tex",
+		"ui/uld/lines_hr1.tex": "ui/uld/lines_hr1.tex/lines_hr1.tex",
+		"ui/uld/achievementinfo_hr1.tex": "ui/uld/achievementinfo_hr1.tex/achievementinfo_hr1.tex",
+		"ui/uld/itemsearchmywish_hr1.tex": "ui/uld/itemsearchmywish_hr1.tex/itemsearchmywish_hr1.tex",
+		"ui/uld/explorationdetail_hr1.tex": "ui/uld/explorationdetail_hr1.tex/explorationdetail_hr1.tex",
+		"ui/uld/boxitemdatail_bghv_hr1.tex": "ui/uld/boxitemdatail_bghv_hr1.tex/boxitemdatail_bghv_hr1.tex",
+		"ui/uld/maincommandcategory_icon_hr1.tex": "ui/uld/maincommandcategory_icon_hr1.tex/maincommandcategory_icon_hr1.tex",
+		"ui/uld/eurekalogosshardsynthesis_hr1.tex": "ui/uld/eurekalogosshardsynthesis_hr1.tex/eurekalogosshardsynthesis_hr1.tex",
+		"ui/uld/harpoongauge10_hr1.tex": "ui/uld/harpoongauge10_hr1.tex/harpoongauge10_hr1.tex",
+		"ui/uld/notification_hr1.tex": "ui/uld/notification_hr1.tex/notification_hr1.tex",
+		"ui/uld/harpoongaugecaution_hr1.tex": "ui/uld/harpoongaugecaution_hr1.tex/harpoongaugecaution_hr1.tex",
+		"ui/uld/windowpvp_bgnormal_corner_hr1.tex": "ui/uld/windowpvp_bgnormal_corner_hr1.tex/windowpvp_bgnormal_corner_hr1.tex",
+		"ui/uld/dragtargeta_hr1.tex": "ui/uld/dragtargeta_hr1.tex/dragtargeta_hr1.tex",
+		"ui/uld/windowh_bg_h_hr1.tex": "ui/uld/windowh_bg_h_hr1.tex/windowh_bg_h_hr1.tex",
+		"ui/uld/lfg_hr1.tex": "ui/uld/lfg_hr1.tex/lfg_hr1.tex",
+		"ui/uld/overlayconfirmbutton_hr1.tex": "ui/uld/overlayconfirmbutton_hr1.tex/overlayconfirmbutton_hr1.tex",
+		"ui/uld/listb_hr1.tex": "ui/uld/listb_hr1.tex/listb_hr1.tex",
+		"ui/uld/dawntogglebutton_hr1.tex": "ui/uld/dawntogglebutton_hr1.tex/dawntogglebutton_hr1.tex",
+		"ui/uld/windowh_bg_corner_hr1.tex": "ui/uld/windowh_bg_corner_hr1.tex/windowh_bg_corner_hr1.tex",
+		"ui/uld/scenariotree_hr1.tex": "ui/uld/scenariotree_hr1.tex/scenariotree_hr1.tex",
+		"ui/uld/circlebook_hr1.tex": "ui/uld/circlebook_hr1.tex/circlebook_hr1.tex",
+		"ui/uld/dawnfacebggrad3_hr1.tex": "ui/uld/dawnfacebggrad3_hr1.tex/dawnfacebggrad3_hr1.tex",
+		"ui/uld/gatheringcollectable2_hr1.tex": "ui/uld/gatheringcollectable2_hr1.tex/gatheringcollectable2_hr1.tex",
+		"ui/uld/eurekalogosshardlist_hr1.tex": "ui/uld/eurekalogosshardlist_hr1.tex/eurekalogosshardlist_hr1.tex",
+		"ui/uld/windowpvp_bgnormal_hv_hr1.tex": "ui/uld/windowpvp_bgnormal_hv_hr1.tex/windowpvp_bgnormal_hv_hr1.tex",
+		"ui/uld/journal_frame_hr1.tex": "ui/uld/journal_frame_hr1.tex/journal_frame_hr1.tex",
+		"ui/uld/emotecategory_hr1.tex": "ui/uld/emotecategory_hr1.tex/emotecategory_hr1.tex",
+		"ui/uld/numericstepperb_hr1.tex": "ui/uld/numericstepperb_hr1.tex/numericstepperb_hr1.tex",
+		"ui/uld/listitemmirageprismbox_hr1.tex": "ui/uld/listitemmirageprismbox_hr1.tex/listitemmirageprismbox_hr1.tex",
+		"ui/uld/harpoonwindowa_h_hr1.tex": "ui/uld/harpoonwindowa_h_hr1.tex/harpoonwindowa_h_hr1.tex",
+		"ui/uld/gearsetlist_hr1.tex": "ui/uld/gearsetlist_hr1.tex/gearsetlist_hr1.tex",
+		"ui/uld/howto_hr1.tex": "ui/uld/howto_hr1.tex/howto_hr1.tex",
+		"ui/uld/tripletriadapplication2_hr1.tex": "ui/uld/tripletriadapplication2_hr1.tex/tripletriadapplication2_hr1.tex",
+		"ui/uld/mirageprismplate_hr1.tex": "ui/uld/mirageprismplate_hr1.tex/mirageprismplate_hr1.tex",
+		"ui/icon/061000/061878_hr1.tex": "ui/icon/061000/061878_hr1.tex/061878_hr1.tex",
+		"ui/icon/060000/060133_hr1.tex": "ui/icon/060000/060133_hr1.tex/060133_hr1.tex",
+		"ui/icon/060000/060173_hr1.tex": "ui/icon/060000/060173_hr1.tex/060173_hr1.tex",
+		"ui/icon/061000/061915_hr1.tex": "ui/icon/061000/061915_hr1.tex/061915_hr1.tex",
+		"ui/icon/060000/060179_hr1.tex": "ui/icon/060000/060179_hr1.tex/060179_hr1.tex",
+		"ui/icon/060000/060136_hr1.tex": "ui/icon/060000/060136_hr1.tex/060136_hr1.tex",
+		"ui/icon/060000/060146_hr1.tex": "ui/icon/060000/060146_hr1.tex/060146_hr1.tex",
+		"ui/icon/061000/061823_hr1.tex": "ui/icon/061000/061823_hr1.tex/061823_hr1.tex",
+		"ui/icon/000000/000051_hr1.tex": "ui/icon/000000/000051_hr1.tex/000051_hr1.tex",
+		"ui/icon/061000/061875_hr1.tex": "ui/icon/061000/061875_hr1.tex/061875_hr1.tex",
+		"ui/icon/000000/000038_hr1.tex": "ui/icon/000000/000038_hr1.tex/000038_hr1.tex",
+		"ui/icon/000000/000041_hr1.tex": "ui/icon/000000/000041_hr1.tex/000041_hr1.tex",
+		"ui/icon/060000/060116_hr1.tex": "ui/icon/060000/060116_hr1.tex/060116_hr1.tex",
+		"ui/icon/062000/062203_hr1.tex": "ui/icon/062000/062203_hr1.tex/062203_hr1.tex",
+		"ui/icon/061000/061901_hr1.tex": "ui/icon/061000/061901_hr1.tex/061901_hr1.tex",
+		"ui/icon/072000/072703_hr1.tex": "ui/icon/072000/072703_hr1.tex/072703_hr1.tex",
+		"ui/icon/061000/061756_hr1.tex": "ui/icon/061000/061756_hr1.tex/061756_hr1.tex",
+		"ui/icon/061000/061829_hr1.tex": "ui/icon/061000/061829_hr1.tex/061829_hr1.tex",
+		"ui/icon/060000/060170_hr1.tex": "ui/icon/060000/060170_hr1.tex/060170_hr1.tex",
+		"ui/icon/060000/060163_hr1.tex": "ui/icon/060000/060163_hr1.tex/060163_hr1.tex",
+		"ui/icon/061000/061822_hr1.tex": "ui/icon/061000/061822_hr1.tex/061822_hr1.tex",
+		"ui/icon/060000/060117_hr1.tex": "ui/icon/060000/060117_hr1.tex/060117_hr1.tex",
+		"ui/icon/060000/060139_hr1.tex": "ui/icon/060000/060139_hr1.tex/060139_hr1.tex",
+		"ui/icon/000000/000068_hr1.tex": "ui/icon/000000/000068_hr1.tex/000068_hr1.tex",
+		"ui/icon/072000/072707_hr1.tex": "ui/icon/072000/072707_hr1.tex/072707_hr1.tex",
+		"ui/icon/072000/072747_hr1.tex": "ui/icon/072000/072747_hr1.tex/072747_hr1.tex",
+		"ui/icon/000000/000035_hr1.tex": "ui/icon/000000/000035_hr1.tex/000035_hr1.tex",
+		"ui/icon/072000/072746_hr1.tex": "ui/icon/072000/072746_hr1.tex/072746_hr1.tex",
+		"ui/icon/060000/060169_hr1.tex": "ui/icon/060000/060169_hr1.tex/060169_hr1.tex",
+		"ui/icon/072000/072748_hr1.tex": "ui/icon/072000/072748_hr1.tex/072748_hr1.tex",
+		"ui/icon/062000/062501_hr1.tex": "ui/icon/062000/062501_hr1.tex/062501_hr1.tex",
+		"ui/icon/060000/060154_hr1.tex": "ui/icon/060000/060154_hr1.tex/060154_hr1.tex",
+		"ui/icon/061000/061804_hr1.tex": "ui/icon/061000/061804_hr1.tex/061804_hr1.tex",
+		"ui/icon/060000/060143_hr1.tex": "ui/icon/060000/060143_hr1.tex/060143_hr1.tex",
+		"ui/icon/072000/072754_hr1.tex": "ui/icon/072000/072754_hr1.tex/072754_hr1.tex",
+		"ui/icon/061000/061755_hr1.tex": "ui/icon/061000/061755_hr1.tex/061755_hr1.tex",
+		"ui/icon/062000/062043_hr1.tex": "ui/icon/062000/062043_hr1.tex/062043_hr1.tex",
+		"ui/icon/062000/062201_hr1.tex": "ui/icon/062000/062201_hr1.tex/062201_hr1.tex",
+		"ui/icon/072000/072683_hr1.tex": "ui/icon/072000/072683_hr1.tex/072683_hr1.tex",
+		"ui/icon/060000/060162_hr1.tex": "ui/icon/060000/060162_hr1.tex/060162_hr1.tex",
+		"ui/icon/060000/060104_hr1.tex": "ui/icon/060000/060104_hr1.tex/060104_hr1.tex",
+		"ui/icon/060000/060106_hr1.tex": "ui/icon/060000/060106_hr1.tex/060106_hr1.tex",
+		"ui/icon/061000/061833_hr1.tex": "ui/icon/061000/061833_hr1.tex/061833_hr1.tex",
+		"ui/icon/061000/061817_hr1.tex": "ui/icon/061000/061817_hr1.tex/061817_hr1.tex",
+		"ui/icon/060000/060122_hr1.tex": "ui/icon/060000/060122_hr1.tex/060122_hr1.tex",
+		"ui/icon/060000/060155_hr1.tex": "ui/icon/060000/060155_hr1.tex/060155_hr1.tex",
+		"ui/icon/061000/061832_hr1.tex": "ui/icon/061000/061832_hr1.tex/061832_hr1.tex",
+		"ui/icon/061000/061754_hr1.tex": "ui/icon/061000/061754_hr1.tex/061754_hr1.tex",
+		"ui/icon/061000/061834_hr1.tex": "ui/icon/061000/061834_hr1.tex/061834_hr1.tex",
+		"ui/icon/060000/060109_hr1.tex": "ui/icon/060000/060109_hr1.tex/060109_hr1.tex",
+		"ui/icon/060000/060112_hr1.tex": "ui/icon/060000/060112_hr1.tex/060112_hr1.tex",
+		"ui/icon/000000/000036_hr1.tex": "ui/icon/000000/000036_hr1.tex/000036_hr1.tex",
+		"ui/icon/060000/060151_hr1.tex": "ui/icon/060000/060151_hr1.tex/060151_hr1.tex",
+		"ui/icon/060000/060153_hr1.tex": "ui/icon/060000/060153_hr1.tex/060153_hr1.tex",
+		"ui/icon/072000/072696_hr1.tex": "ui/icon/072000/072696_hr1.tex/072696_hr1.tex",
+		"ui/icon/061000/061907_hr1.tex": "ui/icon/061000/061907_hr1.tex/061907_hr1.tex",
+		"ui/icon/061000/061904_hr1.tex": "ui/icon/061000/061904_hr1.tex/061904_hr1.tex",
+		"ui/icon/060000/060185_hr1.tex": "ui/icon/060000/060185_hr1.tex/060185_hr1.tex",
+		"ui/icon/061000/061824_hr1.tex": "ui/icon/061000/061824_hr1.tex/061824_hr1.tex",
+		"ui/icon/072000/072691_hr1.tex": "ui/icon/072000/072691_hr1.tex/072691_hr1.tex",
+		"ui/icon/060000/060132_hr1.tex": "ui/icon/060000/060132_hr1.tex/060132_hr1.tex",
+		"ui/icon/062000/062574_hr1.tex": "ui/icon/062000/062574_hr1.tex/062574_hr1.tex",
+		"ui/icon/000000/000043_hr1.tex": "ui/icon/000000/000043_hr1.tex/000043_hr1.tex",
+		"ui/icon/061000/061752_hr1.tex": "ui/icon/061000/061752_hr1.tex/061752_hr1.tex",
+		"ui/icon/061000/061835_hr1.tex": "ui/icon/061000/061835_hr1.tex/061835_hr1.tex",
+		"ui/icon/061000/061809_hr1.tex": "ui/icon/061000/061809_hr1.tex/061809_hr1.tex",
+		"ui/icon/082000/082092_hr1.tex": "ui/icon/082000/082092_hr1.tex/082092_hr1.tex",
+		"ui/icon/060000/060121_hr1.tex": "ui/icon/060000/060121_hr1.tex/060121_hr1.tex",
+		"ui/icon/000000/000089_hr1.tex": "ui/icon/000000/000089_hr1.tex/000089_hr1.tex",
+		"ui/icon/060000/060108_hr1.tex": "ui/icon/060000/060108_hr1.tex/060108_hr1.tex",
+		"ui/icon/061000/061762_hr1.tex": "ui/icon/061000/061762_hr1.tex/061762_hr1.tex",
+		"ui/icon/072000/072750_hr1.tex": "ui/icon/072000/072750_hr1.tex/072750_hr1.tex",
+		"ui/icon/060000/060105_hr1.tex": "ui/icon/060000/060105_hr1.tex/060105_hr1.tex",
+		"ui/icon/060000/060161_hr1.tex": "ui/icon/060000/060161_hr1.tex/060161_hr1.tex",
+		"ui/icon/072000/072690_hr1.tex": "ui/icon/072000/072690_hr1.tex/072690_hr1.tex",
+		"ui/icon/060000/060123_hr1.tex": "ui/icon/060000/060123_hr1.tex/060123_hr1.tex",
+		"ui/icon/060000/060168_hr1.tex": "ui/icon/060000/060168_hr1.tex/060168_hr1.tex",
+		"ui/icon/000000/000037_hr1.tex": "ui/icon/000000/000037_hr1.tex/000037_hr1.tex",
+		"ui/icon/000000/000080_hr1.tex": "ui/icon/000000/000080_hr1.tex/000080_hr1.tex",
+		"ui/icon/061000/061902_hr1.tex": "ui/icon/061000/061902_hr1.tex/061902_hr1.tex",
+		"ui/icon/060000/060150_hr1.tex": "ui/icon/060000/060150_hr1.tex/060150_hr1.tex",
+		"ui/icon/060000/060171_hr1.tex": "ui/icon/060000/060171_hr1.tex/060171_hr1.tex",
+		"ui/icon/060000/060145_hr1.tex": "ui/icon/060000/060145_hr1.tex/060145_hr1.tex",
+		"ui/icon/072000/072695_hr1.tex": "ui/icon/072000/072695_hr1.tex/072695_hr1.tex",
+		"ui/icon/061000/061838_hr1.tex": "ui/icon/061000/061838_hr1.tex/061838_hr1.tex",
+		"ui/icon/072000/072744_hr1.tex": "ui/icon/072000/072744_hr1.tex/072744_hr1.tex",
+		"ui/icon/060000/060110_hr1.tex": "ui/icon/060000/060110_hr1.tex/060110_hr1.tex",
+		"ui/icon/061000/061911_hr1.tex": "ui/icon/061000/061911_hr1.tex/061911_hr1.tex",
+		"ui/icon/000000/000079_hr1.tex": "ui/icon/000000/000079_hr1.tex/000079_hr1.tex",
+		"ui/icon/072000/072708_hr1.tex": "ui/icon/072000/072708_hr1.tex/072708_hr1.tex",
+		"ui/icon/060000/060176_hr1.tex": "ui/icon/060000/060176_hr1.tex/060176_hr1.tex",
+		"ui/icon/060000/060137_hr1.tex": "ui/icon/060000/060137_hr1.tex/060137_hr1.tex",
+		"ui/icon/062000/062503_hr1.tex": "ui/icon/062000/062503_hr1.tex/062503_hr1.tex",
+		"ui/icon/060000/060157_hr1.tex": "ui/icon/060000/060157_hr1.tex/060157_hr1.tex",
+		"ui/icon/072000/072753_hr1.tex": "ui/icon/072000/072753_hr1.tex/072753_hr1.tex",
+		"ui/icon/061000/061753_hr1.tex": "ui/icon/061000/061753_hr1.tex/061753_hr1.tex",
+		"ui/icon/072000/072698_hr1.tex": "ui/icon/072000/072698_hr1.tex/072698_hr1.tex",
+		"ui/icon/072000/072745_hr1.tex": "ui/icon/072000/072745_hr1.tex/072745_hr1.tex",
+		"ui/icon/062000/062204_hr1.tex": "ui/icon/062000/062204_hr1.tex/062204_hr1.tex",
+		"ui/icon/072000/072686_hr1.tex": "ui/icon/072000/072686_hr1.tex/072686_hr1.tex",
+		"ui/icon/061000/061764_hr1.tex": "ui/icon/061000/061764_hr1.tex/061764_hr1.tex",
+		"ui/icon/072000/072741_hr1.tex": "ui/icon/072000/072741_hr1.tex/072741_hr1.tex",
+		"ui/icon/061000/061847_hr1.tex": "ui/icon/061000/061847_hr1.tex/061847_hr1.tex",
+		"ui/icon/060000/060160_hr1.tex": "ui/icon/060000/060160_hr1.tex/060160_hr1.tex",
+		"ui/icon/000000/000042_hr1.tex": "ui/icon/000000/000042_hr1.tex/000042_hr1.tex",
+		"ui/icon/060000/060164_hr1.tex": "ui/icon/060000/060164_hr1.tex/060164_hr1.tex",
+		"ui/icon/061000/061837_hr1.tex": "ui/icon/061000/061837_hr1.tex/061837_hr1.tex",
+		"ui/icon/060000/060152_hr1.tex": "ui/icon/060000/060152_hr1.tex/060152_hr1.tex",
+		"ui/icon/060000/060182_hr1.tex": "ui/icon/060000/060182_hr1.tex/060182_hr1.tex",
+		"ui/icon/061000/061802_hr1.tex": "ui/icon/061000/061802_hr1.tex/061802_hr1.tex",
+		"ui/icon/061000/061905_hr1.tex": "ui/icon/061000/061905_hr1.tex/061905_hr1.tex",
+		"ui/icon/000000/000045_hr1.tex": "ui/icon/000000/000045_hr1.tex/000045_hr1.tex",
+		"ui/icon/062000/062509_hr1.tex": "ui/icon/062000/062509_hr1.tex/062509_hr1.tex",
+		"ui/icon/062000/062512_hr1.tex": "ui/icon/062000/062512_hr1.tex/062512_hr1.tex",
+		"ui/icon/072000/072756_hr1.tex": "ui/icon/072000/072756_hr1.tex/072756_hr1.tex",
+		"ui/icon/061000/061810_hr1.tex": "ui/icon/061000/061810_hr1.tex/061810_hr1.tex",
+		"ui/icon/061000/061805_hr1.tex": "ui/icon/061000/061805_hr1.tex/061805_hr1.tex",
+		"ui/icon/061000/061819_hr1.tex": "ui/icon/061000/061819_hr1.tex/061819_hr1.tex",
+		"ui/icon/060000/060174_hr1.tex": "ui/icon/060000/060174_hr1.tex/060174_hr1.tex",
+		"ui/icon/061000/061903_hr1.tex": "ui/icon/061000/061903_hr1.tex/061903_hr1.tex",
+		"ui/icon/060000/060113_hr1.tex": "ui/icon/060000/060113_hr1.tex/060113_hr1.tex",
+		"ui/icon/072000/072709_hr1.tex": "ui/icon/072000/072709_hr1.tex/072709_hr1.tex",
+		"ui/icon/061000/061806_hr1.tex": "ui/icon/061000/061806_hr1.tex/061806_hr1.tex",
+		"ui/icon/061000/061912_hr1.tex": "ui/icon/061000/061912_hr1.tex/061912_hr1.tex",
+		"ui/icon/072000/072702_hr1.tex": "ui/icon/072000/072702_hr1.tex/072702_hr1.tex",
+		"ui/icon/072000/072693_hr1.tex": "ui/icon/072000/072693_hr1.tex/072693_hr1.tex",
+		"ui/icon/060000/060147_hr1.tex": "ui/icon/060000/060147_hr1.tex/060147_hr1.tex",
+		"ui/icon/061000/061908_hr1.tex": "ui/icon/061000/061908_hr1.tex/061908_hr1.tex",
+		"ui/icon/072000/072688_hr1.tex": "ui/icon/072000/072688_hr1.tex/072688_hr1.tex",
+		"ui/icon/060000/060107_hr1.tex": "ui/icon/060000/060107_hr1.tex/060107_hr1.tex",
+		"ui/icon/000000/000060_hr1.tex": "ui/icon/000000/000060_hr1.tex/000060_hr1.tex",
+		"ui/icon/061000/061761_hr1.tex": "ui/icon/061000/061761_hr1.tex/061761_hr1.tex",
+		"ui/icon/061000/061818_hr1.tex": "ui/icon/061000/061818_hr1.tex/061818_hr1.tex",
+		"ui/icon/062000/062506_hr1.tex": "ui/icon/062000/062506_hr1.tex/062506_hr1.tex",
+		"ui/icon/062000/062508_hr1.tex": "ui/icon/062000/062508_hr1.tex/062508_hr1.tex",
+		"ui/icon/061000/061811_hr1.tex": "ui/icon/061000/061811_hr1.tex/061811_hr1.tex",
+		"ui/icon/061000/061814_hr1.tex": "ui/icon/061000/061814_hr1.tex/061814_hr1.tex",
+		"ui/icon/060000/060159_hr1.tex": "ui/icon/060000/060159_hr1.tex/060159_hr1.tex",
+		"ui/icon/061000/061821_hr1.tex": "ui/icon/061000/061821_hr1.tex/061821_hr1.tex",
+		"ui/icon/065000/065002_hr1.tex": "ui/icon/065000/065002_hr1.tex/065002_hr1.tex",
+		"ui/icon/082000/082091_hr1.tex": "ui/icon/082000/082091_hr1.tex/082091_hr1.tex",
+		"ui/icon/060000/060443_hr1.tex": "ui/icon/060000/060443_hr1.tex/060443_hr1.tex",
+		"ui/icon/072000/072687_hr1.tex": "ui/icon/072000/072687_hr1.tex/072687_hr1.tex",
+		"ui/icon/060000/060144_hr1.tex": "ui/icon/060000/060144_hr1.tex/060144_hr1.tex",
+		"ui/icon/062000/062573_hr1.tex": "ui/icon/062000/062573_hr1.tex/062573_hr1.tex",
+		"ui/icon/060000/060181_hr1.tex": "ui/icon/060000/060181_hr1.tex/060181_hr1.tex",
+		"ui/icon/072000/072751_hr1.tex": "ui/icon/072000/072751_hr1.tex/072751_hr1.tex",
+		"ui/icon/061000/061827_hr1.tex": "ui/icon/061000/061827_hr1.tex/061827_hr1.tex",
+		"ui/icon/062000/062572_hr1.tex": "ui/icon/062000/062572_hr1.tex/062572_hr1.tex",
+		"ui/icon/061000/061916_hr1.tex": "ui/icon/061000/061916_hr1.tex/061916_hr1.tex",
+		"ui/icon/061000/061765_hr1.tex": "ui/icon/061000/061765_hr1.tex/061765_hr1.tex",
+		"ui/icon/060000/060142_hr1.tex": "ui/icon/060000/060142_hr1.tex/060142_hr1.tex",
+		"ui/icon/060000/060114_hr1.tex": "ui/icon/060000/060114_hr1.tex/060114_hr1.tex",
+		"ui/icon/072000/072685_hr1.tex": "ui/icon/072000/072685_hr1.tex/072685_hr1.tex",
+		"ui/icon/062000/062575_hr1.tex": "ui/icon/062000/062575_hr1.tex/062575_hr1.tex",
+		"ui/icon/060000/060131_hr1.tex": "ui/icon/060000/060131_hr1.tex/060131_hr1.tex",
+		"ui/icon/061000/061812_hr1.tex": "ui/icon/061000/061812_hr1.tex/061812_hr1.tex",
+		"ui/icon/060000/060156_hr1.tex": "ui/icon/060000/060156_hr1.tex/060156_hr1.tex",
+		"ui/icon/000000/000039_hr1.tex": "ui/icon/000000/000039_hr1.tex/000039_hr1.tex",
+		"ui/icon/060000/060103_hr1.tex": "ui/icon/060000/060103_hr1.tex/060103_hr1.tex",
+		"ui/icon/061000/061760_hr1.tex": "ui/icon/061000/061760_hr1.tex/061760_hr1.tex",
+		"ui/icon/060000/060141_hr1.tex": "ui/icon/060000/060141_hr1.tex/060141_hr1.tex",
+		"ui/icon/072000/072742_hr1.tex": "ui/icon/072000/072742_hr1.tex/072742_hr1.tex",
+		"ui/icon/061000/061831_hr1.tex": "ui/icon/061000/061831_hr1.tex/061831_hr1.tex",
+		"ui/icon/060000/060178_hr1.tex": "ui/icon/060000/060178_hr1.tex/060178_hr1.tex",
+		"ui/icon/072000/072704_hr1.tex": "ui/icon/072000/072704_hr1.tex/072704_hr1.tex",
+		"ui/icon/072000/072701_hr1.tex": "ui/icon/072000/072701_hr1.tex/072701_hr1.tex",
+		"ui/icon/072000/072743_hr1.tex": "ui/icon/072000/072743_hr1.tex/072743_hr1.tex",
+		"ui/icon/060000/060130_hr1.tex": "ui/icon/060000/060130_hr1.tex/060130_hr1.tex",
+		"ui/icon/061000/061917_hr1.tex": "ui/icon/061000/061917_hr1.tex/061917_hr1.tex",
+		"ui/icon/060000/060118_hr1.tex": "ui/icon/060000/060118_hr1.tex/060118_hr1.tex",
+		"ui/icon/060000/060183_hr1.tex": "ui/icon/060000/060183_hr1.tex/060183_hr1.tex",
+		"ui/icon/072000/072697_hr1.tex": "ui/icon/072000/072697_hr1.tex/072697_hr1.tex",
+		"ui/icon/060000/060149_hr1.tex": "ui/icon/060000/060149_hr1.tex/060149_hr1.tex",
+		"ui/icon/061000/061910_hr1.tex": "ui/icon/061000/061910_hr1.tex/061910_hr1.tex",
+		"ui/icon/061000/061906_hr1.tex": "ui/icon/061000/061906_hr1.tex/061906_hr1.tex",
+		"ui/icon/060000/060101_hr1.tex": "ui/icon/060000/060101_hr1.tex/060101_hr1.tex",
+		"ui/icon/061000/061758_hr1.tex": "ui/icon/061000/061758_hr1.tex/061758_hr1.tex",
+		"ui/icon/060000/060129_hr1.tex": "ui/icon/060000/060129_hr1.tex/060129_hr1.tex",
+		"ui/icon/072000/072681_hr1.tex": "ui/icon/072000/072681_hr1.tex/072681_hr1.tex",
+		"ui/icon/060000/060166_hr1.tex": "ui/icon/060000/060166_hr1.tex/060166_hr1.tex",
+		"ui/icon/061000/061807_hr1.tex": "ui/icon/061000/061807_hr1.tex/061807_hr1.tex",
+		"ui/icon/061000/061828_hr1.tex": "ui/icon/061000/061828_hr1.tex/061828_hr1.tex",
+		"ui/icon/061000/061914_hr1.tex": "ui/icon/061000/061914_hr1.tex/061914_hr1.tex",
+		"ui/icon/072000/072689_hr1.tex": "ui/icon/072000/072689_hr1.tex/072689_hr1.tex",
+		"ui/icon/062000/062202_hr1.tex": "ui/icon/062000/062202_hr1.tex/062202_hr1.tex",
+		"ui/icon/060000/060177_hr1.tex": "ui/icon/060000/060177_hr1.tex/060177_hr1.tex",
+		"ui/icon/060000/060167_hr1.tex": "ui/icon/060000/060167_hr1.tex/060167_hr1.tex",
+		"ui/icon/061000/061836_hr1.tex": "ui/icon/061000/061836_hr1.tex/061836_hr1.tex",
+		"ui/icon/061000/061766_hr1.tex": "ui/icon/061000/061766_hr1.tex/061766_hr1.tex",
+		"ui/icon/061000/061909_hr1.tex": "ui/icon/061000/061909_hr1.tex/061909_hr1.tex",
+		"ui/icon/062000/062510_hr1.tex": "ui/icon/062000/062510_hr1.tex/062510_hr1.tex",
+		"ui/icon/060000/060180_hr1.tex": "ui/icon/060000/060180_hr1.tex/060180_hr1.tex",
+		"ui/icon/061000/061801_hr1.tex": "ui/icon/061000/061801_hr1.tex/061801_hr1.tex",
+		"ui/icon/061000/061913_hr1.tex": "ui/icon/061000/061913_hr1.tex/061913_hr1.tex",
+		"ui/icon/060000/060081_hr1.tex": "ui/icon/060000/060081_hr1.tex/060081_hr1.tex",
+		"ui/icon/062000/062505_hr1.tex": "ui/icon/062000/062505_hr1.tex/062505_hr1.tex",
+		"ui/icon/060000/060134_hr1.tex": "ui/icon/060000/060134_hr1.tex/060134_hr1.tex",
+		"ui/icon/060000/060165_hr1.tex": "ui/icon/060000/060165_hr1.tex/060165_hr1.tex",
+		"ui/icon/061000/061825_hr1.tex": "ui/icon/061000/061825_hr1.tex/061825_hr1.tex",
+		"ui/icon/061000/061763_hr1.tex": "ui/icon/061000/061763_hr1.tex/061763_hr1.tex",
+		"ui/icon/061000/061815_hr1.tex": "ui/icon/061000/061815_hr1.tex/061815_hr1.tex",
+		"ui/icon/061000/061816_hr1.tex": "ui/icon/061000/061816_hr1.tex/061816_hr1.tex",
+		"ui/icon/061000/061830_hr1.tex": "ui/icon/061000/061830_hr1.tex/061830_hr1.tex",
+		"ui/icon/061000/061820_hr1.tex": "ui/icon/061000/061820_hr1.tex/061820_hr1.tex",
+		"ui/icon/082000/082093_hr1.tex": "ui/icon/082000/082093_hr1.tex/082093_hr1.tex",
+		"ui/icon/060000/060135_hr1.tex": "ui/icon/060000/060135_hr1.tex/060135_hr1.tex",
+		"ui/icon/062000/062571_hr1.tex": "ui/icon/062000/062571_hr1.tex/062571_hr1.tex",
+		"ui/icon/060000/060140_hr1.tex": "ui/icon/060000/060140_hr1.tex/060140_hr1.tex",
+		"ui/icon/072000/072692_hr1.tex": "ui/icon/072000/072692_hr1.tex/072692_hr1.tex",
+		"ui/icon/060000/060124_hr1.tex": "ui/icon/060000/060124_hr1.tex/060124_hr1.tex",
+		"ui/icon/060000/060175_hr1.tex": "ui/icon/060000/060175_hr1.tex/060175_hr1.tex",
+		"ui/icon/060000/060186_hr1.tex": "ui/icon/060000/060186_hr1.tex/060186_hr1.tex",
+		"ui/icon/072000/072699_hr1.tex": "ui/icon/072000/072699_hr1.tex/072699_hr1.tex",
+		"ui/icon/060000/060120_hr1.tex": "ui/icon/060000/060120_hr1.tex/060120_hr1.tex",
+		"ui/icon/000000/000046_hr1.tex": "ui/icon/000000/000046_hr1.tex/000046_hr1.tex",
+		"ui/icon/072000/072705_hr1.tex": "ui/icon/072000/072705_hr1.tex/072705_hr1.tex",
+		"ui/icon/061000/061803_hr1.tex": "ui/icon/061000/061803_hr1.tex/061803_hr1.tex",
+		"ui/icon/072000/072682_hr1.tex": "ui/icon/072000/072682_hr1.tex/072682_hr1.tex",
+		"ui/icon/061000/061813_hr1.tex": "ui/icon/061000/061813_hr1.tex/061813_hr1.tex",
+		"ui/icon/060000/060148_hr1.tex": "ui/icon/060000/060148_hr1.tex/060148_hr1.tex",
+		"ui/icon/062000/062507_hr1.tex": "ui/icon/062000/062507_hr1.tex/062507_hr1.tex",
+		"ui/icon/072000/072694_hr1.tex": "ui/icon/072000/072694_hr1.tex/072694_hr1.tex",
+		"ui/icon/061000/061879_hr1.tex": "ui/icon/061000/061879_hr1.tex/061879_hr1.tex",
+		"ui/icon/061000/061751_hr1.tex": "ui/icon/061000/061751_hr1.tex/061751_hr1.tex",
+		"ui/icon/072000/072755_hr1.tex": "ui/icon/072000/072755_hr1.tex/072755_hr1.tex",
+		"ui/icon/060000/060115_hr1.tex": "ui/icon/060000/060115_hr1.tex/060115_hr1.tex",
+		"ui/icon/060000/060172_hr1.tex": "ui/icon/060000/060172_hr1.tex/060172_hr1.tex",
+		"ui/icon/060000/060119_hr1.tex": "ui/icon/060000/060119_hr1.tex/060119_hr1.tex",
+		"ui/icon/000000/000044_hr1.tex": "ui/icon/000000/000044_hr1.tex/000044_hr1.tex",
+		"ui/icon/072000/072684_hr1.tex": "ui/icon/072000/072684_hr1.tex/072684_hr1.tex",
+		"ui/icon/061000/061808_hr1.tex": "ui/icon/061000/061808_hr1.tex/061808_hr1.tex",
+		"ui/icon/061000/061826_hr1.tex": "ui/icon/061000/061826_hr1.tex/061826_hr1.tex",
+		"ui/icon/062000/062502_hr1.tex": "ui/icon/062000/062502_hr1.tex/062502_hr1.tex",
+		"ui/icon/072000/072752_hr1.tex": "ui/icon/072000/072752_hr1.tex/072752_hr1.tex",
+		"ui/icon/060000/060128_hr1.tex": "ui/icon/060000/060128_hr1.tex/060128_hr1.tex",
+		"ui/icon/060000/060138_hr1.tex": "ui/icon/060000/060138_hr1.tex/060138_hr1.tex",
+		"ui/icon/061000/061759_hr1.tex": "ui/icon/061000/061759_hr1.tex/061759_hr1.tex",
+		"ui/icon/072000/072749_hr1.tex": "ui/icon/072000/072749_hr1.tex/072749_hr1.tex",
+		"ui/icon/072000/072706_hr1.tex": "ui/icon/072000/072706_hr1.tex/072706_hr1.tex",
+		"ui/icon/062000/062511_hr1.tex": "ui/icon/062000/062511_hr1.tex/062511_hr1.tex",
+		"ui/icon/072000/072700_hr1.tex": "ui/icon/072000/072700_hr1.tex/072700_hr1.tex",
+		"ui/icon/060000/060184_hr1.tex": "ui/icon/060000/060184_hr1.tex/060184_hr1.tex",
+		"ui/icon/060000/060102_hr1.tex": "ui/icon/060000/060102_hr1.tex/060102_hr1.tex",
+		"ui/icon/062000/062504_hr1.tex": "ui/icon/062000/062504_hr1.tex/062504_hr1.tex",
+		"ui/icon/060000/060126_hr1.tex": "ui/icon/060000/060126_hr1.tex/060126_hr1.tex",
+		"ui/icon/061000/061757_hr1.tex": "ui/icon/061000/061757_hr1.tex/061757_hr1.tex"
+	},
+	"file_swaps": {},
+	"manipulations": [],
+	"plugin_settings": {
+		"dalamud": null
+	}
 }

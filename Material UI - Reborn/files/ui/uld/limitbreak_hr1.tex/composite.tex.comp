@@ -1,0 +1,44 @@
+{
+	"layers": [
+		{
+			"name": "underlay",
+			"path": {
+				"Mod": "ui/uld/limitbreak_hr1.tex/underlay.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_limitbreak1",
+			"path": {
+				"Mod": "ui/uld/limitbreak_hr1.tex/overlay_limitbreak1.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Limit Break Filling"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_limitbreak2",
+			"path": {
+				"Mod": "ui/uld/limitbreak_hr1.tex/overlay_limitbreak2.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Limit Break Full"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"layers": [
+		{
+			"name": "overlay_recast",
+			"path": {
+				"Mod": "ui/uld/icona_recast_hr1.tex/overlay_recast.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Recast"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		}
+	]
+}

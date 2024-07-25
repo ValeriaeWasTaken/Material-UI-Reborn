@@ -1,0 +1,44 @@
+{
+	"layers": [
+		{
+			"name": "underlay",
+			"path": {
+				"Mod": "ui/uld/partylisttargetbase_hr1.tex/underlay.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_accent",
+			"path": {
+				"Mod": "ui/uld/partylisttargetbase_hr1.tex/overlay_accent.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Accent"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_party",
+			"path": {
+				"Mod": "ui/uld/partylisttargetbase_hr1.tex/overlay_party.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Party and Alliance List Target"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		}
+	]
+}
