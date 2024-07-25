@@ -9,7 +9,7 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 - [ ] Take a look at VPR Job Bar for any possible edits
 - [ ] Also take a look at PCT Canvas for any potential edits
 - [x] VPR and PCT Marketboard icons are still WIPs
-- [ ] Term Filter icons are broken
+- [x] Term Filter icons are broken
 - [x] Facewear Icon is still missing from equipment screen
 - [ ] Dawntrail Teleport icon doesnt read properly as ocean waves, redo it.
 
