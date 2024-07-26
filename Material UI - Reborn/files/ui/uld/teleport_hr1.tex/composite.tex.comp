@@ -1,0 +1,12 @@
+{
+	"layers": [
+		{
+			"name": "underlay",
+			"path": {
+				"Mod": "ui/uld/teleport_hr1.tex/underlay.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		}
+	]
+}
