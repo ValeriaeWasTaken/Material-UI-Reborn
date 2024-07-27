@@ -1,17 +1,16 @@
 Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 
-> [!NOTE]
-> Due to the original using a custom plugin for installation, and this being a penumbra texture pack with the primary goal of being functional in DT. 
-> It is no longer possible to customize colors on certain elements.  
-> Similar functionality might be implemented using penumbra in the future. Maybe even getting the plugin updated. Options are being explored.
-> 
 ### Known Issues/Plans
 - [ ] Take a look at VPR Job Bar for any possible edits
 - [ ] Also take a look at PCT Canvas for any potential edits
-- [ ] Look into getting a plugin version of this made.
-- [ ] Add customization in the meanwhile?
 
 ---
+### v4 | Converted to an aetherment modpack
+    - Customizing colors is possible now! All your accents colors are back.
+    - Cleaned up VPR and PCT icons some more
+
+-----------------------------------------------------------------
+
 ### v3 | Finishing up UI fixes and some improvements
     - Teleport icon for Dawntrail redone.
     - Term Filter preview icons are longer broken.
