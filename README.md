@@ -5,10 +5,11 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 > Feel free to report any issues to TacoVFX "ember" on discord or put up an issue on this page
 
 ### Installation
-1. Install this plugin https://github.com/Sevii77/aetherment
-2. Open up the plugin window and download MUI-Reborn from there
-3. Customize your colors then hit apply
-4. Restart game
+1. Install Penumbra - https://github.com/xivdev/Penumbra
+2. Install Aetherment https://github.com/Sevii77/aetherment
+3. Open up Aetherment with /aetherment and download MUI-Reborn from there
+4. Customize your colors then hit apply
+5. Restart game
 
 ### Known Issues/Plans
 - [ ] Square Party Icons and Macro Icons! Now that the aetherment port is out of the way finally deliver on these
