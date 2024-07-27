@@ -6,7 +6,7 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 
 ### Installation
 1. Install this plugin https://github.com/Sevii77/aetherment
-2. Open up the plugin window and download MUI from there
+2. Open up the plugin window and download MUI-Reborn from there
 3. Customize your colors then hit apply
 4. Restart game
 
