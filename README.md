@@ -1,7 +1,7 @@
 Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 
 > [!NOTE]
-> The converstion from standalone penumbra modpack to aetherment might potentially break a couple things 
+> The conversion from standalone penumbra modpack to aetherment might potentially break a couple things 
 > Feel free to report any issues to TacoVFX "ember" on discord or put up an issue on this page
 
 ### Installation
