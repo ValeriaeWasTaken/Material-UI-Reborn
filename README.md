@@ -15,6 +15,9 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 - [ ] Take a look at VPR Job Bar for any possible edits
 - [ ] Also take a look at PCT Canvas for any potential edits
 
+For those of you who wanted to tip some coffee <3
+https://ko-fi.com/valeriae
+
 ---
 ### v4 | Converted to an aetherment modpack
     - Customizing colors is possible now! All your accents colors are back.
