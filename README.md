@@ -12,6 +12,8 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 5. Restart your game.
    
 ### Known Issues/Plans
+- [ ] Materia Icons regressed and are broken again
+- [ ] Cast bars are hard to see.
 - [ ] Square Party Icons and Macro Icons! Now that the aetherment port is out of the way finally deliver on these.
 - [ ] High contrast shield setting is alot more subtle than intended, make it stronger.
 - [ ] Take a look at VPR Job Bar for any possible edits.
