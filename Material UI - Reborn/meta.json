@@ -2,14 +2,13 @@
 	"name": "Material UI - Reborn",
 	"description": "A continuation of Material UI by skotlex & Sevii",
 	"author": "TacoVFX, Sevii",
-	"version": "MaterialUI-Reborn_7.0.1-v4",
+	"version": "7.0.1.04",
 	"website": "https://github.com/ValeriaeWasTaken/Material-UI-Reborn",
 	"tags": [
 		"Ui"
 	],
 	"dependencies": [],
 	"options": [
-		
 		{
 			"name": "Selected Window",
 			"description": "",
@@ -136,119 +135,9 @@
 			"settings": {
 				"Rgb": {
 					"default": [
-						0.38823529411764707,
-						0.23529411764705882,
-						0.7098039215686275
-					],
-					"min": [
-						0.0,
-						0.0,
-						0.0
-					],
-					"max": [
-						1.0,
-						1.0,
+						0.7686274509803922,
+						0.3803921568627451,
 						1.0
-					]
-				}
-			}
-		},
-		{
-			"name": "Party and Alliance Background",
-			"description": "",
-			"settings": {
-				"SingleFiles": {
-					"default": 0,
-					"options": [
-						{
-							"name": "Default",
-							"description": "",
-							"inherit": null,
-							"files": {
-								"ui/uld/alliance_hr1.tex.comp": "ui/uld/alliance_hr1.tex/Party and Alliance Background/Default/composite.tex.comp",
-								"ui/uld/partylist_bg_hr1.tex": "ui/uld/partylist_bg_hr1.tex/Party and Alliance Background/Default/partylist_bg_hr1.tex"
-							},
-							"file_swaps": {},
-							"manipulations": []
-						},
-						{
-							"name": "Transparent",
-							"description": "",
-							"inherit": null,
-							"files": {
-								"ui/uld/alliance_hr1.tex.comp": "ui/uld/alliance_hr1.tex/Party and Alliance Background/Transparent/composite.tex.comp",
-								"ui/uld/partylist_bg_hr1.tex.comp": "ui/uld/partylist_bg_hr1.tex/Party and Alliance Background/Transparent/composite.tex.comp"
-							},
-							"file_swaps": {},
-							"manipulations": []
-						}
-					]
-				}
-			}
-		},
-		{
-			"name": "Party List Shield Display",
-			"description": "Toggle between original and high contrast display of shields",
-			"settings": {
-				"SingleFiles": {
-					"default": 0,
-					"options": [
-						{
-							"name": "Original",
-							"description": "",
-							"inherit": null,
-							"files": {
-								"ui/uld/partylist_bg_hr1.tex": "ui/uld/partylist_gaugehp_hr1.tex/original/composite.tex.comp"
-							},
-							"file_swaps": {},
-							"manipulations": []
-						},
-						{
-							"name": "High Contrast",
-							"description": "",
-							"inherit": null,
-							"files": {
-								"ui/uld/partylist_bg_hr1.tex": "ui/uld/partylist_gaugehp_hr1.tex/contrast/composite.tex.comp"
-							},
-							"file_swaps": {},
-							"manipulations": []
-						}
-					]
-				}
-			}
-		},
-		{
-			"name": "Party List Shield Color",
-			"description": "",
-			"settings": {
-				"Rgb": {
-					"default": [
-						1.0,
-						0.8274509803921568,
-						0.0
-					],
-					"min": [
-						0.0,
-						0.0,
-						0.0
-					],
-					"max": [
-						1.0,
-						1.0,
-						1.0
-					]
-				}
-			}
-		},
-		{
-			"name": "Party and Alliance List Target",
-			"description": "",
-			"settings": {
-				"Rgb": {
-					"default": [
-						1.0,
-						0.6784313725490196,
-						0.2196078431372549
 					],
 					"min": [
 						0.0,
@@ -265,7 +154,7 @@
 		},
 		{
 			"name": "Job Icons - Party List",
-			"description": "",
+			"description": "Which Class/Job Icon style to use in the party list and certain menus",
 			"settings": {
 				"SingleFiles": {
 					"default": 0,
@@ -384,7 +273,7 @@
 		},
 		{
 			"name": "Job Icons - Contents",
-			"description": "",
+			"description": "Which Class/Job Icon style to use in certain menus and next to character names",
 			"settings": {
 				"SingleFiles": {
 					"default": 0,
@@ -547,14 +436,101 @@
 			}
 		},
 		{
-			"name": "Ability Proc",
+			"name": "Party and Alliance Background",
 			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Default",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/alliance_hr1.tex.comp": "ui/uld/alliance_hr1.tex/Party and Alliance Background/Default/composite.tex.comp",
+								"ui/uld/partylist_bg_hr1.tex": "ui/uld/partylist_bg_hr1.tex/Party and Alliance Background/Default/partylist_bg_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Transparent",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/alliance_hr1.tex.comp": "ui/uld/alliance_hr1.tex/Party and Alliance Background/Transparent/composite.tex.comp",
+								"ui/uld/partylist_bg_hr1.tex.comp": "ui/uld/partylist_bg_hr1.tex/Party and Alliance Background/Transparent/composite.tex.comp"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Party List Shield Display",
+			"description": "Toggle between original and high contrast display of shields",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Original",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/partylist_gaugehp_hr1.tex.comp": "ui/uld/partylist_gaugehp_hr1.tex/original/composite.tex.comp"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "High Contrast",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/partylist_gaugehp_hr1.tex.comp": "ui/uld/partylist_gaugehp_hr1.tex/contrast/composite.tex.comp"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Party List Shield Color",
+			"description": "Which color to show shields in the party list",
+			"settings": {
+				"Rgb": {
+					"default": [
+						0.154,
+						0.936,
+						1.0
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Party and Alliance List Target",
+			"description": "Which color to highlight targeted party members on the party list",
 			"settings": {
 				"Rgb": {
 					"default": [
 						1.0,
-						0.6784313725490196,
-						0.2196078431372549
+						0.7882352941176471,
+						0.3529411764705882
 					],
 					"min": [
 						0.0,
@@ -571,6 +547,107 @@
 		},
 		{
 			"name": "Enemy List Target",
+			"description": "Which color to highlight targeted enemies on the enminity list",
+			"settings": {
+				"Rgb": {
+					"default": [
+						1.0,
+						0.7882352941176471,
+						0.3529411764705882
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Job Hud/Parameter bar",
+			"description": "Which hud style to use for parameter bars and related UI.",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Square",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/jobhudbrd0_hr1.tex": "ui/uld/jobhudbrd0_hr1.tex/Gauges/Square/jobhudbrd0_hr1.tex",
+								"ui/uld/jobhudmnk0_hr1.tex": "ui/uld/jobhudmnk0_hr1.tex/Gauges/Square/jobhudmnk0_hr1.tex",
+								"ui/uld/jobhudsam1_hr1.tex": "ui/uld/jobhudsam1_hr1.tex/Gauges/Square/jobhudsam1_hr1.tex",
+								"ui/uld/jobhudsmn1_hr1.tex": "ui/uld/jobhudsmn1_hr1.tex/Gauges/Square/jobhudsmn1_hr1.tex",
+								"ui/uld/jobhudsimple_stacka_hr1.tex": "ui/uld/jobhudsimple_stacka_hr1.tex/Gauges/Square/jobhudsimple_stacka_hr1.tex",
+								"ui/uld/jobhudsimple_stackb_hr1.tex": "ui/uld/jobhudsimple_stackb_hr1.tex/Gauges/Square/jobhudsimple_stackb_hr1.tex",
+								"ui/uld/parameter_gauge_hr1.tex": "ui/uld/parameter_gauge_hr1.tex/Gauges/Square/parameter_gauge_hr1.tex",
+								"ui/uld/parameter_gauge2_hr1.tex": "ui/uld/parameter_gauge2_hr1.tex/Gauges/Square/parameter_gauge2_hr1.tex",
+								"ui/uld/contentgauge_hr1.tex": "ui/uld/contentgauge_hr1.tex/Gauges/Square/contentgauge_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Silver",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/jobhudbrd0_hr1.tex": "ui/uld/jobhudbrd0_hr1.tex/Gauges/Silver/jobhudbrd0_hr1.tex",
+								"ui/uld/jobhudmnk0_hr1.tex": "ui/uld/jobhudmnk0_hr1.tex/Gauges/Silver/jobhudmnk0_hr1.tex",
+								"ui/uld/jobhudsam1_hr1.tex": "ui/uld/jobhudsam1_hr1.tex/Gauges/Silver/jobhudsam1_hr1.tex",
+								"ui/uld/jobhudsmn1_hr1.tex": "ui/uld/jobhudsmn1_hr1.tex/Gauges/Silver/jobhudsmn1_hr1.tex",
+								"ui/uld/jobhudsimple_stacka_hr1.tex": "ui/uld/jobhudsimple_stacka_hr1.tex/Gauges/Silver/jobhudsimple_stacka_hr1.tex",
+								"ui/uld/jobhudsimple_stackb_hr1.tex": "ui/uld/jobhudsimple_stackb_hr1.tex/Gauges/Silver/jobhudsimple_stackb_hr1.tex",
+								"ui/uld/parameter_gauge_hr1.tex": "ui/uld/parameter_gauge_hr1.tex/Gauges/Silver/parameter_gauge_hr1.tex",
+								"ui/uld/parameter_gauge2_hr1.tex": "ui/uld/parameter_gauge2_hr1.tex/Gauges/Silver/parameter_gauge2_hr1.tex",
+								"ui/uld/contentgauge_hr1.tex": "ui/uld/contentgauge_hr1.tex/Gauges/Silver/contentgauge_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Main Command Icons",
+			"description": "",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Solid Background",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/maincommand_icon_hr1.tex": "ui/uld/maincommand_icon_hr1.tex/Main Command Icons/Solid Background/maincommand_icon_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Transparent Background",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/maincommand_icon_hr1.tex": "ui/uld/maincommand_icon_hr1.tex/Main Command Icons/Transparent Background/maincommand_icon_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Ability Proc",
 			"description": "",
 			"settings": {
 				"Rgb": {
@@ -578,52 +655,6 @@
 						1.0,
 						0.6784313725490196,
 						0.2196078431372549
-					],
-					"min": [
-						0.0,
-						0.0,
-						0.0
-					],
-					"max": [
-						1.0,
-						1.0,
-						1.0
-					]
-				}
-			}
-		},
-		{
-			"name": "Target Castbar",
-			"description": "",
-			"settings": {
-				"Rgb": {
-					"default": [
-						0.8196078431372549,
-						0.5254901960784314,
-						0.043137254901960784
-					],
-					"min": [
-						0.0,
-						0.0,
-						0.0
-					],
-					"max": [
-						1.0,
-						1.0,
-						1.0
-					]
-				}
-			}
-		},
-		{
-			"name": "Target Castbar Interrupt",
-			"description": "",
-			"settings": {
-				"Rgb": {
-					"default": [
-						0.5450980392156862,
-						0.058823529411764705,
-						0.058823529411764705
 					],
 					"min": [
 						0.0,
@@ -703,99 +734,6 @@
 						1.0,
 						1.0,
 						1.0
-					]
-				}
-			}
-		},
-		{
-			"name": "Limit Break Filling",
-			"description": "",
-			"settings": {
-				"Rgb": {
-					"default": [
-						0.09803921568627451,
-						0.8627450980392157,
-						0.8705882352941177
-					],
-					"min": [
-						0.0,
-						0.0,
-						0.0
-					],
-					"max": [
-						1.0,
-						1.0,
-						1.0
-					]
-				}
-			}
-		},
-		{
-			"name": "Limit Break Full",
-			"description": "",
-			"settings": {
-				"Rgb": {
-					"default": [
-						0.7450980392156863,
-						0.38823529411764707,
-						0.8666666666666667
-					],
-					"min": [
-						0.0,
-						0.0,
-						0.0
-					],
-					"max": [
-						1.0,
-						1.0,
-						1.0
-					]
-				}
-			}
-		},
-		{
-			"name": "Gauges",
-			"description": "",
-			"settings": {
-				"SingleFiles": {
-					"default": 0,
-					"options": [
-						{
-							"name": "Square",
-							"description": "",
-							"inherit": null,
-							"files": {
-								"ui/uld/jobhudbrd0_hr1.tex": "ui/uld/jobhudbrd0_hr1.tex/Gauges/Square/jobhudbrd0_hr1.tex",
-								"ui/uld/jobhudmnk0_hr1.tex": "ui/uld/jobhudmnk0_hr1.tex/Gauges/Square/jobhudmnk0_hr1.tex",
-								"ui/uld/jobhudsam1_hr1.tex": "ui/uld/jobhudsam1_hr1.tex/Gauges/Square/jobhudsam1_hr1.tex",
-								"ui/uld/jobhudsmn1_hr1.tex": "ui/uld/jobhudsmn1_hr1.tex/Gauges/Square/jobhudsmn1_hr1.tex",
-								"ui/uld/jobhudsimple_stacka_hr1.tex": "ui/uld/jobhudsimple_stacka_hr1.tex/Gauges/Square/jobhudsimple_stacka_hr1.tex",
-								"ui/uld/jobhudsimple_stackb_hr1.tex": "ui/uld/jobhudsimple_stackb_hr1.tex/Gauges/Square/jobhudsimple_stackb_hr1.tex",
-								"ui/uld/parameter_gauge_hr1.tex": "ui/uld/parameter_gauge_hr1.tex/Gauges/Square/parameter_gauge_hr1.tex",
-								"ui/uld/parameter_gauge2_hr1.tex": "ui/uld/parameter_gauge2_hr1.tex/Gauges/Square/parameter_gauge2_hr1.tex",
-								"ui/uld/contentgauge_hr1.tex": "ui/uld/contentgauge_hr1.tex/Gauges/Square/contentgauge_hr1.tex"
-							},
-							"file_swaps": {},
-							"manipulations": []
-						},
-						{
-							"name": "Silver",
-							"description": "",
-							"inherit": null,
-							"files": {
-								"ui/uld/jobhudbrd0_hr1.tex": "ui/uld/jobhudbrd0_hr1.tex/Gauges/Silver/jobhudbrd0_hr1.tex",
-								"ui/uld/jobhudmnk0_hr1.tex": "ui/uld/jobhudmnk0_hr1.tex/Gauges/Silver/jobhudmnk0_hr1.tex",
-								"ui/uld/jobhudsam1_hr1.tex": "ui/uld/jobhudsam1_hr1.tex/Gauges/Silver/jobhudsam1_hr1.tex",
-								"ui/uld/jobhudsmn1_hr1.tex": "ui/uld/jobhudsmn1_hr1.tex/Gauges/Silver/jobhudsmn1_hr1.tex",
-								"ui/uld/jobhudsimple_stacka_hr1.tex": "ui/uld/jobhudsimple_stacka_hr1.tex/Gauges/Silver/jobhudsimple_stacka_hr1.tex",
-								"ui/uld/jobhudsimple_stackb_hr1.tex": "ui/uld/jobhudsimple_stackb_hr1.tex/Gauges/Silver/jobhudsimple_stackb_hr1.tex",
-								"ui/uld/parameter_gauge_hr1.tex": "ui/uld/parameter_gauge_hr1.tex/Gauges/Silver/parameter_gauge_hr1.tex",
-								"ui/uld/parameter_gauge2_hr1.tex": "ui/uld/parameter_gauge2_hr1.tex/Gauges/Silver/parameter_gauge2_hr1.tex",
-								"ui/uld/contentgauge_hr1.tex": "ui/uld/contentgauge_hr1.tex/Gauges/Silver/contentgauge_hr1.tex"
-							},
-							"file_swaps": {},
-							"manipulations": []
-						}
 					]
 				}
 			}
@@ -900,8 +838,100 @@
 			}
 		},
 		{
-			"name": "Macro Gear Icon",
+			"name": "Target Castbar",
 			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						0.8196078431372549,
+						0.5254901960784314,
+						0.043137254901960784
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Target Castbar Interrupt",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						0.5450980392156862,
+						0.058823529411764705,
+						0.058823529411764705
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Limit Break Filling",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						0.5,
+						0.5,
+						0.5
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Limit Break Full",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						0.3450980392156863,
+						0.7294117647058824,
+						1.0
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Macro Gear Icon",
+			"description": "Should we show a gear next to macro icons",
 			"settings": {
 				"SingleFiles": {
 					"default": 0,
@@ -938,16 +968,6 @@
 					"default": 0,
 					"options": [
 						{
-							"name": "Remove",
-							"description": "",
-							"inherit": null,
-							"files": {
-								"ui/uld/chatlog_hr1.tex": "ui/uld/chatlog_hr1.tex/Chatlog Resize Symbol/Remove/chatlog_hr1.tex"
-							},
-							"file_swaps": {},
-							"manipulations": []
-						},
-						{
 							"name": "Show",
 							"description": "",
 							"inherit": null,
@@ -956,34 +976,13 @@
 							},
 							"file_swaps": {},
 							"manipulations": []
-						}
-					]
-				}
-			}
-		},
-		{
-			"name": "Main Command Icons",
-			"description": "",
-			"settings": {
-				"SingleFiles": {
-					"default": 0,
-					"options": [
-						{
-							"name": "Solid Background",
-							"description": "",
-							"inherit": null,
-							"files": {
-								"ui/uld/maincommand_icon_hr1.tex": "ui/uld/maincommand_icon_hr1.tex/Main Command Icons/Solid Background/maincommand_icon_hr1.tex"
-							},
-							"file_swaps": {},
-							"manipulations": []
 						},
 						{
-							"name": "Transparent Background",
+							"name": "Remove",
 							"description": "",
 							"inherit": null,
 							"files": {
-								"ui/uld/maincommand_icon_hr1.tex": "ui/uld/maincommand_icon_hr1.tex/Main Command Icons/Transparent Background/maincommand_icon_hr1.tex"
+								"ui/uld/chatlog_hr1.tex": "ui/uld/chatlog_hr1.tex/Chatlog Resize Symbol/Remove/chatlog_hr1.tex"
 							},
 							"file_swaps": {},
 							"manipulations": []
@@ -1316,7 +1315,7 @@
 		"ui/uld/circlebook_hr1.tex": "ui/uld/circlebook_hr1.tex/circlebook_hr1.tex",
 		"ui/uld/circlebuttons_hr1.tex.comp": "ui/uld/circlebuttons_hr1.tex/composite.tex.comp",
 		"ui/uld/circlefinder_hr1.tex.comp": "ui/uld/circlefinder_hr1.tex/composite.tex.comp",
-		"ui/uld/colorantbutton_hr1.tex.comp": "ui/uld/colorantbutton_hr1.tex/colorantbutton_hr1.tex",
+		"ui/uld/colorantbutton_hr1.tex": "ui/uld/colorantbutton_hr1.tex/colorantbutton_hr1.tex",
 		"ui/uld/configcharacter_hr1.tex": "ui/uld/configcharacter_hr1.tex/configcharacter_hr1.tex",
 		"ui/uld/configcharacterhotbarlayout_hr1.tex.comp": "ui/uld/configcharacterhotbarlayout_hr1.tex/composite.tex.comp",
 		"ui/uld/configkeybind_hr1.tex.comp": "ui/uld/configkeybind_hr1.tex/composite.tex.comp",
@@ -1442,7 +1441,7 @@
 		"ui/uld/synthesis3_hr1.tex.comp": "ui/uld/synthesis3_hr1.tex/composite.tex.comp",
 		"ui/uld/synthesis3_tile_hr1.tex": "ui/uld/synthesis3_tile_hr1.tex/synthesis3_tile_hr1.tex",
 		"ui/uld/tabbuttona_hr1.tex.comp": "ui/uld/tabbuttona_hr1.tex/composite.tex.comp",
-		"ui/uld/teleport_hr1.tex.comp": "ui/uld/teleport_hr1.tex/teleport_hr1.tex",
+		"ui/uld/teleport_hr1.tex": "ui/uld/teleport_hr1.tex/teleport_hr1.tex",
 		"ui/uld/textinputa_hr1.tex": "ui/uld/textinputa_hr1.tex/textinputa_hr1.tex",
 		"ui/uld/todolist_hr1.tex.comp": "ui/uld/todolist_hr1.tex/composite.tex.comp",
 		"ui/uld/togglebutton_hr1.tex.comp": "ui/uld/togglebutton_hr1.tex/composite.tex.comp",

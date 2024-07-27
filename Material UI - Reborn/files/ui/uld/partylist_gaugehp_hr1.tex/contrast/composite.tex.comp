@@ -39,6 +39,14 @@
 				}
 			],
 			"blend": "Normal"
+		},
+		{
+			"name": "contrast_hard",
+			"path": {
+				"Mod": "ui/uld/partylist_gaugehp_hr1.tex/contrast/hard.tex"
+			},
+			"modifiers": [],
+			"blend": "HardLight"
 		}
 	]
 }
