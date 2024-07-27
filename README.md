@@ -4,6 +4,12 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 > The converstion from standalone penumbra modpack to aetherment might potentially break a couple things 
 > Feel free to report any issues to TacoVFX "ember" on discord or put up an issue on this page
 
+### Installation
+1. Install this plugin https://github.com/Sevii77/aetherment
+2. Open up the plugin window and download MUI from there
+3. Customize your colors then hit apply
+4. Restart game
+
 ### Known Issues/Plans
 - [ ] Square Party Icons and Macro Icons! Now that the aetherment port is out of the way finally deliver on these
 - [ ] Take a look at VPR Job Bar for any possible edits
