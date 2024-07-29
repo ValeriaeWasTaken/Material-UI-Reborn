@@ -1,8 +1,8 @@
 {
 	"name": "Material UI - Reborn",
-	"description": "A continuation of Material UI by skotlex & Sevii",
+	"description": "A continuation of Material UI by skotlex & Sevii\n Minimal customization options created by mekoichi for the orginal MUI",
 	"author": "TacoVFX, Sevii",
-	"version": "7.0.1.04",
+	"version": "7.0.1.05",
 	"website": "https://github.com/ValeriaeWasTaken/Material-UI-Reborn",
 	"tags": [
 		"Ui"
@@ -135,8 +135,8 @@
 			"settings": {
 				"Rgb": {
 					"default": [
-						0.7686274509803922,
-						0.3803921568627451,
+						0.350,
+						0.725,
 						1.0
 					],
 					"min": [
@@ -154,7 +154,7 @@
 		},
 		{
 			"name": "Job Icons - Party List",
-			"description": "Which Class/Job Icon style to use in the party list and certain menus",
+			"description": "Which class/job icon style to use in the party list and certain menus",
 			"settings": {
 				"SingleFiles": {
 					"default": 0,
@@ -266,6 +266,114 @@
 							},
 							"file_swaps": {},
 							"manipulations": []
+						},
+						{
+							"name": "Square",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062101_hr1.tex": "ui/icon/062000/062101_hr1.tex/Job Icons - Party List/Square/062101_hr1.tex",
+								"ui/icon/062000/062102_hr1.tex": "ui/icon/062000/062102_hr1.tex/Job Icons - Party List/Square/062102_hr1.tex",
+								"ui/icon/062000/062103_hr1.tex": "ui/icon/062000/062103_hr1.tex/Job Icons - Party List/Square/062103_hr1.tex",
+								"ui/icon/062000/062104_hr1.tex": "ui/icon/062000/062104_hr1.tex/Job Icons - Party List/Square/062104_hr1.tex",
+								"ui/icon/062000/062105_hr1.tex": "ui/icon/062000/062105_hr1.tex/Job Icons - Party List/Square/062105_hr1.tex",
+								"ui/icon/062000/062106_hr1.tex": "ui/icon/062000/062106_hr1.tex/Job Icons - Party List/Square/062106_hr1.tex",
+								"ui/icon/062000/062107_hr1.tex": "ui/icon/062000/062107_hr1.tex/Job Icons - Party List/Square/062107_hr1.tex",
+								"ui/icon/062000/062108_hr1.tex": "ui/icon/062000/062108_hr1.tex/Job Icons - Party List/Square/062108_hr1.tex",
+								"ui/icon/062000/062109_hr1.tex": "ui/icon/062000/062109_hr1.tex/Job Icons - Party List/Square/062109_hr1.tex",
+								"ui/icon/062000/062110_hr1.tex": "ui/icon/062000/062110_hr1.tex/Job Icons - Party List/Square/062110_hr1.tex",
+								"ui/icon/062000/062111_hr1.tex": "ui/icon/062000/062111_hr1.tex/Job Icons - Party List/Square/062111_hr1.tex",
+								"ui/icon/062000/062112_hr1.tex": "ui/icon/062000/062112_hr1.tex/Job Icons - Party List/Square/062112_hr1.tex",
+								"ui/icon/062000/062113_hr1.tex": "ui/icon/062000/062113_hr1.tex/Job Icons - Party List/Square/062113_hr1.tex",
+								"ui/icon/062000/062114_hr1.tex": "ui/icon/062000/062114_hr1.tex/Job Icons - Party List/Square/062114_hr1.tex",
+								"ui/icon/062000/062115_hr1.tex": "ui/icon/062000/062115_hr1.tex/Job Icons - Party List/Square/062115_hr1.tex",
+								"ui/icon/062000/062116_hr1.tex": "ui/icon/062000/062116_hr1.tex/Job Icons - Party List/Square/062116_hr1.tex",
+								"ui/icon/062000/062117_hr1.tex": "ui/icon/062000/062117_hr1.tex/Job Icons - Party List/Square/062117_hr1.tex",
+								"ui/icon/062000/062118_hr1.tex": "ui/icon/062000/062118_hr1.tex/Job Icons - Party List/Square/062118_hr1.tex",
+								"ui/icon/062000/062119_hr1.tex": "ui/icon/062000/062119_hr1.tex/Job Icons - Party List/Square/062119_hr1.tex",
+								"ui/icon/062000/062120_hr1.tex": "ui/icon/062000/062120_hr1.tex/Job Icons - Party List/Square/062120_hr1.tex",
+								"ui/icon/062000/062121_hr1.tex": "ui/icon/062000/062121_hr1.tex/Job Icons - Party List/Square/062121_hr1.tex",
+								"ui/icon/062000/062122_hr1.tex": "ui/icon/062000/062122_hr1.tex/Job Icons - Party List/Square/062122_hr1.tex",
+								"ui/icon/062000/062123_hr1.tex": "ui/icon/062000/062123_hr1.tex/Job Icons - Party List/Square/062123_hr1.tex",
+								"ui/icon/062000/062124_hr1.tex": "ui/icon/062000/062124_hr1.tex/Job Icons - Party List/Square/062124_hr1.tex",
+								"ui/icon/062000/062125_hr1.tex": "ui/icon/062000/062125_hr1.tex/Job Icons - Party List/Square/062125_hr1.tex",
+								"ui/icon/062000/062126_hr1.tex": "ui/icon/062000/062126_hr1.tex/Job Icons - Party List/Square/062126_hr1.tex",
+								"ui/icon/062000/062127_hr1.tex": "ui/icon/062000/062127_hr1.tex/Job Icons - Party List/Square/062127_hr1.tex",
+								"ui/icon/062000/062128_hr1.tex": "ui/icon/062000/062128_hr1.tex/Job Icons - Party List/Square/062128_hr1.tex",
+								"ui/icon/062000/062129_hr1.tex": "ui/icon/062000/062129_hr1.tex/Job Icons - Party List/Square/062129_hr1.tex",
+								"ui/icon/062000/062130_hr1.tex": "ui/icon/062000/062130_hr1.tex/Job Icons - Party List/Square/062130_hr1.tex",
+								"ui/icon/062000/062131_hr1.tex": "ui/icon/062000/062131_hr1.tex/Job Icons - Party List/Square/062131_hr1.tex",
+								"ui/icon/062000/062132_hr1.tex": "ui/icon/062000/062132_hr1.tex/Job Icons - Party List/Square/062132_hr1.tex",
+								"ui/icon/062000/062133_hr1.tex": "ui/icon/062000/062133_hr1.tex/Job Icons - Party List/Square/062133_hr1.tex",
+								"ui/icon/062000/062134_hr1.tex": "ui/icon/062000/062134_hr1.tex/Job Icons - Party List/Square/062134_hr1.tex",
+								"ui/icon/062000/062135_hr1.tex": "ui/icon/062000/062135_hr1.tex/Job Icons - Party List/Square/062135_hr1.tex",
+								"ui/icon/062000/062136_hr1.tex": "ui/icon/062000/062136_hr1.tex/Job Icons - Party List/Square/062136_hr1.tex",
+								"ui/icon/062000/062137_hr1.tex": "ui/icon/062000/062137_hr1.tex/Job Icons - Party List/Square/062137_hr1.tex",
+								"ui/icon/062000/062138_hr1.tex": "ui/icon/062000/062138_hr1.tex/Job Icons - Party List/Square/062138_hr1.tex",
+								"ui/icon/062000/062139_hr1.tex": "ui/icon/062000/062139_hr1.tex/Job Icons - Party List/Square/062139_hr1.tex",
+								"ui/icon/062000/062140_hr1.tex": "ui/icon/062000/062140_hr1.tex/Job Icons - Party List/Square/062140_hr1.tex",
+								"ui/icon/062000/062141_hr1.tex": "ui/icon/062000/062141_hr1.tex/Job Icons - Party List/Square/062141_hr1.tex",
+								"ui/icon/062000/062142_hr1.tex": "ui/icon/062000/062142_hr1.tex/Job Icons - Party List/Square/062142_hr1.tex",
+								"ui/icon/062000/062144_hr1.tex": "ui/icon/062000/062144_hr1.tex/Job Icons - Party List/Square/062144_hr1.tex",
+								"ui/icon/062000/062145_hr1.tex": "ui/icon/062000/062145_hr1.tex/Job Icons - Party List/Square/062145_hr1.tex",
+								"ui/icon/062000/062146_hr1.tex": "ui/icon/062000/062146_hr1.tex/Job Icons - Party List/Square/062146_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Square Different DPS Color",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062101_hr1.tex": "ui/icon/062000/062101_hr1.tex/Job Icons - Party List/Square Different DPS Color/062101_hr1.tex",
+								"ui/icon/062000/062102_hr1.tex": "ui/icon/062000/062102_hr1.tex/Job Icons - Party List/Square Different DPS Color/062102_hr1.tex",
+								"ui/icon/062000/062103_hr1.tex": "ui/icon/062000/062103_hr1.tex/Job Icons - Party List/Square Different DPS Color/062103_hr1.tex",
+								"ui/icon/062000/062104_hr1.tex": "ui/icon/062000/062104_hr1.tex/Job Icons - Party List/Square Different DPS Color/062104_hr1.tex",
+								"ui/icon/062000/062105_hr1.tex": "ui/icon/062000/062105_hr1.tex/Job Icons - Party List/Square Different DPS Color/062105_hr1.tex",
+								"ui/icon/062000/062106_hr1.tex": "ui/icon/062000/062106_hr1.tex/Job Icons - Party List/Square Different DPS Color/062106_hr1.tex",
+								"ui/icon/062000/062107_hr1.tex": "ui/icon/062000/062107_hr1.tex/Job Icons - Party List/Square Different DPS Color/062107_hr1.tex",
+								"ui/icon/062000/062108_hr1.tex": "ui/icon/062000/062108_hr1.tex/Job Icons - Party List/Square Different DPS Color/062108_hr1.tex",
+								"ui/icon/062000/062109_hr1.tex": "ui/icon/062000/062109_hr1.tex/Job Icons - Party List/Square Different DPS Color/062109_hr1.tex",
+								"ui/icon/062000/062110_hr1.tex": "ui/icon/062000/062110_hr1.tex/Job Icons - Party List/Square Different DPS Color/062110_hr1.tex",
+								"ui/icon/062000/062111_hr1.tex": "ui/icon/062000/062111_hr1.tex/Job Icons - Party List/Square Different DPS Color/062111_hr1.tex",
+								"ui/icon/062000/062112_hr1.tex": "ui/icon/062000/062112_hr1.tex/Job Icons - Party List/Square Different DPS Color/062112_hr1.tex",
+								"ui/icon/062000/062113_hr1.tex": "ui/icon/062000/062113_hr1.tex/Job Icons - Party List/Square Different DPS Color/062113_hr1.tex",
+								"ui/icon/062000/062114_hr1.tex": "ui/icon/062000/062114_hr1.tex/Job Icons - Party List/Square Different DPS Color/062114_hr1.tex",
+								"ui/icon/062000/062115_hr1.tex": "ui/icon/062000/062115_hr1.tex/Job Icons - Party List/Square Different DPS Color/062115_hr1.tex",
+								"ui/icon/062000/062116_hr1.tex": "ui/icon/062000/062116_hr1.tex/Job Icons - Party List/Square Different DPS Color/062116_hr1.tex",
+								"ui/icon/062000/062117_hr1.tex": "ui/icon/062000/062117_hr1.tex/Job Icons - Party List/Square Different DPS Color/062117_hr1.tex",
+								"ui/icon/062000/062118_hr1.tex": "ui/icon/062000/062118_hr1.tex/Job Icons - Party List/Square Different DPS Color/062118_hr1.tex",
+								"ui/icon/062000/062119_hr1.tex": "ui/icon/062000/062119_hr1.tex/Job Icons - Party List/Square Different DPS Color/062119_hr1.tex",
+								"ui/icon/062000/062120_hr1.tex": "ui/icon/062000/062120_hr1.tex/Job Icons - Party List/Square Different DPS Color/062120_hr1.tex",
+								"ui/icon/062000/062121_hr1.tex": "ui/icon/062000/062121_hr1.tex/Job Icons - Party List/Square Different DPS Color/062121_hr1.tex",
+								"ui/icon/062000/062122_hr1.tex": "ui/icon/062000/062122_hr1.tex/Job Icons - Party List/Square Different DPS Color/062122_hr1.tex",
+								"ui/icon/062000/062123_hr1.tex": "ui/icon/062000/062123_hr1.tex/Job Icons - Party List/Square Different DPS Color/062123_hr1.tex",
+								"ui/icon/062000/062124_hr1.tex": "ui/icon/062000/062124_hr1.tex/Job Icons - Party List/Square Different DPS Color/062124_hr1.tex",
+								"ui/icon/062000/062125_hr1.tex": "ui/icon/062000/062125_hr1.tex/Job Icons - Party List/Square Different DPS Color/062125_hr1.tex",
+								"ui/icon/062000/062126_hr1.tex": "ui/icon/062000/062126_hr1.tex/Job Icons - Party List/Square Different DPS Color/062126_hr1.tex",
+								"ui/icon/062000/062127_hr1.tex": "ui/icon/062000/062127_hr1.tex/Job Icons - Party List/Square Different DPS Color/062127_hr1.tex",
+								"ui/icon/062000/062128_hr1.tex": "ui/icon/062000/062128_hr1.tex/Job Icons - Party List/Square Different DPS Color/062128_hr1.tex",
+								"ui/icon/062000/062129_hr1.tex": "ui/icon/062000/062129_hr1.tex/Job Icons - Party List/Square Different DPS Color/062129_hr1.tex",
+								"ui/icon/062000/062130_hr1.tex": "ui/icon/062000/062130_hr1.tex/Job Icons - Party List/Square Different DPS Color/062130_hr1.tex",
+								"ui/icon/062000/062131_hr1.tex": "ui/icon/062000/062131_hr1.tex/Job Icons - Party List/Square Different DPS Color/062131_hr1.tex",
+								"ui/icon/062000/062132_hr1.tex": "ui/icon/062000/062132_hr1.tex/Job Icons - Party List/Square Different DPS Color/062132_hr1.tex",
+								"ui/icon/062000/062133_hr1.tex": "ui/icon/062000/062133_hr1.tex/Job Icons - Party List/Square Different DPS Color/062133_hr1.tex",
+								"ui/icon/062000/062134_hr1.tex": "ui/icon/062000/062134_hr1.tex/Job Icons - Party List/Square Different DPS Color/062134_hr1.tex",
+								"ui/icon/062000/062135_hr1.tex": "ui/icon/062000/062135_hr1.tex/Job Icons - Party List/Square Different DPS Color/062135_hr1.tex",
+								"ui/icon/062000/062136_hr1.tex": "ui/icon/062000/062136_hr1.tex/Job Icons - Party List/Square Different DPS Color/062136_hr1.tex",
+								"ui/icon/062000/062137_hr1.tex": "ui/icon/062000/062137_hr1.tex/Job Icons - Party List/Square Different DPS Color/062137_hr1.tex",
+								"ui/icon/062000/062138_hr1.tex": "ui/icon/062000/062138_hr1.tex/Job Icons - Party List/Square Different DPS Color/062138_hr1.tex",
+								"ui/icon/062000/062139_hr1.tex": "ui/icon/062000/062139_hr1.tex/Job Icons - Party List/Square Different DPS Color/062139_hr1.tex",
+								"ui/icon/062000/062140_hr1.tex": "ui/icon/062000/062140_hr1.tex/Job Icons - Party List/Square Different DPS Color/062140_hr1.tex",
+								"ui/icon/062000/062141_hr1.tex": "ui/icon/062000/062141_hr1.tex/Job Icons - Party List/Square Different DPS Color/062141_hr1.tex",
+								"ui/icon/062000/062142_hr1.tex": "ui/icon/062000/062142_hr1.tex/Job Icons - Party List/Square Different DPS Color/062142_hr1.tex",
+								"ui/icon/062000/062144_hr1.tex": "ui/icon/062000/062144_hr1.tex/Job Icons - Party List/Square Different DPS Color/062144_hr1.tex",
+								"ui/icon/062000/062145_hr1.tex": "ui/icon/062000/062145_hr1.tex/Job Icons - Party List/Square Different DPS Color/062145_hr1.tex",
+								"ui/icon/062000/062146_hr1.tex": "ui/icon/062000/062146_hr1.tex/Job Icons - Party List/Square Different DPS Color/062146_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
 						}
 					]
 				}
@@ -273,62 +381,11 @@
 		},
 		{
 			"name": "Job Icons - Contents",
-			"description": "Which Class/Job Icon style to use in certain menus and next to character names",
+			"description": "Which class/job icon style to use in certain menus and next to character names",
 			"settings": {
 				"SingleFiles": {
 					"default": 0,
 					"options": [
-						{
-							"name": "Default",
-							"description": "",
-							"inherit": null,
-							"files": {
-								"ui/icon/062000/062001_hr1.tex": "ui/icon/062000/062001_hr1.tex/Job Icons - Contents/Default/062001_hr1.tex",
-								"ui/icon/062000/062002_hr1.tex": "ui/icon/062000/062002_hr1.tex/Job Icons - Contents/Default/062002_hr1.tex",
-								"ui/icon/062000/062003_hr1.tex": "ui/icon/062000/062003_hr1.tex/Job Icons - Contents/Default/062003_hr1.tex",
-								"ui/icon/062000/062004_hr1.tex": "ui/icon/062000/062004_hr1.tex/Job Icons - Contents/Default/062004_hr1.tex",
-								"ui/icon/062000/062005_hr1.tex": "ui/icon/062000/062005_hr1.tex/Job Icons - Contents/Default/062005_hr1.tex",
-								"ui/icon/062000/062006_hr1.tex": "ui/icon/062000/062006_hr1.tex/Job Icons - Contents/Default/062006_hr1.tex",
-								"ui/icon/062000/062007_hr1.tex": "ui/icon/062000/062007_hr1.tex/Job Icons - Contents/Default/062007_hr1.tex",
-								"ui/icon/062000/062008_hr1.tex": "ui/icon/062000/062008_hr1.tex/Job Icons - Contents/Default/062008_hr1.tex",
-								"ui/icon/062000/062009_hr1.tex": "ui/icon/062000/062009_hr1.tex/Job Icons - Contents/Default/062009_hr1.tex",
-								"ui/icon/062000/062010_hr1.tex": "ui/icon/062000/062010_hr1.tex/Job Icons - Contents/Default/062010_hr1.tex",
-								"ui/icon/062000/062011_hr1.tex": "ui/icon/062000/062011_hr1.tex/Job Icons - Contents/Default/062011_hr1.tex",
-								"ui/icon/062000/062012_hr1.tex": "ui/icon/062000/062012_hr1.tex/Job Icons - Contents/Default/062012_hr1.tex",
-								"ui/icon/062000/062013_hr1.tex": "ui/icon/062000/062013_hr1.tex/Job Icons - Contents/Default/062013_hr1.tex",
-								"ui/icon/062000/062014_hr1.tex": "ui/icon/062000/062014_hr1.tex/Job Icons - Contents/Default/062014_hr1.tex",
-								"ui/icon/062000/062015_hr1.tex": "ui/icon/062000/062015_hr1.tex/Job Icons - Contents/Default/062015_hr1.tex",
-								"ui/icon/062000/062016_hr1.tex": "ui/icon/062000/062016_hr1.tex/Job Icons - Contents/Default/062016_hr1.tex",
-								"ui/icon/062000/062017_hr1.tex": "ui/icon/062000/062017_hr1.tex/Job Icons - Contents/Default/062017_hr1.tex",
-								"ui/icon/062000/062018_hr1.tex": "ui/icon/062000/062018_hr1.tex/Job Icons - Contents/Default/062018_hr1.tex",
-								"ui/icon/062000/062019_hr1.tex": "ui/icon/062000/062019_hr1.tex/Job Icons - Contents/Default/062019_hr1.tex",
-								"ui/icon/062000/062020_hr1.tex": "ui/icon/062000/062020_hr1.tex/Job Icons - Contents/Default/062020_hr1.tex",
-								"ui/icon/062000/062021_hr1.tex": "ui/icon/062000/062021_hr1.tex/Job Icons - Contents/Default/062021_hr1.tex",
-								"ui/icon/062000/062022_hr1.tex": "ui/icon/062000/062022_hr1.tex/Job Icons - Contents/Default/062022_hr1.tex",
-								"ui/icon/062000/062023_hr1.tex": "ui/icon/062000/062023_hr1.tex/Job Icons - Contents/Default/062023_hr1.tex",
-								"ui/icon/062000/062024_hr1.tex": "ui/icon/062000/062024_hr1.tex/Job Icons - Contents/Default/062024_hr1.tex",
-								"ui/icon/062000/062025_hr1.tex": "ui/icon/062000/062025_hr1.tex/Job Icons - Contents/Default/062025_hr1.tex",
-								"ui/icon/062000/062026_hr1.tex": "ui/icon/062000/062026_hr1.tex/Job Icons - Contents/Default/062026_hr1.tex",
-								"ui/icon/062000/062027_hr1.tex": "ui/icon/062000/062027_hr1.tex/Job Icons - Contents/Default/062027_hr1.tex",
-								"ui/icon/062000/062028_hr1.tex": "ui/icon/062000/062028_hr1.tex/Job Icons - Contents/Default/062028_hr1.tex",
-								"ui/icon/062000/062029_hr1.tex": "ui/icon/062000/062029_hr1.tex/Job Icons - Contents/Default/062029_hr1.tex",
-								"ui/icon/062000/062030_hr1.tex": "ui/icon/062000/062030_hr1.tex/Job Icons - Contents/Default/062030_hr1.tex",
-								"ui/icon/062000/062031_hr1.tex": "ui/icon/062000/062031_hr1.tex/Job Icons - Contents/Default/062031_hr1.tex",
-								"ui/icon/062000/062032_hr1.tex": "ui/icon/062000/062032_hr1.tex/Job Icons - Contents/Default/062032_hr1.tex",
-								"ui/icon/062000/062033_hr1.tex": "ui/icon/062000/062033_hr1.tex/Job Icons - Contents/Default/062033_hr1.tex",
-								"ui/icon/062000/062034_hr1.tex": "ui/icon/062000/062034_hr1.tex/Job Icons - Contents/Default/062034_hr1.tex",
-								"ui/icon/062000/062035_hr1.tex": "ui/icon/062000/062035_hr1.tex/Job Icons - Contents/Default/062035_hr1.tex",
-								"ui/icon/062000/062036_hr1.tex": "ui/icon/062000/062036_hr1.tex/Job Icons - Contents/Default/062036_hr1.tex",
-								"ui/icon/062000/062037_hr1.tex": "ui/icon/062000/062037_hr1.tex/Job Icons - Contents/Default/062037_hr1.tex",
-								"ui/icon/062000/062038_hr1.tex": "ui/icon/062000/062038_hr1.tex/Job Icons - Contents/Default/062038_hr1.tex",
-								"ui/icon/062000/062039_hr1.tex": "ui/icon/062000/062039_hr1.tex/Job Icons - Contents/Default/062039_hr1.tex",
-								"ui/icon/062000/062040_hr1.tex": "ui/icon/062000/062040_hr1.tex/Job Icons - Contents/Default/062040_hr1.tex",
-								"ui/icon/062000/062041_hr1.tex": "ui/icon/062000/062041_hr1.tex/Job Icons - Contents/Default/062041_hr1.tex",
-								"ui/icon/062000/062042_hr1.tex": "ui/icon/062000/062042_hr1.tex/Job Icons - Contents/Default/062042_hr1.tex"
-							},
-							"file_swaps": {},
-							"manipulations": []
-						},
 						{
 							"name": "Glow",
 							"description": "",
@@ -430,6 +487,57 @@
 							},
 							"file_swaps": {},
 							"manipulations": []
+						},
+						{
+							"name": "Gilded",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062001_hr1.tex": "ui/icon/062000/062001_hr1.tex/Job Icons - Contents/Default/062001_hr1.tex",
+								"ui/icon/062000/062002_hr1.tex": "ui/icon/062000/062002_hr1.tex/Job Icons - Contents/Default/062002_hr1.tex",
+								"ui/icon/062000/062003_hr1.tex": "ui/icon/062000/062003_hr1.tex/Job Icons - Contents/Default/062003_hr1.tex",
+								"ui/icon/062000/062004_hr1.tex": "ui/icon/062000/062004_hr1.tex/Job Icons - Contents/Default/062004_hr1.tex",
+								"ui/icon/062000/062005_hr1.tex": "ui/icon/062000/062005_hr1.tex/Job Icons - Contents/Default/062005_hr1.tex",
+								"ui/icon/062000/062006_hr1.tex": "ui/icon/062000/062006_hr1.tex/Job Icons - Contents/Default/062006_hr1.tex",
+								"ui/icon/062000/062007_hr1.tex": "ui/icon/062000/062007_hr1.tex/Job Icons - Contents/Default/062007_hr1.tex",
+								"ui/icon/062000/062008_hr1.tex": "ui/icon/062000/062008_hr1.tex/Job Icons - Contents/Default/062008_hr1.tex",
+								"ui/icon/062000/062009_hr1.tex": "ui/icon/062000/062009_hr1.tex/Job Icons - Contents/Default/062009_hr1.tex",
+								"ui/icon/062000/062010_hr1.tex": "ui/icon/062000/062010_hr1.tex/Job Icons - Contents/Default/062010_hr1.tex",
+								"ui/icon/062000/062011_hr1.tex": "ui/icon/062000/062011_hr1.tex/Job Icons - Contents/Default/062011_hr1.tex",
+								"ui/icon/062000/062012_hr1.tex": "ui/icon/062000/062012_hr1.tex/Job Icons - Contents/Default/062012_hr1.tex",
+								"ui/icon/062000/062013_hr1.tex": "ui/icon/062000/062013_hr1.tex/Job Icons - Contents/Default/062013_hr1.tex",
+								"ui/icon/062000/062014_hr1.tex": "ui/icon/062000/062014_hr1.tex/Job Icons - Contents/Default/062014_hr1.tex",
+								"ui/icon/062000/062015_hr1.tex": "ui/icon/062000/062015_hr1.tex/Job Icons - Contents/Default/062015_hr1.tex",
+								"ui/icon/062000/062016_hr1.tex": "ui/icon/062000/062016_hr1.tex/Job Icons - Contents/Default/062016_hr1.tex",
+								"ui/icon/062000/062017_hr1.tex": "ui/icon/062000/062017_hr1.tex/Job Icons - Contents/Default/062017_hr1.tex",
+								"ui/icon/062000/062018_hr1.tex": "ui/icon/062000/062018_hr1.tex/Job Icons - Contents/Default/062018_hr1.tex",
+								"ui/icon/062000/062019_hr1.tex": "ui/icon/062000/062019_hr1.tex/Job Icons - Contents/Default/062019_hr1.tex",
+								"ui/icon/062000/062020_hr1.tex": "ui/icon/062000/062020_hr1.tex/Job Icons - Contents/Default/062020_hr1.tex",
+								"ui/icon/062000/062021_hr1.tex": "ui/icon/062000/062021_hr1.tex/Job Icons - Contents/Default/062021_hr1.tex",
+								"ui/icon/062000/062022_hr1.tex": "ui/icon/062000/062022_hr1.tex/Job Icons - Contents/Default/062022_hr1.tex",
+								"ui/icon/062000/062023_hr1.tex": "ui/icon/062000/062023_hr1.tex/Job Icons - Contents/Default/062023_hr1.tex",
+								"ui/icon/062000/062024_hr1.tex": "ui/icon/062000/062024_hr1.tex/Job Icons - Contents/Default/062024_hr1.tex",
+								"ui/icon/062000/062025_hr1.tex": "ui/icon/062000/062025_hr1.tex/Job Icons - Contents/Default/062025_hr1.tex",
+								"ui/icon/062000/062026_hr1.tex": "ui/icon/062000/062026_hr1.tex/Job Icons - Contents/Default/062026_hr1.tex",
+								"ui/icon/062000/062027_hr1.tex": "ui/icon/062000/062027_hr1.tex/Job Icons - Contents/Default/062027_hr1.tex",
+								"ui/icon/062000/062028_hr1.tex": "ui/icon/062000/062028_hr1.tex/Job Icons - Contents/Default/062028_hr1.tex",
+								"ui/icon/062000/062029_hr1.tex": "ui/icon/062000/062029_hr1.tex/Job Icons - Contents/Default/062029_hr1.tex",
+								"ui/icon/062000/062030_hr1.tex": "ui/icon/062000/062030_hr1.tex/Job Icons - Contents/Default/062030_hr1.tex",
+								"ui/icon/062000/062031_hr1.tex": "ui/icon/062000/062031_hr1.tex/Job Icons - Contents/Default/062031_hr1.tex",
+								"ui/icon/062000/062032_hr1.tex": "ui/icon/062000/062032_hr1.tex/Job Icons - Contents/Default/062032_hr1.tex",
+								"ui/icon/062000/062033_hr1.tex": "ui/icon/062000/062033_hr1.tex/Job Icons - Contents/Default/062033_hr1.tex",
+								"ui/icon/062000/062034_hr1.tex": "ui/icon/062000/062034_hr1.tex/Job Icons - Contents/Default/062034_hr1.tex",
+								"ui/icon/062000/062035_hr1.tex": "ui/icon/062000/062035_hr1.tex/Job Icons - Contents/Default/062035_hr1.tex",
+								"ui/icon/062000/062036_hr1.tex": "ui/icon/062000/062036_hr1.tex/Job Icons - Contents/Default/062036_hr1.tex",
+								"ui/icon/062000/062037_hr1.tex": "ui/icon/062000/062037_hr1.tex/Job Icons - Contents/Default/062037_hr1.tex",
+								"ui/icon/062000/062038_hr1.tex": "ui/icon/062000/062038_hr1.tex/Job Icons - Contents/Default/062038_hr1.tex",
+								"ui/icon/062000/062039_hr1.tex": "ui/icon/062000/062039_hr1.tex/Job Icons - Contents/Default/062039_hr1.tex",
+								"ui/icon/062000/062040_hr1.tex": "ui/icon/062000/062040_hr1.tex/Job Icons - Contents/Default/062040_hr1.tex",
+								"ui/icon/062000/062041_hr1.tex": "ui/icon/062000/062041_hr1.tex/Job Icons - Contents/Default/062041_hr1.tex",
+								"ui/icon/062000/062042_hr1.tex": "ui/icon/062000/062042_hr1.tex/Job Icons - Contents/Default/062042_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
 						}
 					]
 				}
@@ -443,7 +551,7 @@
 					"default": 0,
 					"options": [
 						{
-							"name": "Default",
+							"name": "Black",
 							"description": "",
 							"inherit": null,
 							"files": {
@@ -469,8 +577,8 @@
 			}
 		},
 		{
-			"name": "Party List Shield Display",
-			"description": "Toggle between original and high contrast display of shields",
+			"name": "Party List Style",
+			"description": "Which style of health bars to show in the party list",
 			"settings": {
 				"SingleFiles": {
 					"default": 0,
@@ -486,11 +594,21 @@
 							"manipulations": []
 						},
 						{
-							"name": "High Contrast",
+							"name": "Original w/ Higher Contrast Shields",
 							"description": "",
 							"inherit": null,
 							"files": {
 								"ui/uld/partylist_gaugehp_hr1.tex.comp": "ui/uld/partylist_gaugehp_hr1.tex/contrast/composite.tex.comp"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Minimal",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/partylist_gaugehp_hr1.tex.comp": "addons/minimal_bars/partylist_gaugehp_hr1/composite.tex.comp"
 							},
 							"file_swaps": {},
 							"manipulations": []
@@ -505,8 +623,8 @@
 			"settings": {
 				"Rgb": {
 					"default": [
-						0.154,
-						0.936,
+						0.265,
+						0.855,
 						1.0
 					],
 					"min": [
@@ -529,8 +647,115 @@
 				"Rgb": {
 					"default": [
 						1.0,
-						0.7882352941176471,
-						0.3529411764705882
+						0.790,
+						0.355
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Castbar Style",
+			"description": "Which style of cast bar to show in the party list and target info",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Original",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/partylist_gaugecast_hr1.tex.comp": "ui/uld/partylist_gaugecast_hr1.tex/composite.tex.comp"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Minimal",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/partylist_gaugecast_hr1.tex.comp": "addons/minimal_bars/partylist_gaugecast_hr1/composite.tex.comp"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Target Healthbar Style",
+			"description": "Which style of health bar to use for target info",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Original",
+							"description": "",
+							"inherit": null,
+							"files": {
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Minimal",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/TargetInfo_hr1.tex": "addons/minimal_bars/targetinfo_hr1/underlay.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Target Castbar",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						0.840,
+						0.640,
+						0.365
+					],
+					"min": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"max": [
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "Target Castbar Interrupt",
+			"description": "",
+			"settings": {
+				"Rgb": {
+					"default": [
+						0.545,
+						0.060,
+						0.060
 					],
 					"min": [
 						0.0,
@@ -552,8 +777,8 @@
 				"Rgb": {
 					"default": [
 						1.0,
-						0.7882352941176471,
-						0.3529411764705882
+						0.790,
+						0.355
 					],
 					"min": [
 						0.0,
@@ -653,8 +878,8 @@
 				"Rgb": {
 					"default": [
 						1.0,
-						0.6784313725490196,
-						0.2196078431372549
+						0.675,
+						0.220
 					],
 					"min": [
 						0.0,
@@ -721,8 +946,8 @@
 			"settings": {
 				"Rgb": {
 					"default": [
-						0.8392156862745098,
-						0.42745098039215684,
+						0.84,
+						0.43,
 						0.0
 					],
 					"min": [
@@ -734,6 +959,36 @@
 						1.0,
 						1.0,
 						1.0
+					]
+				}
+			}
+		},
+		{
+			"name": "In-world Healthbar Style",
+			"description": "Which style of health bar to show above entities",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Original",
+							"description": "",
+							"inherit": null,
+							"files": {
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Minimal",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/NamePlate_hr1.tex": "addons/minimal_bars/nameplate_hr1/underlay.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
 					]
 				}
 			}
@@ -838,60 +1093,14 @@
 			}
 		},
 		{
-			"name": "Target Castbar",
-			"description": "",
-			"settings": {
-				"Rgb": {
-					"default": [
-						0.8196078431372549,
-						0.5254901960784314,
-						0.043137254901960784
-					],
-					"min": [
-						0.0,
-						0.0,
-						0.0
-					],
-					"max": [
-						1.0,
-						1.0,
-						1.0
-					]
-				}
-			}
-		},
-		{
-			"name": "Target Castbar Interrupt",
-			"description": "",
-			"settings": {
-				"Rgb": {
-					"default": [
-						0.5450980392156862,
-						0.058823529411764705,
-						0.058823529411764705
-					],
-					"min": [
-						0.0,
-						0.0,
-						0.0
-					],
-					"max": [
-						1.0,
-						1.0,
-						1.0
-					]
-				}
-			}
-		},
-		{
 			"name": "Limit Break Filling",
 			"description": "",
 			"settings": {
 				"Rgb": {
 					"default": [
-						0.5,
-						0.5,
-						0.5
+						0.6,
+						0.65,
+						0.66
 					],
 					"min": [
 						0.0,
@@ -912,9 +1121,9 @@
 			"settings": {
 				"Rgb": {
 					"default": [
-						0.3450980392156863,
-						0.7294117647058824,
-						1.0
+						1.0,
+						0.600,
+						0.070
 					],
 					"min": [
 						0.0,
@@ -962,7 +1171,7 @@
 		},
 		{
 			"name": "Chatlog Resize Symbol",
-			"description": "",
+			"description": "Should we show the resize symbol on the top right of the chat window",
 			"settings": {
 				"SingleFiles": {
 					"default": 0,
@@ -993,7 +1202,7 @@
 		},
 		{
 			"name": "Dialogue Style",
-			"description": "",
+			"description": "Which style of dialouge to use for cutscene text bubbles",
 			"settings": {
 				"SingleFiles": {
 					"default": 0,
@@ -1413,7 +1622,6 @@
 		"ui/uld/overlayconfirmbutton_hr1.tex": "ui/uld/overlayconfirmbutton_hr1.tex/overlayconfirmbutton_hr1.tex",
 		"ui/uld/partyfinder_hr1.tex.comp": "ui/uld/partyfinder_hr1.tex/composite.tex.comp",
 		"ui/uld/partylist_buff_hr1.tex.comp": "ui/uld/partylist_buff_hr1.tex/composite.tex.comp",
-		"ui/uld/partylist_gaugecast_hr1.tex.comp": "ui/uld/partylist_gaugecast_hr1.tex/composite.tex.comp",
 		"ui/uld/partylisttargetbase_hr1.tex.comp": "ui/uld/partylisttargetbase_hr1.tex/composite.tex.comp",
 		"ui/uld/previewa_hr1.tex": "ui/uld/previewa_hr1.tex/previewa_hr1.tex",
 		"ui/uld/purify_hr1.tex": "ui/uld/purify_hr1.tex/purify_hr1.tex",

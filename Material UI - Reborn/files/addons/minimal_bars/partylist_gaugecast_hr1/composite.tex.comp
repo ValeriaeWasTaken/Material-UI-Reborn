@@ -1,0 +1,60 @@
+{
+	"layers": [
+		{
+			"name": "underlay",
+			"path": {
+				"Mod": "addons/minimal_bars/partylist_gaugecast_hr1/underlay.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_accent",
+			"path": {
+				"Mod": "addons/minimal_bars/partylist_gaugecast_hr1/overlay_accent.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Accent"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_targetcast",
+			"path": {
+				"Mod": "addons/minimal_bars/partylist_gaugecast_hr1/overlay_targetcast.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Target Castbar"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_targetcastinter",
+			"path": {
+				"Mod": "addons/minimal_bars/partylist_gaugecast_hr1/overlay_targetcastinter.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Target Castbar Interrupt"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		}
+	]
+}
