@@ -12,7 +12,7 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 5. Restart your game.
    
 ### Known Issues/Plans
-- [ ] Square Party Icons and Macro Icons! Now that the aetherment port is out of the way finally deliver on these.
+- [ ] Macro icons are still not implemented.
 - [ ] High contrast shield setting is alot more subtle than intended, make it stronger.
 - [ ] Take a look at VPR Job Bar for any possible edits.
 - [ ] Also take a look at PCT Canvas for any potential edits.
