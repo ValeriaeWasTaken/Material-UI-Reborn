@@ -25,7 +25,7 @@ https://ko-fi.com/valeriae
 - General
    - PCT icon improved
    - Default Preset Reworked
-   - Minimal styles for certain bars added
+   - Minimal styles for certain bars added. From the orginal MUI addon created by mekoichi
 - Combat UI
    - Castbars should easier to see
    - Square job icons fixed and setting enabled
