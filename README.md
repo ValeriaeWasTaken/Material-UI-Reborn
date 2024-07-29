@@ -22,11 +22,15 @@ https://ko-fi.com/valeriae
 
 ---
 ### v5 | Further fixes and improvements
-- Castbars should easier to see
-- PCT icon improved
-- High contrast shields should be less subtle now
-- Materia icons fixed(again)
-- Dye UI buttons improved
-- Square job icons fixed and enabled
-- Default Color Preset Tweaked
-- Minimal styles for certain bars added
+- General
+   - PCT icon improved
+   - Default Preset Reworked
+   - Minimal styles for certain bars added
+- Combat UI
+   - Castbars should easier to see
+   - Square job icons fixed and setting enabled
+- Inventory
+   - Materia icons fixed(again)
+   - Dye UI buttons improved
+
+
