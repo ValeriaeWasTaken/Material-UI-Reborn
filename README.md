@@ -28,7 +28,7 @@ https://ko-fi.com/valeriae
    - Minimal styles for certain bars added. From the orginal MUI addon created by mekoichi
 - Combat UI
    - Castbars should easier to see
-   - Square job icons fixed and setting enabled
+   - Square job icons fixed and selectable as customization again
 - Inventory
    - Materia icons fixed(again)
    - Dye UI buttons improved
