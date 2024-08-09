@@ -12,7 +12,9 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 5. Restart your game.
    
 ### Known Issues/Plans
-- [ ] Macro icons are still not implemented.
+- [ ] Gearset icons need improvements.
+- [ ] Add more minimal bars.
+- [ ] Limitbreak bar is designed in the silver style of bar, add a black square version of it
 - [ ] High contrast shield setting is alot more subtle than intended, make it stronger.
 - [ ] Take a look at VPR Job Bar for any possible edits.
 - [ ] Also take a look at PCT Canvas for any potential edits.
@@ -21,16 +23,8 @@ For those of you who wanted to tip some coffee <3
 https://ko-fi.com/valeriae
 
 ---
-### v5 | Further fixes and improvements
-- General
-   - PCT icon improved
-   - Default Preset Reworked
-   - Minimal styles for certain bars added
-- Combat UI
-   - Castbars should easier to see
-   - Square job icons fixed and setting enabled
-- Inventory
-   - Materia icons fixed(again)
-   - Dye UI buttons improved
+### v6 | Some missing things added
+- Dalamud style support added
+- Added some wip icons for gear sets.
 
 
