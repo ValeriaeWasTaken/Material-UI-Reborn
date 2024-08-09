@@ -1,8 +1,8 @@
 {
 	"name": "Material UI - Reborn",
-	"description": "A continuation of Material UI by skotlex & Sevii\n Minimal customization options created by mekoichi for the orginal MUI",
-	"author": "TacoVFX, Sevii",
-	"version": "7.0.1.05",
+	"description": "A continuation of Material UI by skotlex & Sevii\nMinimal customization options created by mekoichi for the original MUI",
+	"author": "valeriae, Sevii",
+	"version": "7.0.5.06",
 	"website": "https://github.com/ValeriaeWasTaken/Material-UI-Reborn",
 	"tags": [
 		"Ui"
@@ -535,6 +535,170 @@
 								"ui/icon/062000/062040_hr1.tex": "ui/icon/062000/062040_hr1.tex/Job Icons - Contents/Default/062040_hr1.tex",
 								"ui/icon/062000/062041_hr1.tex": "ui/icon/062000/062041_hr1.tex/Job Icons - Contents/Default/062041_hr1.tex",
 								"ui/icon/062000/062042_hr1.tex": "ui/icon/062000/062042_hr1.tex/Job Icons - Contents/Default/062042_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Gear Set Icons",
+			"description": "Which style of colors to use for Gear Sets assigned to hotbars or as macro icons",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Default Colors",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062801_hr1.tex": "ui/icon/062000/062801_hr1.tex/062801_hr1.tex",
+								"ui/icon/062000/062802_hr1.tex": "ui/icon/062000/062802_hr1.tex/062802_hr1.tex",
+								"ui/icon/062000/062803_hr1.tex": "ui/icon/062000/062803_hr1.tex/062803_hr1.tex",
+								"ui/icon/062000/062804_hr1.tex": "ui/icon/062000/062804_hr1.tex/062804_hr1.tex",
+								"ui/icon/062000/062805_hr1.tex": "ui/icon/062000/062805_hr1.tex/062805_hr1.tex",
+								"ui/icon/062000/062806_hr1.tex": "ui/icon/062000/062806_hr1.tex/062806_hr1.tex",
+								"ui/icon/062000/062807_hr1.tex": "ui/icon/062000/062807_hr1.tex/062807_hr1.tex",
+								"ui/icon/062000/062808_hr1.tex": "ui/icon/062000/062808_hr1.tex/062808_hr1.tex",
+								"ui/icon/062000/062809_hr1.tex": "ui/icon/062000/062809_hr1.tex/062809_hr1.tex",
+								"ui/icon/062000/062810_hr1.tex": "ui/icon/062000/062810_hr1.tex/062810_hr1.tex",
+								"ui/icon/062000/062811_hr1.tex": "ui/icon/062000/062811_hr1.tex/062811_hr1.tex",
+								"ui/icon/062000/062812_hr1.tex": "ui/icon/062000/062812_hr1.tex/062812_hr1.tex",
+								"ui/icon/062000/062813_hr1.tex": "ui/icon/062000/062813_hr1.tex/062813_hr1.tex",
+								"ui/icon/062000/062814_hr1.tex": "ui/icon/062000/062814_hr1.tex/062814_hr1.tex",
+								"ui/icon/062000/062815_hr1.tex": "ui/icon/062000/062815_hr1.tex/062815_hr1.tex",
+								"ui/icon/062000/062816_hr1.tex": "ui/icon/062000/062816_hr1.tex/062816_hr1.tex",
+								"ui/icon/062000/062817_hr1.tex": "ui/icon/062000/062817_hr1.tex/062817_hr1.tex",
+								"ui/icon/062000/062818_hr1.tex": "ui/icon/062000/062818_hr1.tex/062818_hr1.tex",
+								"ui/icon/062000/062819_hr1.tex": "ui/icon/062000/062819_hr1.tex/062819_hr1.tex",
+								"ui/icon/062000/062820_hr1.tex": "ui/icon/062000/062820_hr1.tex/062820_hr1.tex",
+								"ui/icon/062000/062821_hr1.tex": "ui/icon/062000/062821_hr1.tex/062821_hr1.tex",
+								"ui/icon/062000/062822_hr1.tex": "ui/icon/062000/062822_hr1.tex/062822_hr1.tex",
+								"ui/icon/062000/062823_hr1.tex": "ui/icon/062000/062823_hr1.tex/062823_hr1.tex",
+								"ui/icon/062000/062824_hr1.tex": "ui/icon/062000/062824_hr1.tex/062824_hr1.tex",
+								"ui/icon/062000/062825_hr1.tex": "ui/icon/062000/062825_hr1.tex/062825_hr1.tex",
+								"ui/icon/062000/062826_hr1.tex": "ui/icon/062000/062826_hr1.tex/062826_hr1.tex",
+								"ui/icon/062000/062827_hr1.tex": "ui/icon/062000/062827_hr1.tex/062827_hr1.tex",
+								"ui/icon/062000/062828_hr1.tex": "ui/icon/062000/062828_hr1.tex/062828_hr1.tex",
+								"ui/icon/062000/062829_hr1.tex": "ui/icon/062000/062829_hr1.tex/062829_hr1.tex",
+								"ui/icon/062000/062830_hr1.tex": "ui/icon/062000/062830_hr1.tex/062830_hr1.tex",
+								"ui/icon/062000/062831_hr1.tex": "ui/icon/062000/062831_hr1.tex/062831_hr1.tex",
+								"ui/icon/062000/062832_hr1.tex": "ui/icon/062000/062832_hr1.tex/062832_hr1.tex",
+								"ui/icon/062000/062833_hr1.tex": "ui/icon/062000/062833_hr1.tex/062833_hr1.tex",
+								"ui/icon/062000/062834_hr1.tex": "ui/icon/062000/062834_hr1.tex/062834_hr1.tex",
+								"ui/icon/062000/062835_hr1.tex": "ui/icon/062000/062835_hr1.tex/062835_hr1.tex",
+								"ui/icon/062000/062836_hr1.tex": "ui/icon/062000/062836_hr1.tex/062836_hr1.tex",
+								"ui/icon/062000/062837_hr1.tex": "ui/icon/062000/062837_hr1.tex/062837_hr1.tex",
+								"ui/icon/062000/062838_hr1.tex": "ui/icon/062000/062838_hr1.tex/062838_hr1.tex",
+								"ui/icon/062000/062839_hr1.tex": "ui/icon/062000/062839_hr1.tex/062839_hr1.tex",
+								"ui/icon/062000/062840_hr1.tex": "ui/icon/062000/062840_hr1.tex/062840_hr1.tex",
+								"ui/icon/062000/062841_hr1.tex": "ui/icon/062000/062841_hr1.tex/062841_hr1.tex",
+								"ui/icon/062000/062842_hr1.tex": "ui/icon/062000/062842_hr1.tex/062842_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Alternate DPS Colors",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062801_hr1.tex": "ui/icon/062000/062801_hr1.tex/062801_hr1.tex",
+								"ui/icon/062000/062802_hr1.tex": "ui/icon/062000/062802_hr1.tex/062802_hr1.tex",
+								"ui/icon/062000/062803_hr1.tex": "ui/icon/062000/062803_hr1.tex/062803_hr1.tex",
+								"ui/icon/062000/062804_hr1.tex": "ui/icon/062000/062804_hr1.tex/062804_hr1.tex",
+								"ui/icon/062000/062805_hr1.tex": "ui/icon/062000/062805_hr1.tex/062805_hr1_alt.tex",
+								"ui/icon/062000/062806_hr1.tex": "ui/icon/062000/062806_hr1.tex/062806_hr1.tex",
+								"ui/icon/062000/062807_hr1.tex": "ui/icon/062000/062807_hr1.tex/062807_hr1_alt.tex",
+								"ui/icon/062000/062808_hr1.tex": "ui/icon/062000/062808_hr1.tex/062808_hr1.tex",
+								"ui/icon/062000/062809_hr1.tex": "ui/icon/062000/062809_hr1.tex/062809_hr1.tex",
+								"ui/icon/062000/062810_hr1.tex": "ui/icon/062000/062810_hr1.tex/062810_hr1.tex",
+								"ui/icon/062000/062811_hr1.tex": "ui/icon/062000/062811_hr1.tex/062811_hr1.tex",
+								"ui/icon/062000/062812_hr1.tex": "ui/icon/062000/062812_hr1.tex/062812_hr1.tex",
+								"ui/icon/062000/062813_hr1.tex": "ui/icon/062000/062813_hr1.tex/062813_hr1.tex",
+								"ui/icon/062000/062814_hr1.tex": "ui/icon/062000/062814_hr1.tex/062814_hr1.tex",
+								"ui/icon/062000/062815_hr1.tex": "ui/icon/062000/062815_hr1.tex/062815_hr1.tex",
+								"ui/icon/062000/062816_hr1.tex": "ui/icon/062000/062816_hr1.tex/062816_hr1.tex",
+								"ui/icon/062000/062817_hr1.tex": "ui/icon/062000/062817_hr1.tex/062817_hr1.tex",
+								"ui/icon/062000/062818_hr1.tex": "ui/icon/062000/062818_hr1.tex/062818_hr1.tex",
+								"ui/icon/062000/062819_hr1.tex": "ui/icon/062000/062819_hr1.tex/062819_hr1.tex",
+								"ui/icon/062000/062820_hr1.tex": "ui/icon/062000/062820_hr1.tex/062820_hr1.tex",
+								"ui/icon/062000/062821_hr1.tex": "ui/icon/062000/062821_hr1.tex/062821_hr1.tex",
+								"ui/icon/062000/062822_hr1.tex": "ui/icon/062000/062822_hr1.tex/062822_hr1.tex",
+								"ui/icon/062000/062823_hr1.tex": "ui/icon/062000/062823_hr1.tex/062823_hr1_alt.tex",
+								"ui/icon/062000/062824_hr1.tex": "ui/icon/062000/062824_hr1.tex/062824_hr1.tex",
+								"ui/icon/062000/062825_hr1.tex": "ui/icon/062000/062825_hr1.tex/062825_hr1_alt.tex",
+								"ui/icon/062000/062826_hr1.tex": "ui/icon/062000/062826_hr1.tex/062826_hr1_alt.tex",
+								"ui/icon/062000/062827_hr1.tex": "ui/icon/062000/062827_hr1.tex/062827_hr1_alt.tex",
+								"ui/icon/062000/062828_hr1.tex": "ui/icon/062000/062828_hr1.tex/062828_hr1.tex",
+								"ui/icon/062000/062829_hr1.tex": "ui/icon/062000/062829_hr1.tex/062829_hr1.tex",
+								"ui/icon/062000/062830_hr1.tex": "ui/icon/062000/062830_hr1.tex/062830_hr1.tex",
+								"ui/icon/062000/062831_hr1.tex": "ui/icon/062000/062831_hr1.tex/062831_hr1_alt.tex",
+								"ui/icon/062000/062832_hr1.tex": "ui/icon/062000/062832_hr1.tex/062832_hr1.tex",
+								"ui/icon/062000/062833_hr1.tex": "ui/icon/062000/062833_hr1.tex/062833_hr1.tex",
+								"ui/icon/062000/062834_hr1.tex": "ui/icon/062000/062834_hr1.tex/062834_hr1.tex",
+								"ui/icon/062000/062835_hr1.tex": "ui/icon/062000/062835_hr1.tex/062835_hr1_alt.tex",
+								"ui/icon/062000/062836_hr1.tex": "ui/icon/062000/062836_hr1.tex/062836_hr1.tex",
+								"ui/icon/062000/062837_hr1.tex": "ui/icon/062000/062837_hr1.tex/062837_hr1.tex",
+								"ui/icon/062000/062838_hr1.tex": "ui/icon/062000/062838_hr1.tex/062838_hr1_alt.tex",
+								"ui/icon/062000/062839_hr1.tex": "ui/icon/062000/062839_hr1.tex/062839_hr1.tex",
+								"ui/icon/062000/062840_hr1.tex": "ui/icon/062000/062840_hr1.tex/062840_hr1.tex",
+								"ui/icon/062000/062841_hr1.tex": "ui/icon/062000/062841_hr1.tex/062841_hr1.tex",
+								"ui/icon/062000/062842_hr1.tex": "ui/icon/062000/062842_hr1.tex/062842_hr1_alt.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "No Color Bar",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/icon/062000/062801_hr1.tex": "ui/icon/062000/062801_hr1.tex/062801_hr1_simple.tex",
+								"ui/icon/062000/062802_hr1.tex": "ui/icon/062000/062802_hr1.tex/062802_hr1_simple.tex",
+								"ui/icon/062000/062803_hr1.tex": "ui/icon/062000/062803_hr1.tex/062803_hr1_simple.tex",
+								"ui/icon/062000/062804_hr1.tex": "ui/icon/062000/062804_hr1.tex/062804_hr1_simple.tex",
+								"ui/icon/062000/062805_hr1.tex": "ui/icon/062000/062805_hr1.tex/062805_hr1_simple.tex",
+								"ui/icon/062000/062806_hr1.tex": "ui/icon/062000/062806_hr1.tex/062806_hr1_simple.tex",
+								"ui/icon/062000/062807_hr1.tex": "ui/icon/062000/062807_hr1.tex/062807_hr1_simple.tex",
+								"ui/icon/062000/062808_hr1.tex": "ui/icon/062000/062808_hr1.tex/062808_hr1_simple.tex",
+								"ui/icon/062000/062809_hr1.tex": "ui/icon/062000/062809_hr1.tex/062809_hr1_simple.tex",
+								"ui/icon/062000/062810_hr1.tex": "ui/icon/062000/062810_hr1.tex/062810_hr1_simple.tex",
+								"ui/icon/062000/062811_hr1.tex": "ui/icon/062000/062811_hr1.tex/062811_hr1_simple.tex",
+								"ui/icon/062000/062812_hr1.tex": "ui/icon/062000/062812_hr1.tex/062812_hr1_simple.tex",
+								"ui/icon/062000/062813_hr1.tex": "ui/icon/062000/062813_hr1.tex/062813_hr1_simple.tex",
+								"ui/icon/062000/062814_hr1.tex": "ui/icon/062000/062814_hr1.tex/062814_hr1_simple.tex",
+								"ui/icon/062000/062815_hr1.tex": "ui/icon/062000/062815_hr1.tex/062815_hr1_simple.tex",
+								"ui/icon/062000/062816_hr1.tex": "ui/icon/062000/062816_hr1.tex/062816_hr1_simple.tex",
+								"ui/icon/062000/062817_hr1.tex": "ui/icon/062000/062817_hr1.tex/062817_hr1_simple.tex",
+								"ui/icon/062000/062818_hr1.tex": "ui/icon/062000/062818_hr1.tex/062818_hr1_simple.tex",
+								"ui/icon/062000/062819_hr1.tex": "ui/icon/062000/062819_hr1.tex/062819_hr1_simple.tex",
+								"ui/icon/062000/062820_hr1.tex": "ui/icon/062000/062820_hr1.tex/062820_hr1_simple.tex",
+								"ui/icon/062000/062821_hr1.tex": "ui/icon/062000/062821_hr1.tex/062821_hr1_simple.tex",
+								"ui/icon/062000/062822_hr1.tex": "ui/icon/062000/062822_hr1.tex/062822_hr1_simple.tex",
+								"ui/icon/062000/062823_hr1.tex": "ui/icon/062000/062823_hr1.tex/062823_hr1_simple.tex",
+								"ui/icon/062000/062824_hr1.tex": "ui/icon/062000/062824_hr1.tex/062824_hr1_simple.tex",
+								"ui/icon/062000/062825_hr1.tex": "ui/icon/062000/062825_hr1.tex/062825_hr1_simple.tex",
+								"ui/icon/062000/062826_hr1.tex": "ui/icon/062000/062826_hr1.tex/062826_hr1_simple.tex",
+								"ui/icon/062000/062827_hr1.tex": "ui/icon/062000/062827_hr1.tex/062827_hr1_simple.tex",
+								"ui/icon/062000/062828_hr1.tex": "ui/icon/062000/062828_hr1.tex/062828_hr1_simple.tex",
+								"ui/icon/062000/062829_hr1.tex": "ui/icon/062000/062829_hr1.tex/062829_hr1_simple.tex",
+								"ui/icon/062000/062830_hr1.tex": "ui/icon/062000/062830_hr1.tex/062830_hr1_simple.tex",
+								"ui/icon/062000/062831_hr1.tex": "ui/icon/062000/062831_hr1.tex/062831_hr1_simple.tex",
+								"ui/icon/062000/062832_hr1.tex": "ui/icon/062000/062832_hr1.tex/062832_hr1_simple.tex",
+								"ui/icon/062000/062833_hr1.tex": "ui/icon/062000/062833_hr1.tex/062833_hr1_simple.tex",
+								"ui/icon/062000/062834_hr1.tex": "ui/icon/062000/062834_hr1.tex/062834_hr1_simple.tex",
+								"ui/icon/062000/062835_hr1.tex": "ui/icon/062000/062835_hr1.tex/062835_hr1_simple.tex",
+								"ui/icon/062000/062836_hr1.tex": "ui/icon/062000/062836_hr1.tex/062836_hr1_simple.tex",
+								"ui/icon/062000/062837_hr1.tex": "ui/icon/062000/062837_hr1.tex/062837_hr1_simple.tex",
+								"ui/icon/062000/062838_hr1.tex": "ui/icon/062000/062838_hr1.tex/062838_hr1_simple.tex",
+								"ui/icon/062000/062839_hr1.tex": "ui/icon/062000/062839_hr1.tex/062839_hr1_simple.tex",
+								"ui/icon/062000/062840_hr1.tex": "ui/icon/062000/062840_hr1.tex/062840_hr1_simple.tex",
+								"ui/icon/062000/062841_hr1.tex": "ui/icon/062000/062841_hr1.tex/062841_hr1_simple.tex",
+								"ui/icon/062000/062842_hr1.tex": "ui/icon/062000/062842_hr1.tex/062842_hr1_simple.tex"
 							},
 							"file_swaps": {},
 							"manipulations": []
@@ -1675,6 +1839,567 @@
 	"file_swaps": {},
 	"manipulations": [],
 	"plugin_settings": {
-		"dalamud": null
+		"dalamud": {
+			"Alpha": {
+				"Static": 1.0
+			},
+			"WindowPadding": {
+				"Static": [
+					5.0,
+					2.0
+				]
+			},
+			"WindowRounding": {
+				"Static": 0.0
+			},
+			"WindowBorderSize": {
+				"Static": 1.0
+			},
+			"WindowTitleAlign": {
+				"Static": [
+					0.0,
+					0.5
+				]
+			},
+			"WindowMenuButtonPosition": {
+				"Static": 1
+			},
+			"ChildRounding": {
+				"Static": 0.0
+			},
+			"ChildBorderSize": {
+				"Static": 1.0
+			},
+			"PopupRounding": {
+				"Static": 0.0
+			},
+			"PopupBorderSize": {
+				"Static": 0.0
+			},
+			"FramePadding": {
+				"Static": [
+					4.0,
+					3.0
+				]
+			},
+			"FrameRounding": {
+				"Static": 0.0
+			},
+			"FrameBorderSize": {
+				"Static": 1.0
+			},
+			"ItemSpacing": {
+				"Static": [
+					8.0,
+					4.0
+				]
+			},
+			"ItemInnerSpacing": {
+				"Static": [
+					4.0,
+					4.0
+				]
+			},
+			"CellPadding": {
+				"Static": [
+					4.0,
+					2.0
+				]
+			},
+			"TouchExtraPadding": {
+				"Static": [
+					0.0,
+					0.0
+				]
+			},
+			"IndentSpacing": {
+				"Static": 20.0
+			},
+			"ScrollbarSize": {
+				"Static": 16.0
+			},
+			"ScrollbarRounding": {
+				"Static": 0.0
+			},
+			"GrabMinSize": {
+				"Static": 13.0
+			},
+			"GrabRounding": {
+				"Static": 0.0
+			},
+			"LogSliderDeadzone": {
+				"Static": 4.0
+			},
+			"TabRounding": {
+				"Static": 0.0
+			},
+			"TabBorderSize": {
+				"Static": 0.0
+			},
+			"ButtonTextAlign": {
+				"Static": [
+					0.5,
+					0.5
+				]
+			},
+			"SelectableTextAlign": {
+				"Static": [
+					0.0,
+					0.0
+				]
+			},
+			"DisplaySafeAreaPadding": {
+				"Static": [
+					3.0,
+					3.0
+				]
+			},
+			"Colors": {
+				"DockingEmptyBg": {
+					"Static": [
+					0.25,
+					0.25,
+					0.25,
+					1.0
+				]
+				},
+				"Separator": {
+					"OptionMul": [
+						"Accent",
+						[
+							1.0,
+							1.0,
+							1.0,
+							0.8
+						]
+					]
+				},
+				"ChildBg": {
+					"Static": [
+						0.0,
+						0.0,
+						0.0,
+						0.0
+					]
+				},
+				"TableHeaderBg": {
+					"Static": [
+						0.25,
+						0.25,
+						0.25,
+						1.0
+					]
+				},
+				"TableRowBgAlt": {
+					"Static": [
+						1.0,
+						1.0,
+						1.0,
+						0.05
+					]
+				},
+				"TabUnfocused": {
+					"Static": [
+						0.41,
+						0.41,
+						0.41,
+						1.0
+					]
+				},
+				"DockingPreview": {
+					"OptionMul": [
+						"Accent",
+						[
+							1.0,
+							1.0,
+							1.0,
+							0.75
+						]
+					]
+				},
+				"NavWindowingHighlight": {
+					"Static": [
+						1.0,
+						1.0,
+						1.0,
+						0.7
+					]
+				},
+				"ScrollbarGrab": {
+					"Static": [
+						0.35,
+						0.35,
+						0.35,
+						1.0
+					]
+				},
+				"ButtonHovered": {
+					"OptionMul": [
+						"Accent",
+						[
+							0.75,
+							0.75,
+							0.75,
+							1.0
+						]
+					]
+				},
+				"FrameBg": {
+					"Static": [
+						0.196,
+						0.188,
+						0.196,
+						0.84
+					]
+				},
+				"WindowBg": {
+					"Static": [
+						0.080,
+						0.077,
+						0.080,
+						0.8
+					]
+				},
+				"FrameBgActive": {
+					"Static": [
+						0.85,
+						0.85,
+						0.85,
+						0.175
+					]
+				},
+				"TitleBgCollapsed": {
+					"Static": [
+						0.05,
+						0.05,
+						0.05,
+						1.0
+					]
+				},
+				"Header": {
+					"OptionMul": [
+						"Accent",
+						[
+							1.0,
+							1.0,
+							1.0,
+							0.65
+						]
+					]
+				},
+				"ResizeGripActive": {
+					"OptionMul": [
+						"Accent",
+						[
+							1.0,
+							1.0,
+							1.0,
+							0.5
+						]
+					]
+				},
+				"ScrollbarBg": {
+					"Static": [
+						0.0,
+						0.0,
+						0.0,
+						0.3
+					]
+				},
+				"NavHighlight": {
+					"OptionMul": [
+						"Accent",
+						[
+							1.0,
+							1.0,
+							1.0,
+							0.5
+						]
+					]
+				},
+				"HeaderHovered": {
+					"OptionMul": [
+						"Accent",
+						[
+							1.00,
+							1.00,
+							1.00,
+							0.90
+						]
+					]
+				},
+				"PlotLines": {
+					"Option": "Accent"
+				},
+				"PlotHistogramHovered": {
+					"OptionMul": [
+						"Accent",
+						[
+							0.9,
+							0.9,
+							0.9,
+							1.0
+						]
+					]
+				},
+				"SeparatorHovered": {
+					"OptionMul": [
+						"Accent",
+						[
+							0.9,
+							0.9,
+							0.9,
+							1.0
+						]
+					]
+				},
+				"PlotHistogram": {
+					"Option": "Accent"
+				},
+				"ButtonActive": {
+					"OptionMul": [
+						"Accent",
+						[
+							1.15,
+							1.15,
+							1.15,
+							1.0
+						]
+					]
+				},
+				"PopupBg": {
+					"Static": [
+						0.106,
+						0.102,
+						0.106,
+						1.0
+					]
+				},
+				"PlotLinesHovered": {
+					"OptionMul": [
+						"Accent",
+						[
+							0.9,
+							0.9,
+							0.9,
+							1.0
+						]
+					]
+				},
+				"ResizeGripHovered": {
+					"Static": [
+						0.0,
+						0.0,
+						0.0,
+						0.0
+					]
+				},
+				"CheckMark": {
+					"Option": "Accent"
+				},
+				"FrameBgHovered": {
+					"Static": [
+						0.85,
+						0.85,
+						0.85,
+						0.150
+					]
+				},
+				"TextSelectedBg": {
+					"Option": "Accent"
+				},
+				"ScrollbarGrabHovered": {
+					"Static": [
+						0.45,
+						0.45,
+						0.45,
+						1.0
+					]
+				},
+				"TabHovered": {
+					"OptionMul": [
+						"Accent",
+						[
+							1.0,
+							1.0,
+							1.0,
+							0.8
+						]
+					]
+				},
+				"SliderGrab": {
+					"OptionMul": [
+						"Accent",
+						[
+							1.2,
+							1.2,
+							1.2,
+							0.65
+						]
+					]
+				},
+				"Border": {
+					"Static": [
+						0.3,
+						0.3,
+						0.3,
+						0.5
+					]
+				},
+				"ScrollbarGrabActive": {
+					"Static": [
+						1.2,
+						1.2,
+						1.2,
+						0.5
+					]
+				},
+				"TitleBg": {
+					"Static": [
+						0.106,
+						0.102,
+						0.106,
+						1.0
+					]
+				},
+				"DragDropTarget": {
+					"Option": "Accent"
+				},
+				"NavWindowingDimBg": {
+					"Static": [
+						0.8,
+						0.8,
+						0.8,
+						0.2
+					]
+				},
+				"Tab": {
+					"Static": [
+						0.52,
+						0.52,
+						0.52,
+						1.0
+					]
+				},
+				"SeparatorActive": {
+					"Option": "Accent"
+				},
+				"HeaderActive": {
+					"Static": [
+						1.4,
+						1.4,
+						1.4,
+						0.7
+					]
+				},
+				"TitleBgActive": {
+					"Static": [
+						0.106,
+						0.102,
+						0.106,
+						1.0
+					]
+				},
+				"TextDisabled": {
+					"Static": [
+						0.4,
+						0.4,
+						0.4,
+						1.0
+					]
+				},
+				"TabActive": {
+					"Option": "Accent"
+				},
+				"BorderShadow": {
+					"Static": [
+						0.0,
+						0.0,
+						0.0,
+						0.0
+					]
+				},
+				"TabUnfocusedActive": {
+					"Static": [
+						0.7,
+						0.7,
+						0.7,
+						1.0
+					]
+				},
+				"TableBorderStrong": {
+					"Static": [
+						0.5,
+						0.5,
+						0.5,
+						1.0
+					]
+				},
+				"MenuBarBg": {
+					"Static": [
+						0.0,
+						0.0,
+						0.0,
+						0.0
+					]
+				},
+				"ResizeGrip": {
+					"Static": [
+						0.0,
+						0.0,
+						0.0,
+						0.0
+					]
+				},
+				"TableRowBg": {
+					"Static": [
+						0.0,
+						0.0,
+						0.0,
+						0.0
+					]
+				},
+				"ModalWindowDimBg": {
+					"Static": [
+						0.8,
+						0.8,
+						0.8,
+						0.2
+					]
+				},
+				"Button": {
+					"Static": [
+						0.52,
+						0.52,
+						0.52,
+						1.0
+					]
+				},
+				"TableBorderLight": {
+					"Static": [
+						0.5,
+						0.5,
+						0.5,
+						1.0
+					]
+				},
+				"SliderGrabActive": {
+					"Static": [
+						0.7,
+						0.7,
+						0.7,
+						1.0
+					]
+				},
+				"Text": {
+					"Static": [
+						0.915,
+						0.912,
+						0.892,
+						1.0
+					]
+				}
+			}
+		}
 	}
 }
