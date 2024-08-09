@@ -11,13 +11,13 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 4. Customize your colors then hit apply.
 5. Restart your game.
    
-### Known Issues/Plans
+### Future Plans
 - [ ] Gearset icons need improvements.
 - [ ] Add minimal bars to other UI elements.
 - [ ] Finish the Main Command Icons that skotlex had begun working on.
 - [ ] Take a look at VPR Job Bar for any possible edits.
 - [ ] Also take a look at PCT Canvas for any potential edits.
-### Known Issues/Plans
+### Known Issues
 - [ ] Custom delivery heart UI isnt using accent color.
 - [ ] Limitbreak bar doesnt respect parameter bar settings, it always uses the silver style.
 - [ ] High contrast shield setting is alot more subtle than intended.
