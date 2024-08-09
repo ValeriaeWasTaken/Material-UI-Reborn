@@ -13,11 +13,14 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
    
 ### Known Issues/Plans
 - [ ] Gearset icons need improvements.
-- [ ] Add more minimal bars.
-- [ ] Limitbreak bar is designed in the silver style of bar, add a black square version of it
-- [ ] High contrast shield setting is alot more subtle than intended, make it stronger.
+- [ ] Add minimal bars to other UI elements.
+- [ ] Finish the Main Command Icons that skotlex had begun working on.
 - [ ] Take a look at VPR Job Bar for any possible edits.
 - [ ] Also take a look at PCT Canvas for any potential edits.
+### Known Issues/Plans
+- [ ] Custom delivery heart UI isnt using accent color.
+- [ ] Limitbreak bar doesnt respect parameter bar settings, it always uses the silver style.
+- [ ] High contrast shield setting is alot more subtle than intended.
 
 For those of you who wanted to tip some coffee <3
 https://ko-fi.com/valeriae
