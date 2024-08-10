@@ -18,6 +18,7 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 - [ ] Take a look at VPR Job Bar for any possible edits.
 - [ ] Also take a look at PCT Canvas for any potential edits.
 ### Known Issues
+- [ ] The "No color bar" setting for gear set icons dont actually remove the colorbar.
 - [ ] Custom delivery heart UI isnt using accent color.
 - [ ] Limitbreak bar doesnt respect parameter bar settings, it always uses the silver style.
 - [ ] High contrast shield setting is alot more subtle than intended.
