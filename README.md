@@ -13,6 +13,7 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
    
 ### Future Plans
 - [ ] Gearset icons need improvements.
+- [ ] Add glow version of gearset icons
 - [ ] Add minimal bars to other UI elements.
 - [ ] Finish the Main Command Icons that skotlex had begun working on.
 - [ ] Take a look at VPR Job Bar for any possible edits.
