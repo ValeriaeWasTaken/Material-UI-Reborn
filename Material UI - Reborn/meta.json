@@ -2,7 +2,7 @@
 	"name": "Material UI - Reborn",
 	"description": "A continuation of Material UI by skotlex & Sevii\nMinimal customization options created by mekoichi for the original MUI",
 	"author": "valeriae, Sevii",
-	"version": "7.0.5.06",
+	"version": "7.0.5.07",
 	"website": "https://github.com/ValeriaeWasTaken/Material-UI-Reborn",
 	"tags": [
 		"Ui"
@@ -164,6 +164,7 @@
 							"description": "",
 							"inherit": null,
 							"files": {
+								"ui/icon/062000/062044_hr1.tex": "ui/icon/062000/062044_hr1.tex/Job Icons - Party List/Glow/062044_hr1.tex",
 								"ui/icon/062000/062101_hr1.tex": "ui/icon/062000/062101_hr1.tex/Job Icons - Party List/Glow/062101_hr1.tex",
 								"ui/icon/062000/062102_hr1.tex": "ui/icon/062000/062102_hr1.tex/Job Icons - Party List/Glow/062102_hr1.tex",
 								"ui/icon/062000/062103_hr1.tex": "ui/icon/062000/062103_hr1.tex/Job Icons - Party List/Glow/062103_hr1.tex",
@@ -206,6 +207,7 @@
 								"ui/icon/062000/062140_hr1.tex": "ui/icon/062000/062140_hr1.tex/Job Icons - Party List/Glow/062140_hr1.tex",
 								"ui/icon/062000/062141_hr1.tex": "ui/icon/062000/062141_hr1.tex/Job Icons - Party List/Glow/062141_hr1.tex",
 								"ui/icon/062000/062142_hr1.tex": "ui/icon/062000/062142_hr1.tex/Job Icons - Party List/Glow/062142_hr1.tex",
+								"ui/icon/062000/062143_hr1.tex": "ui/icon/062000/062143_hr1.tex/062143_hr1.tex",
 								"ui/icon/062000/062144_hr1.tex": "ui/icon/062000/062144_hr1.tex/Job Icons - Party List/Glow/062144_hr1.tex",
 								"ui/icon/062000/062145_hr1.tex": "ui/icon/062000/062145_hr1.tex/Job Icons - Party List/Glow/062145_hr1.tex",
 								"ui/icon/062000/062146_hr1.tex": "ui/icon/062000/062146_hr1.tex/Job Icons - Party List/Glow/062146_hr1.tex"
@@ -218,6 +220,7 @@
 							"description": "",
 							"inherit": null,
 							"files": {
+								"ui/icon/062000/062044_hr1.tex": "ui/icon/062000/062044_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062044_hr1.tex",
 								"ui/icon/062000/062101_hr1.tex": "ui/icon/062000/062101_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062101_hr1.tex",
 								"ui/icon/062000/062102_hr1.tex": "ui/icon/062000/062102_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062102_hr1.tex",
 								"ui/icon/062000/062103_hr1.tex": "ui/icon/062000/062103_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062103_hr1.tex",
@@ -260,6 +263,7 @@
 								"ui/icon/062000/062140_hr1.tex": "ui/icon/062000/062140_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062140_hr1.tex",
 								"ui/icon/062000/062141_hr1.tex": "ui/icon/062000/062141_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062141_hr1.tex",
 								"ui/icon/062000/062142_hr1.tex": "ui/icon/062000/062142_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062142_hr1.tex",
+								"ui/icon/062000/062143_hr1.tex": "ui/icon/062000/062143_hr1.tex/062143_hr1.tex",
 								"ui/icon/062000/062144_hr1.tex": "ui/icon/062000/062144_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062144_hr1.tex",
 								"ui/icon/062000/062145_hr1.tex": "ui/icon/062000/062145_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062145_hr1.tex",
 								"ui/icon/062000/062146_hr1.tex": "ui/icon/062000/062146_hr1.tex/Job Icons - Party List/Glow Different DPS Color/062146_hr1.tex"
@@ -272,6 +276,7 @@
 							"description": "",
 							"inherit": null,
 							"files": {
+								"ui/icon/062000/062044_hr1.tex": "ui/icon/062000/062044_hr1.tex/Job Icons - Party List/Square/062044_hr1.tex",
 								"ui/icon/062000/062101_hr1.tex": "ui/icon/062000/062101_hr1.tex/Job Icons - Party List/Square/062101_hr1.tex",
 								"ui/icon/062000/062102_hr1.tex": "ui/icon/062000/062102_hr1.tex/Job Icons - Party List/Square/062102_hr1.tex",
 								"ui/icon/062000/062103_hr1.tex": "ui/icon/062000/062103_hr1.tex/Job Icons - Party List/Square/062103_hr1.tex",
@@ -314,6 +319,7 @@
 								"ui/icon/062000/062140_hr1.tex": "ui/icon/062000/062140_hr1.tex/Job Icons - Party List/Square/062140_hr1.tex",
 								"ui/icon/062000/062141_hr1.tex": "ui/icon/062000/062141_hr1.tex/Job Icons - Party List/Square/062141_hr1.tex",
 								"ui/icon/062000/062142_hr1.tex": "ui/icon/062000/062142_hr1.tex/Job Icons - Party List/Square/062142_hr1.tex",
+								"ui/icon/062000/062143_hr1.tex": "ui/icon/062000/062143_hr1.tex/062143_hr1_square.tex",
 								"ui/icon/062000/062144_hr1.tex": "ui/icon/062000/062144_hr1.tex/Job Icons - Party List/Square/062144_hr1.tex",
 								"ui/icon/062000/062145_hr1.tex": "ui/icon/062000/062145_hr1.tex/Job Icons - Party List/Square/062145_hr1.tex",
 								"ui/icon/062000/062146_hr1.tex": "ui/icon/062000/062146_hr1.tex/Job Icons - Party List/Square/062146_hr1.tex"
@@ -326,6 +332,7 @@
 							"description": "",
 							"inherit": null,
 							"files": {
+								"ui/icon/062000/062044_hr1.tex": "ui/icon/062000/062044_hr1.tex/Job Icons - Party List/Square Different DPS Color/062044_hr1.tex",
 								"ui/icon/062000/062101_hr1.tex": "ui/icon/062000/062101_hr1.tex/Job Icons - Party List/Square Different DPS Color/062101_hr1.tex",
 								"ui/icon/062000/062102_hr1.tex": "ui/icon/062000/062102_hr1.tex/Job Icons - Party List/Square Different DPS Color/062102_hr1.tex",
 								"ui/icon/062000/062103_hr1.tex": "ui/icon/062000/062103_hr1.tex/Job Icons - Party List/Square Different DPS Color/062103_hr1.tex",
@@ -368,6 +375,7 @@
 								"ui/icon/062000/062140_hr1.tex": "ui/icon/062000/062140_hr1.tex/Job Icons - Party List/Square Different DPS Color/062140_hr1.tex",
 								"ui/icon/062000/062141_hr1.tex": "ui/icon/062000/062141_hr1.tex/Job Icons - Party List/Square Different DPS Color/062141_hr1.tex",
 								"ui/icon/062000/062142_hr1.tex": "ui/icon/062000/062142_hr1.tex/Job Icons - Party List/Square Different DPS Color/062142_hr1.tex",
+								"ui/icon/062000/062143_hr1.tex": "ui/icon/062000/062143_hr1.tex/062143_hr1_square.tex",
 								"ui/icon/062000/062144_hr1.tex": "ui/icon/062000/062144_hr1.tex/Job Icons - Party List/Square Different DPS Color/062144_hr1.tex",
 								"ui/icon/062000/062145_hr1.tex": "ui/icon/062000/062145_hr1.tex/Job Icons - Party List/Square Different DPS Color/062145_hr1.tex",
 								"ui/icon/062000/062146_hr1.tex": "ui/icon/062000/062146_hr1.tex/Job Icons - Party List/Square Different DPS Color/062146_hr1.tex"
@@ -783,7 +791,7 @@
 		},
 		{
 			"name": "Party List Shield Color",
-			"description": "Which color to show shields in the party list",
+			"description": "The color of shields in the party list",
 			"settings": {
 				"Rgb": {
 					"default": [
@@ -806,7 +814,7 @@
 		},
 		{
 			"name": "Party and Alliance List Target",
-			"description": "Which color to highlight targeted party members on the party list",
+			"description": "The color to highlight targeted party members on the party list",
 			"settings": {
 				"Rgb": {
 					"default": [
@@ -959,7 +967,7 @@
 		},
 		{
 			"name": "Job Hud/Parameter bar",
-			"description": "Which hud style to use for parameter bars and related UI.",
+			"description": "Which style to use for parameter bars and related UI.",
 			"settings": {
 				"SingleFiles": {
 					"default": 0,
@@ -1366,7 +1374,7 @@
 		},
 		{
 			"name": "Dialogue Style",
-			"description": "Which style of dialouge to use for cutscene text bubbles",
+			"description": "Which style of text bubble to use for cutscenes",
 			"settings": {
 				"SingleFiles": {
 					"default": 0,
