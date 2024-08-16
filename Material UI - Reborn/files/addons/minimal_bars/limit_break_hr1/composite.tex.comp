@@ -1,0 +1,44 @@
+{
+	"layers": [
+		{
+			"name": "underlay",
+			"path": {
+				"Mod": "addons/minimal_bars/limit_break_hr1/underlay.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_limitbreak1",
+			"path": {
+				"Mod": "addons/minimal_bars/limit_break_hr1/overlay_limitbreak1.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Limit Break Filling"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_limitbreak2",
+			"path": {
+				"Mod": "addons/minimal_bars/limit_break_hr1/overlay_limitbreak2.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Limit Break Full"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		}
+	]
+}

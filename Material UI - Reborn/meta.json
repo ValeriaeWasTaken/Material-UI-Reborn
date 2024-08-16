@@ -1007,6 +1007,24 @@
 							},
 							"file_swaps": {},
 							"manipulations": []
+						},
+						{
+							"name": "Minimal",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/jobhudbrd0_hr1.tex": "ui/uld/jobhudbrd0_hr1.tex/Gauges/Square/jobhudbrd0_hr1.tex",
+								"ui/uld/jobhudmnk0_hr1.tex": "ui/uld/jobhudmnk0_hr1.tex/Gauges/Square/jobhudmnk0_hr1.tex",
+								"ui/uld/jobhudsam1_hr1.tex": "ui/uld/jobhudsam1_hr1.tex/Gauges/Square/jobhudsam1_hr1.tex",
+								"ui/uld/jobhudsmn1_hr1.tex": "ui/uld/jobhudsmn1_hr1.tex/Gauges/Square/jobhudsmn1_hr1.tex",
+								"ui/uld/jobhudsimple_stacka_hr1.tex": "addons/minimal_bars/jobhudsimple_stacka_hr1/underlay.tex",
+								"ui/uld/jobhudsimple_stackb_hr1.tex": "addons/minimal_bars/jobhudsimple_stackb_hr1/underlay.tex",
+								"ui/uld/parameter_gauge_hr1.tex": "addons/minimal_bars/parameter_gauge_hr1/underlay.tex",
+								"ui/uld/parameter_gauge2_hr1.tex": "addons/minimal_bars/parameter_gauge2_hr1/underlay.tex",
+								"ui/uld/contentgauge_hr1.tex": "addons/minimal_bars/contentgauge_hr1/underlay.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
 						}
 					]
 				}
@@ -1136,7 +1154,7 @@
 			}
 		},
 		{
-			"name": "In-world Healthbar Style",
+			"name": "In-world Healthbar",
 			"description": "Which style of health bar to show above entities",
 			"settings": {
 				"SingleFiles": {
@@ -1256,6 +1274,37 @@
 							"files": {
 								"ui/uld/navimap_hr1.tex": "ui/uld/navimap_hr1.tex/Minimap/Square - No Symbols/navimap_hr1.tex",
 								"ui/uld/navimap_mask_hr1.tex": "ui/uld/navimap_mask_hr1.tex/Minimap/Square - No Symbols/navimap_mask_hr1.tex"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Limit Break Bar",
+			"description": "Which style of paramater bar to use for limit break",
+			"settings": {
+				"SingleFiles": {
+					"default": 0,
+					"options": [
+						{
+							"name": "Silver",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/limitbreak_hr1.tex.comp": "ui/uld/limitbreak_hr1.tex/composite.tex.comp"
+							},
+							"file_swaps": {},
+							"manipulations": []
+						},
+						{
+							"name": "Minimal",
+							"description": "",
+							"inherit": null,
+							"files": {
+								"ui/uld/limitbreak_hr1.tex.comp": "addons/minimal_bars/limit_break_hr1/composite.tex.comp"
 							},
 							"file_swaps": {},
 							"manipulations": []
@@ -1764,7 +1813,6 @@
 		"ui/uld/lfg_hr1.tex": "ui/uld/lfg_hr1.tex/lfg_hr1.tex",
 		"ui/uld/lfg2_hr1.tex": "ui/uld/lfg2_hr1.tex/lfg2_hr1.tex",
 		"ui/uld/lfgselectrole_hr1.tex": "ui/uld/lfgselectrole_hr1.tex/lfgselectrole_hr1.tex",
-		"ui/uld/limitbreak_hr1.tex.comp": "ui/uld/limitbreak_hr1.tex/composite.tex.comp",
 		"ui/uld/lines_hr1.tex": "ui/uld/lines_hr1.tex/lines_hr1.tex",
 		"ui/uld/lista_hr1.tex": "ui/uld/lista_hr1.tex/lista_hr1.tex",
 		"ui/uld/listb_hr1.tex": "ui/uld/listb_hr1.tex/listb_hr1.tex",
