@@ -28,8 +28,8 @@ https://ko-fi.com/valeriae
 ---
 ### v7 | Broken stuff fixed and some additions
 - Minimal bars added
-   - Parameter gauges
-   - Limit break
+   - Parameter/Content Bars
+   - Limit Break Bar
 - Chocos/Pets now show up properly in the party list
 - "No color bar" setting for gear set icons now properly removes the color bar
 - (Will be fixed through an aetherment update) Custom Delivery heart UI not using accent color
