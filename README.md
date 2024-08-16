@@ -1,10 +1,9 @@
 Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 
 > [!NOTE]
-> The conversion from standalone penumbra modpack to aetherment might potentially break a couple things. 
 > Feel free to report any issues to valeri.ae on discord or put up an issue on this page
-For those of you who wanted to tip some coffee <3
-https://ko-fi.com/valeriae
+> For those of you who wanted to tip some coffee <3
+> https://ko-fi.com/valeriae
 
 ### Installation
 1. Install Penumbra - https://github.com/xivdev/Penumbra
