@@ -26,7 +26,7 @@ For those of you who wanted to tip some coffee <3
 https://ko-fi.com/valeriae
 
 ---
-### v7 | Broken stuff fixed and some additions
+### v7 | Buncha fixes and some minimal bars
 - Minimal bars added
    - Parameter/Content Bars
    - Limit Break Bar
