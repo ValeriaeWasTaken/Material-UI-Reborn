@@ -13,12 +13,13 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 5. Restart your game.
    
 ### Future Plans
-- [ ] Create a Square/Black style for Limit Break bar as it only has Silver and Minimal.
+- [ ] Add customization to skill procs
 - [ ] Gearset icons need improvements.
-- [ ] Add glow version of gearset icons
+- [ ] Create a Square/Black style for Limit Break bar as it only has Silver and Minimal.
 - [ ] Add minimal bars to remaining UI elements.
-- [ ] Finish the Main Command Icons that skotlex had begun working on.
+- [ ] Add glow version of gearset icons
 - [ ] Take a look at AST/PCT/VPR Job UIs for any possible edits.
+- [ ] Finish the Main Command Icons that skotlex had begun working on.
 
 ### Known Issues
 - [ ] Something probably.
