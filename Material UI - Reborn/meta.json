@@ -2,7 +2,7 @@
 	"name": "Material UI - Reborn",
 	"description": "A continuation of Material UI by skotlex & Sevii\nMinimal customization options created by mekoichi for the original MUI",
 	"author": "valeriae, Sevii",
-	"version": "7.0.5.07",
+	"version": "7.0.5.08",
 	"website": "https://github.com/ValeriaeWasTaken/Material-UI-Reborn",
 	"tags": [
 		"Ui"
@@ -749,8 +749,8 @@
 			}
 		},
 		{
-			"name": "Party List Style",
-			"description": "Which style of health bars to show in the party list",
+			"name": "Party List Bars",
+			"description": "Which style of health/mana/shield bars to show in the party list",
 			"settings": {
 				"SingleFiles": {
 					"default": 0,
