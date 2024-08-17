@@ -25,12 +25,7 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 - [ ] Something probably.
 
 ---
-### v7 | Buncha fixes and some minimal bars
-- Minimal bars added
-   - Parameter/Content Bars
-   - Limit Break Bar
-- Chocos/Pets now show up properly in the party list
-- "No color bar" setting for gear set icons now properly removes the color bar
-- (Will be fixed through an aetherment update) Custom Delivery heart UI not using accent color
-- (Will be fixed through an aetherment update) "High Contrast Shield" setting being more subtle than intended
+### v8 | Actually fixed some things missed from v7
+- Custom Delivery window now uses accent color properly
+- High contrast shields now work properly
 
