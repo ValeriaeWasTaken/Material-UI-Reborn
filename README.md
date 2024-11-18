@@ -25,7 +25,6 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 - [ ] Something probably.
 
 ---
-### v8 | Actually fixed some things missed from v7
-- Custom Delivery window now uses accent color properly
-- High contrast shields now work properly
+### v9 | Compability with game version 7.1.0
+- WIP
 
