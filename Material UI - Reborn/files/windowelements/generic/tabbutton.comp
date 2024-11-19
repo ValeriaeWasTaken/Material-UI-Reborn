@@ -1,0 +1,28 @@
+{
+	"layers": [
+		{
+			"name": "overlay_accent",
+			"path": {
+				"Mod": "windowelements/generic/tabbutton_accent.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Accent"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		},
+		{
+			"name": "base",
+			"path": {
+				"Mod": "windowelements/generic/tabbutton_base.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		}
+	]
+}
