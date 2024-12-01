@@ -1,0 +1,28 @@
+{
+	"layers": [
+		{
+			"name": "accent",
+			"path": {
+				"Mod": "windowelements/social_accent.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Accent"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		},
+		{
+			"name": "base",
+			"path": {
+				"Mod": "windowelements/social_base.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"layers": [
+		{
+			"name": "icon",
+			"path": {
+				"Mod": "icons/classjob_macro/icons/30_nin.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "bg",
+			"path": {
+				"Mod": "icons/classjob_macro/shared/bg.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		}
+	]
+}

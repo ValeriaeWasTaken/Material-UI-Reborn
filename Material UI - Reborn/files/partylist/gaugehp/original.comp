@@ -1,0 +1,41 @@
+{
+	"layers": [
+		{
+			"name": "contrast_hard2",
+			"path": {
+				"Mod": "partylist/gaugehp/original_hard.tex"
+			},
+			"modifiers": [],
+			"blend": "Overlay"
+		},
+		{
+			"name": "contrast_hard",
+			"path": {
+				"Mod": "partylist/gaugehp/original_hard.tex"
+			},
+			"modifiers": [],
+			"blend": "Overlay"
+		},
+		{
+			"name": "shield",
+			"path": {
+				"Mod": "partylist/gaugehp/original_shield.tex"
+			},
+			"modifiers": [{
+				"Color": {
+					"value": {
+						"Option": "Party List Shield Color"
+			}}}],
+			"blend": "Normal"
+		},
+		{
+			"name": "base",
+			"path": {
+				"Mod": "partylist/gaugehp/original_base.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		}
+		
+	]
+}

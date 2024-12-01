@@ -1,0 +1,41 @@
+{
+	"layers": [
+		
+		{
+			"name": "glow_screen",
+			"path": {
+				"Mod": "icons/classjob_party/glow/icons/33_ast_screen.tex"
+			},
+			"modifiers": [],
+			"blend": "Screen"
+		},
+		{
+			"name": "glow_hardlight",
+			"path": {
+				"Mod": "icons/classjob_party/glow/icons/33_ast_hardlight.tex"
+			},
+			"modifiers": [],
+			"blend": "HardLight"
+		},
+		{
+			"name": "glow_color",
+			"path": {
+				"Mod": "icons/classjob_party/glow/icons/33_ast_color.tex"
+			},
+			"modifiers": [{
+				"Color": {
+					"value": {
+						"Option": "Class/Job Color - Healer"
+			}}}],
+			"blend": "Normal"
+		},
+		{
+			"name": "glow_shadow",
+			"path": {
+				"Mod": "icons/classjob_party/glow/icons/33_ast_shadow.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"layers": [
+		{
+			"name": "icon",
+			"path": {
+				"Mod": "icons/classjob_macro/icons/06_cnj.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "screen",
+			"path": {
+				"Mod": "icons/classjob_macro/shared/bar_screen.tex"
+			},
+			"modifiers": [],
+			"blend": "Screen"
+		},
+		{
+			"name": "hardlight",
+			"path": {
+				"Mod": "icons/classjob_macro/shared/bar_hardlight.tex"
+			},
+			"modifiers": [],
+			"blend": "HardLight"
+		},
+		{
+			"name": "bar",
+			"path": {
+				"Mod": "icons/classjob_macro/shared/bar.tex"
+			},
+			"modifiers": [{
+				"Color": {
+					"value": {
+						"Option": "Class/Job Color - Healer"
+			}}}],
+			"blend": "Normal"
+		},
+		{
+			"name": "bg",
+			"path": {
+				"Mod": "icons/classjob_macro/shared/bg.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		}
+	]
+}
