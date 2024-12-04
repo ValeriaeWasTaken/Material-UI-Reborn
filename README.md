@@ -21,10 +21,12 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 - [ ] Finish the Main Command Icons that skotlex had begun working on.
 
 ### Known Issues
+- [ ] Hall of novice is missing some icons.
+- [ ] Pepulu Travel Society needs a new icon.
 - [ ] Viper bar has some artifacts when using minimal bars.
 
 ---
-### v9 | Compability with game version 7.1.0 and Job Icon overhaul
+### v9 | Job Icon Overhaul and Refactoring
 - Job Icons
     - Colors can now be fully customized
     - Macro gearset icons cleaned up and improved
@@ -33,10 +35,3 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
     - Files are being cleaned up and optimized, no changes should be noticable aside from one;
     - There is no longer 2 variations of the "Original" look for party list shields. High Contrast is now the default.
     - Issues/Glitches may occur due to this. Report any so they can be fixed asap.
-- 7.1.0 compability
-    - Party Members
-        - Fixed drag and drop UI elements
-    - Glamour Dresser
-        - Fixed multiple buttons related to outfits
-    - Custom deliveries
-        - Bonuses are now visible 
