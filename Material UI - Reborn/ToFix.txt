@@ -1,0 +1,5 @@
+-Reputation Window | Pelupelu Travel Society Icon
+   ui/icon/061000/061918_hr1.tex
+
+-Hall of Novice | Display All Excercises | Generic Class Icon
+   ui/uld/LFG_hr1.tex
