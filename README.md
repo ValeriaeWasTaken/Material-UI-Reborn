@@ -17,15 +17,22 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 - [ ] Gearset icons need improvements.
 - [ ] Create a Square/Black style for Limit Break bar as it only has Silver and Minimal.
 - [ ] Add minimal bars to remaining UI elements.
-- [ ] Add glow version of gearset icons
 - [ ] Take a look at AST/PCT/VPR Job UIs for any possible edits.
 - [ ] Finish the Main Command Icons that skotlex had begun working on.
 
 ### Known Issues
-- [ ] Something probably.
+- [ ] Hall of novice is missing some icons.
+- [ ] Pepulu Travel Society needs a new icon.
+- [ ] Viper bar has some artifacts when using minimal bars.
 
 ---
-### v8 | Actually fixed some things missed from v7
-- Custom Delivery window now uses accent color properly
-- High contrast shields now work properly
-
+### v9 | 7.1 compat
+- Job Icon overhaul delayed to v10 due to bugs
+- Currency
+    - Fixed missing Icons
+- Party Members
+    - Fixed drag and drop UI elements
+- Glamour Dresser
+    - Fixed multiple buttons related to outfits
+- Custom deliveries
+    - Bonuses are now visible 
