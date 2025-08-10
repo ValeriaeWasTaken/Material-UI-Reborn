@@ -1,0 +1,41 @@
+{
+	"layers": [
+		
+		{
+			"name": "glow_screen",
+			"path": {
+				"Mod": "icons/classjob_party/glow/icons/14_alc_screen.tex"
+			},
+			"modifiers": [],
+			"blend": "Screen"
+		},
+		{
+			"name": "glow_hardlight",
+			"path": {
+				"Mod": "icons/classjob_party/glow/icons/14_alc_hardlight.tex"
+			},
+			"modifiers": [],
+			"blend": "HardLight"
+		},
+		{
+			"name": "glow_color",
+			"path": {
+				"Mod": "icons/classjob_party/glow/icons/14_alc_color.tex"
+			},
+			"modifiers": [{
+				"Color": {
+					"value": {
+						"Option": "Class/Job Color - Crafter"
+			}}}],
+			"blend": "Normal"
+		},
+		{
+			"name": "glow_shadow",
+			"path": {
+				"Mod": "icons/classjob_party/glow/icons/14_alc_shadow.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		}
+	]
+}

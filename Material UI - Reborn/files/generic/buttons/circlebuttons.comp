@@ -1,0 +1,28 @@
+{
+	"layers": [
+		{
+			"name": "base",
+			"path": {
+				"Mod": "generic/buttons/circlebuttons_base.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "overlay_accent",
+			"path": {
+				"Mod": "generic/buttons/circlebuttons_accent.tex"
+			},
+			"modifiers": [
+				{
+					"Color": {
+						"value": {
+							"Option": "Accent"
+						}
+					}
+				}
+			],
+			"blend": "Normal"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"layers": [
+		
+		{
+			"name": "glow_screen",
+			"path": {
+				"Mod": "icons/classjob_party/glow/icons/36_blu_screen.tex"
+			},
+			"modifiers": [],
+			"blend": "Screen"
+		},
+		{
+			"name": "glow_hardlight",
+			"path": {
+				"Mod": "icons/classjob_party/glow/icons/36_blu_hardlight.tex"
+			},
+			"modifiers": [],
+			"blend": "HardLight"
+		},
+		{
+			"name": "glow_color",
+			"path": {
+				"Mod": "icons/classjob_party/glow/icons/36_blu_color.tex"
+			},
+			"modifiers": [{
+				"Color": {
+					"value": {
+						"Option": "Class/Job Color - Limited"
+			}}}],
+			"blend": "Normal"
+		},
+		{
+			"name": "glow_shadow",
+			"path": {
+				"Mod": "icons/classjob_party/glow/icons/36_blu_shadow.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		}
+	]
+}

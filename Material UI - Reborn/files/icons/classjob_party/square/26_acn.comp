@@ -1,0 +1,72 @@
+{
+	"layers": [
+		{
+			"name": "icon",
+			"path": {
+				"Mod": "icons/classjob_party/square/icons/26_acn.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "frame_bg_outer",
+			"path": {
+				"Mod": "icons/classjob_party/square/shared/frame_outer.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "frame_bg_normal_2",
+			"path": {
+				"Mod": "icons/classjob_party/square/shared/frame_normal_2.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "frame_bg_normal_1",
+			"path": {
+				"Mod": "icons/classjob_party/square/shared/frame_normal_1.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		},
+		{
+			"name": "frame_bg_screen",
+			"path": {
+				"Mod": "icons/classjob_party/square/shared/frame_screen.tex"
+			},
+			"modifiers": [],
+			"blend": "Screen"
+		},
+		{
+			"name": "frame_bg_hardlight",
+			"path": {
+				"Mod": "icons/classjob_party/square/shared/frame_hardlight.tex"
+			},
+			"modifiers": [],
+			"blend": "HardLight"
+		},
+		{
+			"name": "frame_bg_color",
+			"path": {
+				"Mod": "icons/classjob_party/square/shared/frame_color.tex"
+			},
+			"modifiers": [{
+				"Color": {
+					"value": {
+						"Option": "Class/Job Color - Caster"
+			}}}],
+			"blend": "Normal"
+		},
+		{
+			"name": "bg",
+			"path": {
+				"Mod": "icons/classjob_party/square/shared/bg.tex"
+			},
+			"modifiers": [],
+			"blend": "Normal"
+		}
+	]
+}
