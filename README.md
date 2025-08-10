@@ -14,10 +14,8 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
    
 ### Future Plans
 - [ ] Add customization to skill procs
-- [ ] Gearset icons need improvements.
 - [ ] Create a Square/Black style for Limit Break bar as it only has Silver and Minimal.
 - [ ] Add minimal bars to remaining UI elements.
-- [ ] Take a look at AST/PCT/VPR Job UIs for any possible edits.
 - [ ] Finish the Main Command Icons that skotlex had begun working on.
 
 ### Known Issues
@@ -26,13 +24,10 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 - [ ] Viper bar has some artifacts when using minimal bars.
 
 ---
-### v9 | 7.1 compat
-- Job Icon overhaul delayed to v10 due to bugs
-- Currency
-    - Fixed missing Icons
-- Party Members
-    - Fixed drag and drop UI elements
-- Glamour Dresser
-    - Fixed multiple buttons related to outfits
-- Custom deliveries
-    - Bonuses are now visible 
+### v9 | 7.3 compat
+- Fixed Text color button in chat bubble settings
+- Chat text input
+    - Fixed the input box being invisible
+    - Added setting to choose between the Original translucent look or a new Solid one intended to be used with the new transparency options
+    - Use the Original - Translucent option with your Chat Prompt Transparency set to 0 for a pre 7.3 look
+- Class/Job Colors can now be customized!
