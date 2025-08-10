@@ -24,7 +24,7 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 - [ ] Viper bar has some artifacts when using minimal bars.
 
 ---
-### v9 | 7.3 compat
+### v10 | 7.3 compat
 - Fixed Text color button in chat bubble settings
 - Chat text input
     - Fixed the input box being invisible
