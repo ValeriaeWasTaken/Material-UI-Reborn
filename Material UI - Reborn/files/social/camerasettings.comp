@@ -1,17 +1,17 @@
 {
 	"layers": [
 		{
-			"name": "underlay",
+			"name": "base",
 			"path": {
-				"Mod": "ui/uld/camerasettings_hr1.tex/underlay.tex"
+				"Mod": "social/camerasettings_base.tex"
 			},
 			"modifiers": [],
 			"blend": "Normal"
 		},
 		{
-			"name": "overlay_accent",
+			"name": "accent",
 			"path": {
-				"Mod": "ui/uld/camerasettings_hr1.tex/overlay_accent.tex"
+				"Mod": "social/camerasettings_accent.tex"
 			},
 			"modifiers": [
 				{

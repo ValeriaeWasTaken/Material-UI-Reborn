@@ -2,7 +2,7 @@
 	"name": "Material UI - Reborn",
 	"description": "A continuation of Material UI by skotlex & Sevii\nMinimal customization options created by mekoichi for the original MUI",
 	"author": "valeriae, Sevii",
-	"version": "7.3.0.10",
+	"version": "7.3.0.11",
 	"website": "https://github.com/ValeriaeWasTaken/Material-UI-Reborn",
 	"tags": [
 		"Ui"
@@ -1415,7 +1415,30 @@
 			}
 		}
 	],
-	"presets": [],
+	"presets": [
+		{
+			"name": "Default",
+			"settings":{}
+		},
+		{
+			"name": "Alternate DPS Colors",
+			"settings":{
+				"Class/Job Color - Ranged": {
+					"Rgb": [
+						0.985,
+						0.600,
+						0.070
+					]
+				},
+				"Class/Job Color - Caster": {
+					"Rgb": [
+						0.405,
+						0.070,
+						0.985
+					]
+				}
+			}
+		}],
 	"files": {
 		"ui/icon/000000/000035_hr1.tex": "ui/icon/000000/000035_hr1.tex/000035_hr1.tex",
 		"ui/icon/000000/000036_hr1.tex": "ui/icon/000000/000036_hr1.tex/000036_hr1.tex",
@@ -1693,7 +1716,7 @@
 		"ui/uld/buttona_custom_hr1.tex.comp": "ui/uld/buttona_custom_hr1.tex/composite.tex.comp",
 		"ui/uld/buttona_hr1.tex": "ui/uld/buttona_hr1.tex/buttona_hr1.tex",
 		"ui/uld/buttonb_hr1.tex.comp": "ui/uld/buttonb_hr1.tex/composite.tex.comp",
-		"ui/uld/camerasettings_hr1.tex.comp": "ui/uld/camerasettings_hr1.tex/composite.tex.comp",
+		"ui/uld/camerasettings_hr1.tex.comp": "social/camerasettings.comp",
 		"ui/uld/character_hr1.tex.comp": "ui/uld/character_hr1.tex/composite.tex.comp",
 		"ui/uld/characterbestequipment_hr1.tex.comp": "ui/uld/characterbestequipment_hr1.tex/composite.tex.comp",
 		"ui/uld/charactercard_hr1.tex.comp": "ui/uld/charactercard_hr1.tex/composite.tex.comp",
@@ -1758,6 +1781,7 @@
 		"ui/uld/harpoonwindowa_h_hr1.tex": "ui/uld/harpoonwindowa_h_hr1.tex/harpoonwindowa_h_hr1.tex",
 		"ui/uld/harpoonwindowa_v_hr1.tex": "ui/uld/harpoonwindowa_v_hr1.tex/harpoonwindowa_v_hr1.tex",
 		"ui/uld/housing_hr1.tex.comp": "ui/uld/housing_hr1.tex/composite.tex.comp",
+		"ui/uld/colorantbgbase_hr1.tex": "itemization/colorantbar.tex",
 		"ui/uld/housinggoods_hr1.tex": "ui/uld/housinggoods_hr1.tex/housinggoods_hr1.tex",
 		"ui/uld/howto_hr1.tex": "ui/uld/howto_hr1.tex/howto_hr1.tex",
 		"ui/uld/hudlayout_hr1.tex.comp": "ui/uld/hudlayout_hr1.tex/composite.tex.comp",

@@ -24,10 +24,7 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 - [ ] Viper bar has some artifacts when using minimal bars.
 
 ---
-### v10 | 7.3 compat
-- Fixed Text color button in chat bubble settings
-- Chat text input
-    - Fixed the input box being invisible
-    - Added setting to choose between the Original translucent look or a new Solid one intended to be used with the new transparency options
-    - Use the Original - Translucent option with your Chat Prompt Transparency set to 0 for a pre 7.3 look
-- Class/Job Colors can now be customized!
+### v11 | Small fixes
+- Fixed missing Gpose buttons
+- Cleaned up the dye UI so there arent 2 bars showing which dye is selected
+- Preset added to quickly apply Alternate DPS colors to job/class icons
