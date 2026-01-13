@@ -1,14 +1,6 @@
 {
 	"layers": [
 		{
-			"name": "base",
-			"path": {
-				"Mod": "social/tofubuttons_base.tex"
-			},
-			"modifiers": [],
-			"blend": "Normal"
-		},
-		{
 			"name": "overlay_accent",
 			"path": {
 				"Mod": "social/tofubuttons_accent.tex"
@@ -22,6 +14,14 @@
 					}
 				}
 			],
+			"blend": "Normal"
+		},
+		{
+			"name": "base",
+			"path": {
+				"Mod": "social/tofubuttons_base.tex"
+			},
+			"modifiers": [],
 			"blend": "Normal"
 		}
 	]

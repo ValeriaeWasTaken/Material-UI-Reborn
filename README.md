@@ -20,11 +20,9 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 
 ### Known Issues
 - [ ] Hall of novice is missing some icons.
-- [ ] Pepulu Travel Society needs a new icon.
 - [ ] Viper bar has some artifacts when using minimal bars.
 
 ---
-### v11 | Small fixes
-- Fixed missing Gpose buttons
-- Cleaned up the dye UI so there arent 2 bars showing which dye is selected
-- Preset added to quickly apply Alternate DPS colors to job/class icons
+### v12 | Small fixes
+- Dawntrail Allied societies now have proper icons.
+- Strategy Board now has proper buttons.
