@@ -23,6 +23,8 @@ Dawntrail support of https://github.com/Sevii77/ffxiv_materialui_accent
 - [ ] Viper bar has some artifacts when using minimal bars.
 
 ---
-### v12 | Small fixes
-- Dawntrail Allied societies now have proper icons.
-- Strategy Board now has proper buttons.
+### v13 | 7.5 Compat and some changes
+- Icons added for beastmaster
+- Chocobos, Pets, and Summons icons revamped and are now fully color customizable
+- "Gilded" Option for class/job icons removed.
+- Gunbreaker extra charges now have proper UI

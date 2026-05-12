@@ -41,7 +41,11 @@ const classJobs = [
     {name:"39_rpr", type:"Melee"},
     {name:"40_sge", type:"Healer"},
     {name:"41_vpr", type:"Melee"},
-    {name:"42_pct", type:"Caster"}
+    {name:"42_pct", type:"Caster"},
+    {name:"43_bst", type:"Limited"},
+    {name:"44_chocobo", type:"Pets and Summons"},
+    {name:"45_summon", type:"Pets and Summons"},
+    {name:"47_animal", type:"Pets and Summons"}
 ]
 const fs = require("fs");
 const baseCompFull = fs.readFileSync("./base_comp.json", "utf8")
